@@ -39,9 +39,10 @@ TODO / TBD
 
   A localização de tal indicação deve ser escolhida segundo as seguintes regras:
     * Caso o titulo do _commit_(e.g. primeira linha) suporte a inserção da indicação sem quebrar a regra de [72 caracteres](#line-rule), coloque um ';' ao final da mensagem seguido da indicação. Ex:
-    > Fix a bug in the person's crud; closes \#16
+    
+    > Fix a bug in the person's crud; closes #16
 
     * Caso contrário use uma linha separada para colocar a indicação. Ex:
     > Implement the search algorithm for cases in which the input is greather than 20
 
-     > closes: \#15,\#17.
+     > closes: #15,#17.

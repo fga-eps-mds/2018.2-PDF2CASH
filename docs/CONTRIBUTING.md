@@ -34,7 +34,7 @@ TODO / TBD
 
   * Se for apenas uma nova documentação, adicione [ci skip] no titulo do commit.
 
-  * Caso a mudança proposta no commit estiver ligada á alguma issue favor  incluir uma indicação do mesmo da seguinte forma:
+  * Caso a mudança proposta no commit fechar alguma issue favor  incluir uma indicação do mesmo da seguinte forma:
   > closes #<ISSUE_NUMBER>
 
   A localização de tal indicação deve ser escolhida segundo as seguintes regras:
@@ -46,3 +46,5 @@ TODO / TBD
     > Implement the search algorithm for cases in which the input is greather than 20
 
      > closes: #15,#17.
+  * Caso a mudança apenas esteja relacionada, porém não termina nenhuma issue, adicione seguindo as mesmas regras o indicativo refs #<ISSUE_NUMBER>.
+ > Implement the overall layout. refs #18.

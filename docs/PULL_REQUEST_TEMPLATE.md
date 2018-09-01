@@ -1,5 +1,3 @@
-Obrigado por nos enviar um _pull_ _request_, por favor preencha os espaços sugeridos.
-
 ## O esse request implementa? Explique suas mudanças.
 ***
 [Descreva aqui de forma sucinta as mudanças sugeridas no pull request]

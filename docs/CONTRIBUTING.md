@@ -1,4 +1,4 @@
-# Contribuindo com o PDF2K-Nativo.
+# Contribuindo com o PDF2Cash.
 ***
 Agredecemos sua vontade em contribuir com nosso projeto. A seguir encontram-se algumas diretrizes para aqueles que desejam realizar contribuições junto ao _PDF2K_-Nativo.
 
@@ -32,19 +32,17 @@ TODO / TBD
 
   * <a name="line-rule"></a> Use a primeira linha para fazer uma descrição sucinta da mudança proposta do commit. Use as linhas restantes para fazer uma descrição mais detalhas se for preciso.
 
-  * Se for apenas uma nova documentação, adicione [ci skip] no titulo do commit.
-
-  * Caso a mudança proposta no commit fechar alguma issue favor  incluir uma indicação do mesmo da seguinte forma:
-  > closes #<ISSUE_NUMBER>
+  * Caso a mudança proposta no commit estiver relacionada à alguma issue favor  incluir uma indicação do mesmo da seguinte forma:
+  > refs #<ISSUE_NUMBER>
 
   A localização de tal indicação deve ser escolhida segundo as seguintes regras:
     * Caso o titulo do _commit_(e.g. primeira linha) suporte a inserção da indicação sem quebrar a regra de [72 caracteres](#line-rule), coloque um ';' ao final da mensagem seguido da indicação. Ex:
     
-    > Fix a bug in the person's crud; closes #16
+   > Fix a bug in the person's crud; refs #16
 
-    * Caso contrário use uma linha separada para colocar a indicação. Ex:
-    > Implement the search algorithm for cases in which the input is greather than 20
+   * Caso contrário use uma linha separada para colocar a indicação. Ex:
+   
+   > Implement the search algorithm for cases in which the input is greather than 20
 
-     > closes: #15,#17.
-  * Caso a mudança apenas esteja relacionada, porém não termina nenhuma issue, adicione seguindo as mesmas regras o indicativo refs #<ISSUE_NUMBER>.
- > Implement the overall layout. refs #18.
+   > refs: #15,#17.
+  

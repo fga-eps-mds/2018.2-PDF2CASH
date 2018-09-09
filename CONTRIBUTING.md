@@ -4,7 +4,7 @@ Agredecemos sua vontade em contribuir com nosso projeto. A seguir encontram-se a
 
 ## Código de conduta
 
-Ajude-nos a manter o bom convivio de nossa comunidade ao ler e seguir o nosso [código de conduta](/docs/CODE_OF_CONDUCT.md).
+Ajude-nos a manter o bom convivio de nossa comunidade ao ler e seguir o nosso [código de conduta](/CODE_OF_CONDUCT.md).
 
 ## Como contribuir
 ***
@@ -13,7 +13,7 @@ Caso tenha descoberto um _bug_ e deseja fazer um _report_ do mesmo por favor sub
 ### Sugerindo melhorias
 Caso tenha sugestões de melhorias ou deseja fazer um pedido de uma nova _feature_ por favor submita uma _issue_ seguindo este [template](.github/ISSUE_TEMPLATE/feature_request.md).
 ### _Pull Requests_
-  * Preencha este [template](/docs/PULL_REQUEST_TEMPLATE.md).
+  * Preencha este [template](/PULL_REQUEST_TEMPLATE.md).
   * Siga o nosso [guia de estilo]().
 
 ## Guia de estilo
@@ -28,12 +28,13 @@ TODO / TBD
   Errado:
   > Adding new feature.
 
-  * A primeira linha da mensagem deve ter no máximo 72 caracteres.
+  * <a name="line-rule"></a>A primeira linha da mensagem deve ter no máximo 72 caracteres.
 
-  * <a name="line-rule"></a> Use a primeira linha para fazer uma descrição sucinta da mudança proposta do commit. Use as linhas restantes para fazer uma descrição mais detalhas se for preciso.
+  * Use a primeira linha para fazer uma descrição sucinta da mudança proposta do commit. Use as linhas restantes para fazer uma descrição mais detalhas se for preciso.
 
   * Caso a mudança proposta no commit estiver relacionada à alguma issue favor  incluir uma indicação do mesmo da seguinte forma:
   > refs #<ISSUE_NUMBER>
+  > refs #<ISSUE_NUMBER>, #<ISSUE_NUMBER>, ...
 
   A localização de tal indicação deve ser escolhida segundo as seguintes regras:
     * Caso o titulo do _commit_(e.g. primeira linha) suporte a inserção da indicação sem quebrar a regra de [72 caracteres](#line-rule), coloque um ';' ao final da mensagem seguido da indicação. Ex:
@@ -44,4 +45,4 @@ TODO / TBD
 
    > Implement the search algorithm for cases in which the input is greather than 20
 
-   > refs: #15,#17.
+   > refs: #15, #17.

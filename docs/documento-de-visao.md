@@ -115,10 +115,10 @@
 #### 3.6.1 Noov
 É uma plataforma web gratuito onde é possível realizar o armazenamento de NFes que garante o backup seguro de suas notas na nuvem tendo também a opção de envio ou recebimento de notas fiscais de forma automática. O Noov permite também compartilhar as notas fiscais da empresa com seus clientes, parceiros e contadores. Esse portal possui uma API voltada a desenvolvedores com o intuito de desenvolverem novos aplicativos e colaborarem com a plataforma Noov.
 
-![Noov](https://uploaddeimagens.com.br/imagens/noov-png)
+![Noov](https://uploaddeimagens.com.br/images/001/604/543/original/Noov.png?1536550429)
 
 
 #### 3.6.2 Arquivei
 Desenvolvido e mantido por uma startup constituída por alunos e ex-alunos da Universidade de São Paulo, o Arquivei é uma plataforma web paga que tem como objetivo o acesso fácil aos documentos fiscais da empresa. A plataforma é conectado à Secretaria da Fazenda e baixa automaticamente todas as NFes e CTes emitidas para o CNPJ da empresa, armazenando-as no painel de gestão de notas da plataforma. Todas informações presentes na plataforma se tornam gráficos para melhor visualização do usuário. O Arquivei possui três planos de contratação com taxas mensais: o primeiro, Plano Starter, no valor de R$ 29,90; o segundo com o nome de Plano Controle no valor de R$ 49,90 e; o terceiro plano, intitulado Plano Business, possuindo o valor de R$ 89,90.
 
-![Arquivei](https://uploaddeimagens.com.br/imagens/arquivei-png)
+![Arquivei](https://uploaddeimagens.com.br/images/001/604/545/original/Arquivei.png?1536550547)

@@ -36,9 +36,9 @@ O Usuário comum pode visualizar a empresa da qual está cadastrado, adicionar n
 
 #### 4.3 Descrição dos Casos de Uso
 
-#####UC01 - (ME) Manter Empresa:
+##### UC01 - (ME) Manter Empresa:
 Esse caso de uso permite que o usuário com acesso de administrador no programa possui o poder de criar, manter, modificar ou deletar as empresas adicionadas por ele ao programa.
-#####UC02 - Manter User:
+##### UC02 - Manter User:
 Esse caso de uso permite que o administrador possui o poder de criar, deletar, modificar ou manter usuários em suas empresas cadastradas.
 ###### UC03 - (MA) Manter Analise:
 Esse caso de uso permite que o usuário tenha o poder de criar, deletar, modificar ou manter análises baseadas nas notas fiscais existentes.

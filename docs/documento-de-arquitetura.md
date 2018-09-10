@@ -1,5 +1,7 @@
-#PDF2K-Nativo
-##Documento de Arquitetura
+
+# PDF2K-Nativo
+
+## Documento de Arquitetura
 
 ***
 ## Histórico de Revisão
@@ -10,7 +12,7 @@
 | 03/09/18 | 0.2 | Metas e Restrições de Arquitetura | Brian Lui |
 | 03/09/18 | 0.3 | Representação da Arquitetura | Rafael Teodosio |
 | 06/09/18 | 0.4 | Arquitetura de serviços e referenciais | Wictor Girardi |
-| 07/09/18 | 0.5 | Instrodução | Julio Litwin |
+| 07/09/18 | 0.5 | Introdução | Julio Litwin |
 | 07/09/18 | 0.6 | Visão geral | Wictor Girardi |
 
 
@@ -91,15 +93,15 @@ O interpretador do script main.js não é o Node.js instalado em sua máquina; m
 #### 5.2 Micro Serviços e Camadas
 A arquitetura de micro serviços é utilizada para desenvolver uma aplicação como um conjunto de pequenos serviços, cada um funcionando em seu próprio processo. Cada serviço é desenvolvido em torno de um conjunto de regras de negócio específico, e é implementado de forma independente.
 Com isso, consegue-se quebrar algumas barreiras existentes no modelo de arquitetura monolítica:
-####5.2.1 Manutenção e evolução dos serviços mais estáveis
+#### 5.2.1 Manutenção e evolução dos serviços mais estáveis
 Os desenvolvedores tratarão de códigos que executam uma única função, e cada serviço individual não cresce indefinidamente com o crescimento do sistema.
-####5.2.2 Serviços com baixo nível de acoplamento e interdependência
+#### 5.2.2 Serviços com baixo nível de acoplamento e interdependência
 Dessa forma, a manutenção em um serviço não interfere diretamente em outras funcionalidades do sistema.
-####5.2.3 Escalabilidade do sistema
+#### 5.2.3 Escalabilidade do sistema
 É obtida com o deploy e replicação de micro serviços através da infraestrutura de servidores, máquinas virtuais e containers de forma independente. Isso torna o crescimento e a possibilidade de adaptação do sistema muito mais flexível.
-####5.2.4 Redução de custos
+#### 5.2.4 Redução de custos
 Como cada aplicação só utiliza os serviços de que necessita, os custos são diretamente associados à funcionalidade e à carga de uso do sistema, não sendo necessário carregar custos associados a funcionalidades não utilizadas.
-####5.2.5 Flexibilidade de tecnologia
+#### 5.2.5 Flexibilidade de tecnologia
 Não é necessário amarrar os desenvolvedores a uma tecnologia específica, pois há baixo acoplamento entre os serviços. Dessa forma, pode ser utilizada a melhor tecnologia para atender a cada caso, além da possibilidade de evoluir o sistema continuamente, diminuindo o risco da obsolescência tecnológica.
-####5.2.6 Facilidade de colocar alterações em produção
+#### 5.2.6 Facilidade de colocar alterações em produção
 As mudanças no sistema são feitas através das alterações e evoluções feitas nos serviços. Assim, não existe um sistema que precisa ser reinicializado para continuar funcionando. O time de desenvolvimento que precisará acompanhar a mudança será o time responsável pelos serviços que estão sendo alterados.

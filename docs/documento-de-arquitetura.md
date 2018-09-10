@@ -105,3 +105,17 @@ Como cada aplicação só utiliza os serviços de que necessita, os custos são 
 Não é necessário amarrar os desenvolvedores a uma tecnologia específica, pois há baixo acoplamento entre os serviços. Dessa forma, pode ser utilizada a melhor tecnologia para atender a cada caso, além da possibilidade de evoluir o sistema continuamente, diminuindo o risco da obsolescência tecnológica.
 #### 5.2.6 Facilidade de colocar alterações em produção
 As mudanças no sistema são feitas através das alterações e evoluções feitas nos serviços. Assim, não existe um sistema que precisa ser reinicializado para continuar funcionando. O time de desenvolvimento que precisará acompanhar a mudança será o time responsável pelos serviços que estão sendo alterados.
+
+
+***
+### 7. Referências 
+***
+
+[Introdução ao Electron] https://tableless.com.br/introducao-ao-electron/
+
+[Electron: aplicações desktop em Javascript, Html e CSS] https://epxx.co/artigos/electron.html
+
+[Modelo MVT em Django]   
+https://github.com/fga-eps-mds/A-Disciplina/wiki/Padr%C3%B5es-Arquiteturais---MVC-X-Arquitetura-do-Django
+
+[Micro Serviços: Qual a diferença para arquitetura monolitica] https://www.opus-software.com.br/micro-servicos-arquietura-monolitica/

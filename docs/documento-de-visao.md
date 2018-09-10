@@ -157,6 +157,40 @@ Desenvolvido e mantido por uma startup constituída por alunos e ex-alunos da Un
 ![Arquivei](https://uploaddeimagens.com.br/images/001/604/545/original/Arquivei.png?1536550547)
 
 ***
+***
+## 4.                  Visão Geral do Produto
+***
+
+### 4.1               Perspectiva do Produto
+
+O PDF2K irá sistematizar o processo de leitura e transformação de arquivos (PDF). De tal forma que, Diretores e funcionários da empresa tenham o controle sobre seus gastos. O produto fornecerá aos usuários as informações necessárias para melhor gerirem a parte financeira. Tais informações contemplam categoria de gastos, valores unitários, valores totais, análise de dados, margem de gastos, histórico de gastos . Assim, têm-se como expectativa facilitar, agilizar o processo de controle fiscal, além de ampliar os lucros pelo fato de ter-se um controle automatizado dos gastos.
+
+### 4.2               Resumo dos Recursos
+
+<table>
+
+  <tr><th>Benefício para o Cliente</th><th>Recursos de Suporte</td></tr>
+  <tr><td>Agilidade no processamento dos dados sem a necessidade da criação de planilhas.</th><td>Uma base de conhecimentos ajuda o pessoal de suporte a identificar rapidamente ações corretivas e soluções conhecidas.</td></tr>
+  <tr><td>O usuário poderá descobrir em que ou onde é o seu maior gasto, podendo assim melhorar o seu planejamento financeiro.</th><td>Os problemas são relacionados como itens únicos, classificados e monitorados ao longo de todo o processo de resolução. São emitidas notificações automáticas para os problemas que têm seus prazos expirados.
+  </td></tr>
+  <tr><td>A margem de gastos calculada dará ao usuário uma noção do quanto será o gasto estimado do mês, semana ou ano.
+  </th><td>Os relatórios de tendências e de distribuição permitem revisões de nível superior do status dos problemas.
+  </td></tr>
+  <tr><td>
+  Os clientes têm autonomia para resolver seus problemas, o que reduz os custos de suporte e melhora o tempo de resposta.
+  </td></th>
+  </th><td>Um servidor de duplicação permite que as informações atuais do banco de dados sejam compartilhadas pela empresa.
+  </td></tr>
+</table>
+
+### 4.3               Custos e Preços
+
+### 4.4               Licenciamento e Instalação
+
+A instalação será realizada de forma interativa e simples por meio de um instalador, que será disponibilizado no site oficial do produto, o mesmo será compatível com os sistemas Windows sendo necessário espaço no HD o suficiente para concluir a instalação.
+O licenciamento do produto estará vinculado à sua conta associada ao produto sendo diferenciada através de funcionalidades, abrangendo assim uma gama de usuários maior atendendo suas necessidades.
+
+
 ## 5. Recursos do Produto
 ***
 

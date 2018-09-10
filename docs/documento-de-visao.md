@@ -211,3 +211,40 @@ O licenciamento do produto estará vinculado à sua conta associada ao produto s
 | RF2 | Arquivação de notas fiscais | O sistema deve arquivar de maneira automática ou não as notas fiscais que forem inseridas no programa | Alta |
 | RF3 | Cadastro da empresa | O sistema deve possuir uma maneira de cadastrar aa empresa da qual a nota fiscal está sendo trabalhada | Alta |
 | RF4 | Consulta no histórico de gastos | O sistema deve possuir uma maneira de gerar informações cronológicas de gastos com as notas fiscais | Media
+
+***
+## 7. Intervalos de Qualidade
+***
+
+### 7.1   Requisitos de Sistema
+* O sistema consiste em uma aplicação desktop na qual é necessário acesso a uma rede estável para a conexão com o servidor.
+* Deve ser possível instalar a aplicação desktop nos seguintes sistemas operacionais: Windows, distribuições Linux e MacOS.
+
+### 7.2   Requisitos de Desempenho
+* O sistema deve ter o tempo de execução e resposta de acordo com a qualidade da conexão de internet, sendo assim, a velocidade de rede irá impactar diretamente o sistema em todas as suas funcionalidades.
+* O sistema deve suportar no mínimo 100 usuários possíveis.
+
+### 7.3   Requisitos de Design
+* O sistema deve ter uma interface organizada e intuitiva suficiente para o uso adequado, tendo também cores indicadoras que possam diferenciar cada funcionalidade.
+
+### 7.4   Requisitos de Confiabilidade      
+* O sistema deve calcular com precisão o valores de cada item na nota fiscal.
+* O sistema deve poder se recuperar de falhas que possam ocorrer durante a sua utilização.
+
+### 7.5   Requisitos de Arquitetura
+* O sistema deve possuir uma arquitetura orientada a micro serviços.
+* O sistema deve seguir a modelagem definida pelo arquiteto da equipe.
+
+### 7.6   Requisitos de Usabilidade
+* A interface do sistema deve ser responsivo de acordo com o tamanho de tela do usuário.
+* A interface do sistema deve instruir o usuário no preenchimento de campos de formulários.
+* O sistema deve exibir notificações caso tenha erro ou sucesso no preenchimento do formulário.
+
+### 7.7   Requisitos de Suportabilidade
+* Nesse sistema deve ser possível fazer a instalação no sistema do usuário para a execução do mesmo.
+* O sistema deve seguir o padrão de codificação criado pelo integrate devops da equipe.
+
+### 7.8   Requisitos de Segurança
+* O sistema deve armazenar e administrar os dados dos funcionários de forma a garantir a privacidade dos mesmos.
+* O sistema deve impedir o acesso de pessoas não autorizadas.
+* O sistema deve possuir validação para cada dado inserido no banco de dados.

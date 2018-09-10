@@ -23,7 +23,6 @@
 
 ### 2.1 Oportunidade de Negócios
 
-[Faça uma breve descrição da oportunidade de negócios atendida por este projeto.]
 Atualmente diversas empresas enfrentam problemas relacionados ao seus controles de gastos e com consequência disso ocorre a dificuldade de maximização de lucros, levando em consideração o grande volume de vendas e compras realizados, e algumas vezes por falta de experiência na coordenação econômica da empresa. Com base nesses problemas o PDF2K busca realizar de maneira rápida e prática a organização, armazenamento e geração de gráficos de dados baseados nas notas fiscais recebidas por essas empresas, gerando assim um maior controle de onde está sendo gasto o dinheiro e se está ocorrendo aumentos ou quedas no histórico monetário dessa empresa além da prevenção de possíveis multas causadas pela falta de armazenamento das notas fiscais.
 
 ### 2.2 Descrição do Problema

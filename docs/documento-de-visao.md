@@ -28,28 +28,27 @@ Atualmente diversas empresas enfrentam problemas relacionados ao seus controles 
 
 ### 2.2 Descrição do Problema
 
-| O problema de | Falta de praticidade no trabalho relacionado às notas fiscais que abrange a falta de organização e a falta de controle de gastos |
-|:-------------:|
-| afeta | A empresa de modo geral e principalmente seu setor financeiro |
-|:-----:|
-| cujo impacto é | O setor financeiro da empresa já que não consegue de maneira prática manter a organização e controle de seus gastos e o armazenamento de suas notas fiscais, causando dano ao lucro geral da empresa |
-|:--------------:|
-| uma boa solução seria | Uma aplicação prática e inteligente que por meio de artifícios de IA e aprendizado de máquina reconhece notas fiscais emitidas e trabalha em cima delas, gerando de maneira automatizada gráficos de  gastos recentes ou mesmo dentro de um histórico, gerando um melhor entendimento de onde e porque está sendo gasto o dinheiro da empresa, juntamente com o armazenamento automático dessas notas, evitando assim burocracia e trabalho desnecessário realizando uma maximização de lucros da empresa |
-|:---------------------:|
+<table>
+  <tr><th>O problema de</th><td>Falta de praticidade no trabalho relacionado às notas fiscais que abrange a falta de organização e a falta de controle de gastos </td></tr>
+  <tr><th>Afeta</th><td>
+A empresa de modo geral e principalmente seu setor financeiro
+</td></tr>
+  <tr><th>Cujo impacto é</th><td>O setor financeiro da empresa já que não consegue de maneira prática manter a organização e controle de seus gastos e o armazenamento de suas notas fiscais, causando dano ao lucro geral da empresa</td></tr>
+  <tr><th>Uma boa solução seria</th><td>Uma aplicação prática e inteligente que por meio de artifícios de IA e aprendizado de máquina reconhece notas fiscais emitidas e trabalha em cima delas, gerando de maneira automatizada gráficos de  gastos recentes ou mesmo dentro de um histórico, gerando um melhor entendimento de onde e porque está sendo gasto o dinheiro da empresa, juntamente com o armazenamento automático dessas notas, evitando assim burocracia e trabalho desnecessário realizando uma maximização de lucros da empresa</td></tr>
+</table>
+
 
 ### 2.3 Sentença de Posição do Produto
 
-Para
-Empresas e negócios, com ênfase no setor financeiro
-Que
+<table>
+  <tr><th>Para</th><td>Empresas e negócios, com ênfase no setor financeiro </td></tr>
+  <tr><th>Que</th><td>
 Possuem a necessidade de um software que realize de maneira automatizada, prática e organizada o controle de gastos por meio de gráficos, organização de notas fiscais sem a necessidade de interação humana durante o processo
-O (nome do produto)
-PDF2K
-Diferente de
-Noov e Arquivei
-Nosso produto
-Gera dados úteis baseando-se na leitura nativa de arquivos PDF’s de notas fiscais de maneira automática e rápida, agrupando os gastos relacionados, gerando gráficos de história e realizando um armazenando seguro das notas fiscais
-
+</td></tr>
+  <tr><th>O (nome do produto)</th><td>PDF2CASH</td></tr>
+  <tr><th>Diferente de</th><td>Noov e Arquivei</td></tr>
+  <tr><th>Nosso produto</th><td>Gera dados úteis baseando-se na leitura nativa de arquivos PDF’s de notas fiscais de maneira automática e rápida, agrupando os gastos relacionados, gerando gráficos de história e realizando um armazenando seguro das notas fiscais </td></tr>
+</table>
 
 ***
 ## 3. Descrições dos Envolvidos e dos Usuários
@@ -163,34 +162,15 @@ Desenvolvido e mantido por uma startup constituída por alunos e ex-alunos da Un
 
 ### Legenda de Prioridades dos Requisitos:
 
-Prioridade
-Característica
-Alta
-Requisito fundamental para o sistema
-Intermediária
-Requisito importante, mas não é fundamental para o funcionamento do sistema
-Baixa
-Requisito não fundamental e pouco usado no sistema
+| Prioridade | Caracteristica |
+|:----:|:---------:|:-----------------:|
+| Alta | Requisito fundamental para o sistema |
+| Intermediaria | Requisito importante, mas não é fundamental para o funcionamento do sistema |
+| Baixa | Requisito não fundamental e pouco usado no sistema|
 
-
-
-Identificador
-Nome
-Descrição
-Prioridade
-RF1
-Geração de gráficos
-O sistema de maneira automática deve gerar gráficos baseados nos gastos condizente nas notas fiscais
-Alta
-RF2
-Arquivação de notas fiscais
-O sistema deve arquivar de maneira automática ou não as notas fiscais que forem inseridas no programa
-Alta
-RF3
-Cadastro da empresa
-O sistema deve possuir uma maneira de cadastrar aa empresa da qual a nota fiscal está sendo trabalhada
-Alta
-RF4
-Consulta no histórico de gastos
-O sistema deve possuir uma maneira de gerar informações cronológicas de gastos com as notas fiscais
-Média
+| Identificador| Nome | Descrição | Prioridade |
+|:----:|:---------:|:-----------------:|:--------|
+| RF1 | Geração de gráficos  |O sistema de maneira automática deve gerar gráficos baseados nos gastos condizente nas notas fiscais. | Alta |
+| RF2 | Arquivação de notas fiscais | O sistema deve arquivar de maneira automática ou não as notas fiscais que forem inseridas no programa | Alta |
+| RF3 | Cadastro da empresa | O sistema deve possuir uma maneira de cadastrar aa empresa da qual a nota fiscal está sendo trabalhada | Alta |
+| RF4 | Consulta no histórico de gastos | O sistema deve possuir uma maneira de gerar informações cronológicas de gastos com as notas fiscais | Media

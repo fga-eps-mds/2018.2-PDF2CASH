@@ -162,11 +162,14 @@ Desenvolvido e mantido por uma startup constituída por alunos e ex-alunos da Un
 
 ### Legenda de Prioridades dos Requisitos:
 
-| Prioridade | Caracteristica |
-|:----:|:---------:|:----:|
-| Alta | Requisito fundamental para o sistema |
-| Intermediaria | Requisito importante, mas não é fundamental para o funcionamento do sistema |
-| Baixa | Requisito não fundamental e pouco usado no sistema|
+<table>
+  <tr><th>Prioridade</th><th>Caracteristica</td></tr>
+  <tr><td>Alta</th><td>Requisito fundamental para o sistema </td></tr>
+  <tr><td>Intermediaria</th><td>Requisito importante, mas não é fundamental para o funcionamento do sistema</td></tr>
+  <tr><td>Baixa</th><td>Requisito não fundamental e pouco usado no sistema</td></tr>
+
+</table>
+
 
 | Identificador| Nome | Descrição | Prioridade |
 |:----:|:---------:|:-----------------:|:--------|

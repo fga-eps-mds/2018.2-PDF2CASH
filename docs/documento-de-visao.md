@@ -15,6 +15,27 @@
 | 05/09/18 | 0.8 | Restrições | Julio Litwin |
 | 05/09/18 | 0.9 | Intervalos de Qualidade | Luis Claudio T. Lima |
 
+Esta documentação tem como propósito coletar, analisar e definir os insumos necessários para a realização do PDF2K, que é uma ferramenta para gerar dados a partir de notas fiscais eletrônicas(NFe). Sendo possível o armazenamento, organização e geração de NFe. 
+Nesta introdução será apresentada uma visão geral para o total entendimento do projeto, de tal modo que fique claro para todos os recursos necessários e as razões que levam a essas necessidades.
+
+Este documento tem como objetivo definir todos os requisitos, necessidades e os recursos necessários, especificamente as de alto nível,  para que o cliente possa compreender e tenha o completo entendimento do projeto PDF2K.
+
+Neste documento serão abordados os pontos necessários para o desenvolvimento do PDF2K, na qual será utilizado na parte financeira gerando dados a partir de notas fiscais eletrônicas e assim controlar o fluxo de caixa de determinada empresa, de tal modo que pessoas que não possuam o conhecimento técnico da tecnologia utilizada possam entender sem problemas. 
+
+Alguns termos e conceitos serão necessários saber para o total entendimento deste documento e que estarão listadas logo abaixo :
+
+PDF(Portable Document Format): É um formato de arquivo usado para exibir e compartilhar documentos de maneira compatível.
+NFe: Nota Fiscal Eletrônica
+HD(Hard Disk): Sistema de armazenamento de alta capacidade destinado ao armazenamento de arquivos e programas.
+PO: Product Owner
+IA: inteligência artificial 
+CTe: Conhecimento de Transporte Eletrônico
+CNPJ: Cadastro Nacional da Pessoa Jurídica
+Backup: Cópia de segurança
+
+WARNOCK, John. Adobe. Disponível em: <https://acrobat.adobe.com/br/pt/acrobat/about-adobe-pdf.html>. Acesso em: 29 ago. 2018.
+
+Neste documento é definido o problema a ser resolvido de acordo com os requisitos do software previamente elaborados, o entendimento sobre os usuários e envolvidos, uma visão geral do produto a ser desenvolvido e dos recursos necessários.
 
 
 ***

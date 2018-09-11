@@ -155,7 +155,7 @@ Desenvolvido e mantido por uma startup constituída por alunos e ex-alunos da Un
 
 ![Arquivei](https://uploaddeimagens.com.br/images/001/604/545/original/Arquivei.png?1536550547)
 
-***
+
 ***
 ## 4.                  Visão Geral do Produto
 ***
@@ -189,7 +189,7 @@ O PDF2K irá sistematizar o processo de leitura e transformação de arquivos (P
 A instalação será realizada de forma interativa e simples por meio de um instalador, que será disponibilizado no site oficial do produto, o mesmo será compatível com os sistemas Windows sendo necessário espaço no HD o suficiente para concluir a instalação.
 O licenciamento do produto estará vinculado à sua conta associada ao produto sendo diferenciada através de funcionalidades, abrangendo assim uma gama de usuários maior atendendo suas necessidades.
 
-
+***
 ## 5. Recursos do Produto
 ***
 

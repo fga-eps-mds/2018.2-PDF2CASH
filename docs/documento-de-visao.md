@@ -246,15 +246,15 @@ O licenciamento do produto estará vinculado à sua conta associada ao produto s
 | RF3 | Cadastro da empresa | O sistema deve possuir uma maneira de cadastrar aa empresa da qual a nota fiscal está sendo trabalhada | Alta |
 | RF4 | Consulta no histórico de gastos | O sistema deve possuir uma maneira de gerar informações cronológicas de gastos com as notas fiscais | Media
 
-
-6.                  Restrições
-O PDF deverá ser nativo, sendo assim, um PDF “original” com texto (sem ser um PDF escaneado).
-O sistema funcionará apenas para notas fiscais.
-Notas fiscais deverão seguir um certo padrão, caso seja utilizado a tecnologia Machine Learning.
-O sistema só funcionará com uma conexão de rede de internet.
-Apenas o Administrador poderá gerenciar os outros usuários, como a criação das contas dos funcionários.
-Conhecimento básico em Português e Inglês.
-
+***
+## 6. Restrições
+***
+* O PDF deverá ser nativo, sendo assim, um PDF “original” com texto (sem ser um PDF escaneado).
+* O sistema funcionará apenas para notas fiscais.
+* Notas fiscais deverão seguir um certo padrão, caso seja utilizado a tecnologia Machine Learning.
+* O sistema só funcionará com uma conexão de rede de internet.
+* Apenas o Administrador poderá gerenciar os outros usuários, como a criação das contas dos funcionários.
+* Conhecimento básico em Português e Inglês.
 
 ***
 ## 7. Intervalos de Qualidade

@@ -50,7 +50,7 @@ https://github.com/fga-eps-mds/2017.1-SIGS/wiki/Documento-de-Arquitetura
 2. Logo abaixo será apresentada as restrições da arquitetura:
 * Framework Django 2.0.3 com Python 3.5.2
 * Django REST: um framework utilizada para construção de WEB APIs
-* Banco de dados relacional PostgreSQL 
+* Banco de dados relacional PostgreSQL
 * Electron
 
 ***
@@ -68,10 +68,11 @@ O Administrador pode manter usuários cadastrados, manter empresas cadastradas a
 O Usuário comum pode visualizar a empresa da qual está cadastrado, adicionar notas fiscais ao programa, gerenciar as análises baseadas nas notas fiscais geradas pelo programa assim como visualizar, modificar e deletar as notas fiscais já existentes.
 4.2              Diagramas de caso de uso
 
+#### 4.4 Diagrama de Casos de Uso
+![Dcu](img/dcu.png)
 
 
-
-#### 4.3 Descrição dos Casos de Uso
+#### 4.5 Descrição dos Casos de Uso
 
 ##### UC01 - (ME) Manter Empresa:
 Esse caso de uso permite que o usuário com acesso de administrador no programa possui o poder de criar, manter, modificar ou deletar as empresas adicionadas por ele ao programa.
@@ -145,7 +146,7 @@ As mudanças no sistema são feitas através das alterações e evoluções feit
 
 
 ***
-### 7. Referências 
+### 7. Referências
 ***
 
 [Introdução ao Electron] https://tableless.com.br/introducao-ao-electron/

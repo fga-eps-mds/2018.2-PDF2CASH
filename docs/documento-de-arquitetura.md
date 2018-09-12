@@ -66,14 +66,13 @@ O Administrador pode manter usuários cadastrados, manter empresas cadastradas a
 #### 4.3 Usuário
 
 O Usuário comum pode visualizar a empresa da qual está cadastrado, adicionar notas fiscais ao programa, gerenciar as análises baseadas nas notas fiscais geradas pelo programa assim como visualizar, modificar e deletar as notas fiscais já existentes.
-4.2              Diagramas de caso de uso
 
-#### 4.4 Diagrama de Casos de Uso
+#### 4.4 Diagrama de Casos de Uso         
 ![Dcu](img/dcu.png)
 
 
 #### 4.5 Descrição dos Casos de Uso
-
+            
 ##### UC01 - (ME) Manter Empresa:
 Esse caso de uso permite que o usuário com acesso de administrador no programa possui o poder de criar, manter, modificar ou deletar as empresas adicionadas por ele ao programa.
 ##### UC02 - Manter User:

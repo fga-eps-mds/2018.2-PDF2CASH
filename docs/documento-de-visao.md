@@ -35,14 +35,14 @@ Neste documento serão abordados os pontos necessários para o desenvolvimento d
 
 Alguns termos e conceitos serão necessários saber para o total entendimento deste documento e que estarão listadas logo abaixo :
 
-PDF(Portable Document Format): É um formato de arquivo usado para exibir e compartilhar documentos de maneira compatível.
-NFe: Nota Fiscal Eletrônica
-HD(Hard Disk): Sistema de armazenamento de alta capacidade destinado ao armazenamento de arquivos e programas.
-PO: Product Owner
-IA: inteligência artificial 
-CTe: Conhecimento de Transporte Eletrônico
-CNPJ: Cadastro Nacional da Pessoa Jurídica
-Backup: Cópia de segurança
+  1. PDF(Portable Document Format): É um formato de arquivo usado para exibir e compartilhar documentos de maneira compatível.
+  2. NFe: Nota Fiscal Eletrônica
+  3. HD(Hard Disk): Sistema de armazenamento de alta capacidade destinado ao armazenamento de arquivos e programas.
+  4. PO: Product Owner
+  5. IA: inteligência artificial 
+  6. CTe: Conhecimento de Transporte Eletrônico
+  7. CNPJ: Cadastro Nacional da Pessoa Jurídica
+  8. Backup: Cópia de segurança
 
 ### 1.4 Referências
 

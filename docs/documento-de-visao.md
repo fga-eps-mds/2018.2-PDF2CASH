@@ -20,16 +20,16 @@
 ## 1. Introdução
 ***
 
-Esta documentação tem como propósito coletar, analisar e definir os insumos necessários para a realização do PDF2K, que é uma ferramenta para gerar dados a partir de notas fiscais eletrônicas(NFe). Sendo possível o armazenamento, organização e geração de NFe. 
+Esta documentação tem como propósito coletar, analisar e definir os insumos necessários para a realização do PDF2CASH, que é uma ferramenta para gerar dados a partir de notas fiscais eletrônicas(NFe). Sendo possível o armazenamento, organização e geração de NFe. 
 Nesta introdução será apresentada uma visão geral para o total entendimento do projeto, de tal modo que fique claro para todos os recursos necessários e as razões que levam a essas necessidades.
 
 ### 1.1 Finalidade
 
-Este documento tem como objetivo definir todos os requisitos, necessidades e os recursos necessários, especificamente as de alto nível,  para que o cliente possa compreender e tenha o completo entendimento do projeto PDF2K.
+Este documento tem como objetivo definir todos os requisitos, necessidades e os recursos necessários, especificamente as de alto nível,  para que o cliente possa compreender e tenha o completo entendimento do projeto PDF2CASH.
 
 ### 1.2 Escopo
 
-Neste documento serão abordados os pontos necessários para o desenvolvimento do PDF2K, na qual será utilizado na parte financeira gerando dados a partir de notas fiscais eletrônicas e assim controlar o fluxo de caixa de determinada empresa, de tal modo que pessoas que não possuam o conhecimento técnico da tecnologia utilizada possam entender sem problemas. 
+Neste documento serão abordados os pontos necessários para o desenvolvimento do PDF2CASH, de tal modo que o produto será de fácil manuseio para pessoas leigas. Resumidamente, este software será utilizado no setor financeira de micro empresas gerando dados a partir de notas fiscais eletrônicas, primeiramente sendo realizada a leitura automatizada do pdf, o armazenamento dos dados, o gerenciamento dos gastos e a geração de gráficos de análise financeira respectivamente.
 
 ### 1.3 Definições, Acrônimos e Abreviações
 

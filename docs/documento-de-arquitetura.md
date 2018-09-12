@@ -16,7 +16,7 @@
 | 07/09/18 | 0.6 | Visão geral | Wictor Girardi |
 
 ***
-###3. Metas e Restrições de Arquitetura
+### 3. Metas e Restrições de Arquitetura
 ***
 
 1. O projeto PDF2K-Nativo possui as seguintes metas:

@@ -15,6 +15,23 @@
 | 07/09/18 | 0.5 | Introdução | Julio Litwin |
 | 07/09/18 | 0.6 | Visão geral | Wictor Girardi |
 
+1.                  Introdução
+1.1               Finalidade
+Este documento apresenta uma visão geral da arquitetura do sistema e utiliza uma série de visões arquiteturais diferentes para ilustrar os diversos aspectos do sistema. Sua intenção é capturar e transmitir as decisões significativas do ponto de vista da arquitetura que foram tomadas em relação ao sistema.
+
+1.2               Escopo
+O PDF2CASH é um software projetado para processamento de PDF’s nativos, focado em notas fiscais eletrônicas. Sendo assim, o software irá facilitar e salvando-os em seu banco de dados, podendo assim, ser  utilizado para automatizar na parte de custos/gastos e dentre outros features.
+    Neste documento, será tratado todas as informações de arquitetura do software, como diagramas de classes, casos de testes, casos de uso e dentre outros.
+1.3               Definições, Acrônimos e Abreviações
+MVC(Model View Controller): Arquitetura de software utilizada em sistemas que desejam separar a modelagem de dados, interface e processamento de requisições em camadas independentes.
+Active View: Biblioteca do framework ruby, responsável por implementar o tratamento de requisições da view.
+Active Controller: Biblioteca do framework ruby que implementa toda a camada Controller.
+Active Record: Biblioteca do framework ruby on rails que implementa operações da camada Model.
+1.4               Referências
+BORGES, Ateldy; MATIAS, Bruno; Rodrigues, Carlos Enrique; MARQUES, Daniel; COUTINHO, Francisco Wallacy; SANTOS, Yasmin; DADAMOS, Rodrigo. SIGS: Documento de Arquitetura. Disponível em:
+https://github.com/fga-eps-mds/2017.1-SIGS/wiki/Documento-de-Arquitetura
+
+
 ***
 ### 3. Metas e Restrições de Arquitetura
 ***

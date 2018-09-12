@@ -15,6 +15,17 @@
 | 07/09/18 | 0.5 | Introdução | Julio Litwin |
 | 07/09/18 | 0.6 | Visão geral | Wictor Girardi |
 
+3. Metas e Restrições de Arquitetura
+
+O projeto PDF2K-Nativo possui as seguintes metas:
+Compatibilidade com o Sistema operacional Windows 10
+Suporte com os principais navegadores web da atualidade : Google Chrome, Internet Explorer, Microsoft Edge e Mozilla Firefox
+Logo abaixo será apresentada as restrições da arquitetura:
+Framework Django 2.0.3 com Python 3.5.2
+Django REST: um framework utilizada para construção de WEB APIs
+Banco de dados relacional PostgreSQL 
+Electron
+
 
 ***
 ### 4. Visão Geral

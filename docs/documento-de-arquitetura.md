@@ -1,7 +1,7 @@
 
 # PDF2K-Nativo
-
-## Documento de Arquitetura
+***
+# Documento de Arquitetura
 
 ***
 ## Histórico de Revisão
@@ -14,7 +14,7 @@
 | 06/09/18 | 0.4 | Arquitetura de serviços e referenciais | Wictor Girardi |
 | 07/09/18 | 0.5 | Introdução | Julio Litwin |
 | 07/09/18 | 0.6 | Visão geral | Wictor Girardi |
-
+| 12/09/18 | 0.7 | Diagrama de Casos de Uso| Luís Cláudio T. Lima
 ***
 ### 1. Introdução
 ***
@@ -72,7 +72,7 @@ O Usuário comum pode visualizar a empresa da qual está cadastrado, adicionar n
 
 
 #### 4.5 Descrição dos Casos de Uso
-            
+
 ##### UC01 - (ME) Manter Empresa:
 Esse caso de uso permite que o usuário com acesso de administrador no programa possui o poder de criar, manter, modificar ou deletar as empresas adicionadas por ele ao programa.
 ##### UC02 - Manter User:

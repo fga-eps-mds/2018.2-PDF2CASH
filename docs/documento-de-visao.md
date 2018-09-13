@@ -11,16 +11,18 @@
 | 29/08/18 | 0.4 | Visão Geral Do Produto | Rafael Teodosio |
 | 31/08/18 | 0.5 | Descrição dos Envolvidos e dos Usuários | Lucas Gomes |
 | 03/09/18 | 0.5.1 | Mudança dentro do posicionamento | Wictor Girardi |
-| 03/09/18 | 0.6 | Adição de Descrição dos Envolvidos e dos Usuários | Lucas Gomes |
-| 05/09/18 | 0.7 | Adição de recursos do produto | Wictor Girardi |
-| 05/09/18 | 0.8 | Restrições | Julio Litwin |
-| 05/09/18 | 0.9 | Intervalos de Qualidade | Luis Claudio T. Lima |
+| 03/09/18 | 0.5.2 | Adição de Descrição dos Envolvidos e dos Usuários | Lucas Gomes |
+| 05/09/18 | 0.5.3 | Adição de recursos do produto | Wictor Girardi |
+| 05/09/18 | 0.6 | Restrições | Julio Litwin |
+| 05/09/18 | 0.7 | Intervalos de Qualidade | Luis Claudio T. Lima |
+| 07/09/18 | 0.8 | Revisão geral do documento | Brian Lui, Julio Litwin, Lucas Gomes, Luis Claudio, Wictor Girardi, Rafael Teodosio   |
+| 07/09/18 | 1.0 | Documento estável | Brian Lui, Julio Litwin, Lucas Gomes, Luis Claudio, Wictor Girardi, Rafael Teodosio |
 
 ***
 ## 1. Introdução
 ***
 
-Esta documentação tem como propósito coletar, analisar e definir os insumos necessários para a realização do PDF2CASH, que é uma ferramenta para gerar dados a partir de notas fiscais eletrônicas(NFe). Sendo possível o armazenamento, organização e geração de NFe. 
+Esta documentação tem como propósito coletar, analisar e definir os insumos necessários para a realização do PDF2CASH, que é uma ferramenta para gerar dados a partir de notas fiscais eletrônicas(NFe). Sendo possível o armazenamento, organização e geração de NFe.
 Nesta introdução será apresentada uma visão geral para o total entendimento do projeto, de tal modo que fique claro para todos os recursos necessários e as razões que levam a essas necessidades.
 
 ### 1.1 Finalidade
@@ -36,17 +38,19 @@ Neste documento serão abordados os pontos necessários para o desenvolvimento d
 Alguns termos e conceitos serão necessários saber para o total entendimento deste documento e que estarão listadas logo abaixo :
 
   1. PDF(Portable Document Format): É um formato de arquivo usado para exibir e compartilhar documentos de maneira compatível.
-  2. NFe: Nota Fiscal Eletrônica
+  2. NFe (Nota Fiscal Eletrônica): Arquivo eletrônico com o objetivo de substituir a tradicional nota fiscal em papel, onde contém as informações fiscais da operação comercial.
   3. HD(Hard Disk): Sistema de armazenamento de alta capacidade destinado ao armazenamento de arquivos e programas.
-  4. PO: Product Owner
-  5. IA: inteligência artificial 
-  6. CTe: Conhecimento de Transporte Eletrônico
-  7. CNPJ: Cadastro Nacional da Pessoa Jurídica
-  8. Backup: Cópia de segurança
+  4. PO (Product Owner): Membro responsável por compreender a idéia e ser os “olhos” do cliente dentro do projeto.
+  5. IA (inteligência artificial): Conjunto de técnicas com o objetivo de criar aplicações com inteligência que se assemelha a inteligência humana.
+  6. CTe (Conhecimento de Transporte Eletrônico): Documento digital, para fins fiscais, onde é documentado prestação de serviço de transporte de cargas realizadas por qualquer modal.
+  7. CNPJ (Cadastro Nacional da Pessoa Jurídica): Número único que identifica uma pessoa jurídica.
+  8. Backup: Cópia de um ou mais arquivos onde será guardado em dispositivo de armazenamento ou diretório diferente do arquivo original.
 
 ### 1.4 Referências
 
 WARNOCK, John. Adobe. Disponível em: <https://acrobat.adobe.com/br/pt/acrobat/about-adobe-pdf.html>. Acesso em: 29 ago. 2018.
+Desconhecido. Sobre a NF-e. Disponível em: <http://www.nfe.fazenda.gov.br> Acesso em: 31 ago. 2018
+Desconhecido. Conheça o CT-e. Disponível em: <http://www.cte.fazenda.gov.br/portal/principal.aspx> Acesso em: 31 ago. 2018
 
 ### 1.5 Visão Geral
 
@@ -192,14 +196,14 @@ Desenvolvido e mantido por uma startup constituída por alunos e ex-alunos da Un
 
 
 ***
-## 4.                  Visão Geral do Produto
+## 4. Visão Geral do Produto
 ***
 
-### 4.1               Perspectiva do Produto
+### 4.1 Perspectiva do Produto
 
 O PDF2K irá sistematizar o processo de leitura e transformação de arquivos (PDF). De tal forma que, Diretores e funcionários da empresa tenham o controle sobre seus gastos. O produto fornecerá aos usuários as informações necessárias para melhor gerirem a parte financeira. Tais informações contemplam categoria de gastos, valores unitários, valores totais, análise de dados, margem de gastos, histórico de gastos . Assim, têm-se como expectativa facilitar, agilizar o processo de controle fiscal, além de ampliar os lucros pelo fato de ter-se um controle automatizado dos gastos.
 
-### 4.2               Resumo dos Recursos
+### 4.2 Resumo dos Recursos
 
 <table>
 
@@ -217,9 +221,9 @@ O PDF2K irá sistematizar o processo de leitura e transformação de arquivos (P
   </td></tr>
 </table>
 
-### 4.3               Custos e Preços
+### 4.3 Custos e Preços
 
-### 4.4               Licenciamento e Instalação
+### 4.4 Licenciamento e Instalação
 
 A instalação será realizada de forma interativa e simples por meio de um instalador, que será disponibilizado no site oficial do produto, o mesmo será compatível com os sistemas Windows sendo necessário espaço no HD o suficiente para concluir a instalação.
 O licenciamento do produto estará vinculado à sua conta associada ao produto sendo diferenciada através de funcionalidades, abrangendo assim uma gama de usuários maior atendendo suas necessidades.

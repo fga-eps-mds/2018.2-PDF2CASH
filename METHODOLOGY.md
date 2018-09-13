@@ -9,6 +9,7 @@ Esta seção lista todos os papéis existentes dentro do Time Scrum do projeto P
 
 ### Product Owner
 * Atribuições:
+
 ** Responsável pelo gerenciamento do Backlog do Produto e por garantir o valor do trabalho realizado pelo Time;
 ** Manter o Backlog do Produto e garante que ele está visível para todos;
 ** Informar a todos quais itens têm a maior prioridade, de forma que todos sabem em que se irá trabalhar;

@@ -8,17 +8,17 @@ Esta seção lista todos os papéis existentes dentro do Time Scrum do projeto P
 ## Papeis
 
 ### Product Owner
-* Atribuições:
- * Responsável pelo gerenciamento do Backlog do Produto e por garantir o valor do trabalho realizado pelo Time
- * Manter o Backlog do Produto e garante que ele está visível para todos
- * Informar a todos quais itens têm a maior prioridade, de forma que todos sabem em que se irá trabalhar
- * Definir e priorizar os itens do Backlog do Produto
- * Vender o produto
- * Intermediário(ligação) entre o cliente e a equipe
- * Valor de negócio
- * Visão de negócio
- * Negociar com o time e com o cliente
- * Canvas
+Atribuições:
+  * Responsável pelo gerenciamento do Backlog do Produto e por garantir o valor do trabalho realizado pelo Time
+  * Manter o Backlog do Produto e garante que ele está visível para todos
+  * Informar a todos quais itens têm a maior prioridade, de forma que todos sabem em que se irá trabalhar
+  * Definir e priorizar os itens do Backlog do Produto
+  * Vender o produto
+  * Intermediário(ligação) entre o cliente e a equipe
+  * Valor de negócio
+  * Visão de negócio
+  * Negociar com o time e com o cliente
+  * Canvas
 
 ### Arquiteto de Software
 * Atribuição:

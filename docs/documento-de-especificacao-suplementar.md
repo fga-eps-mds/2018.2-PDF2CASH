@@ -3,6 +3,51 @@
 # Especificação Suplementar
 ***
 
+## 1.                  Introdução
+
+
+### 1.1               Finalidade
+
+
+Este documento tem como objetivo abordar aspectos técnicos, legais e demais requisitos sobre a aplicação PDF2CA$H, que não foram abordados nos demais documentos: Documento de Visão e Documento de Arquitetura.
+
+### 1.2               Escopo
+
+
+Os requisitos aqui explicados fazem parte do processo de desenvolvimento da aplicação web PDF2CA$H, que auxiliará diretores e funcionários de empresas de pequeno porte à controlar os gastos gerados por seus funcionários por meio de notas fiscais eletrônicas geradas em PDF.
+
+### 1.3               Definições, Acrônimos e Abreviações
+
+<table>
+<th>Abreviação</td>
+<th>Definição</td>
+<tr><td>PDF</th>
+<td>Portable Document Format</td>
+</table>
+
+### 1.4               Referências
+
+## 2.                  Funcionalidade
+
+Um ponto essencial para a usabilidade do sistema é que o mesmo ofereça um design e uma interação acessível aos diretores e funcionários da empresa. Considerando o mais leigo dos usuários, o sistema deverá prezar pela simplicidade e acesso intuitivo, tendo em vista sua importância para o controle de gastos e uma utilização adequada pelos usuários da aplicação. Para alcançar tal meta, a aplicação deve conter um design limpo, de fácil visualização e entendimento, com acesso rápido e intuitivo a informações e funcionalidades importantes, sempre utilizando-se uma linguagem de fácil entendimento e compreensão.
+
+### 2.1               Geração de gráficos
+
+O sistema de maneira automática deve gerar gráficos baseados nos gastos condizente nas notas fiscais.
+
+### 2.2               Arquivação de notas fiscais
+
+O sistema deve arquivar de maneira automática ou não as notas fiscais que forem inseridas no programa.
+
+### 2.3               Cadastro da empresa
+
+O sistema deve possuir uma maneira de cadastrar a empresa da qual a nota fiscal está sendo trabalhada.
+
+### 2.4               Consulta no histórico de gastos
+
+O sistema deve possuir uma maneira de gerar informações cronológicas de gastos com as notas fiscais.
+
+
 ## 4. Confiabilidade
 Um dos requisitos para o bom funcionamento do sistema, será um alto nível de confiabilidade. De tal modo que a probabilidade da ocorrência de erros, falhas e bugs em algum sistema operacional seja mínima e que sejam sanadas o mais rápido possível.
 O PDF2CASH poderá ser operado 24H por dia para que a manutenção seja contínua, e assim os erros serem corrigidos rapidamente para que não gere transtornos a empresa.
@@ -17,11 +62,11 @@ Para o uso do sistema será necessário que os dispositivos tenham um dos Sistem
 O PDF2CASH haverá conexão com banco de dados, utilizando-se o postgreSQL, onde será armazenado: dados de contas (administradores e usuários), as notas fiscais processadas pelo PDF2CASH, com as informações exigidas. Sendo assim, tendo o banco de dados como um centro de informações, podendo chamar/atualizar/processar dados remotamente.
 
 ## 8. Segurança
-Os dados no PDF2CASH apenas serão processados a partir de um controle de usuário, sendo assim, será necessário logar-se e ter os devidos privilégios na conta de usuário (sendo distinguindo em administrador e usuário). 
+Os dados no PDF2CASH apenas serão processados a partir de um controle de usuário, sendo assim, será necessário logar-se e ter os devidos privilégios na conta de usuário (sendo distinguindo em administrador e usuário).
 
-**Administrador** terá o seu papel em adicionar/excluir/editar os próprios usuários, empresas e dentre outros, portanto, tendo todos os privilégios de um usuário, contudo, o **Usuário** será quem irá gerenciar as notas fiscais, processar notas fiscais, adicionar, editar e excluir. 
+**Administrador** terá o seu papel em adicionar/excluir/editar os próprios usuários, empresas e dentre outros, portanto, tendo todos os privilégios de um usuário, contudo, o **Usuário** será quem irá gerenciar as notas fiscais, processar notas fiscais, adicionar, editar e excluir.
 
-Para mais informações, é possível obter em **Documento de Arquitetura** - *Tópico: 4, Visão Geral*. 
+Para mais informações, é possível obter em **Documento de Arquitetura** - *Tópico: 4, Visão Geral*.
 
 Buscando incluir boas práticas de segurança de informações, como segurança das operações e comunicações, controle de acesso e dentre outros.
 

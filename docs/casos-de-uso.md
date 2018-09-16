@@ -3,8 +3,8 @@
 ## Histórico de Revisão
 
 | Data | Responsável | Versão | Mudança realizada |
-|:------:|:------:|:-------:|:-------:|:------:|
-| / | / | / | / |
+|:------:|:------:|:-------:|:-------:|
+| 16/09/2018 | Lucas Gomes | 0.1 | Criado UC10 - Manter empresas |
 
 ## Casos de Uso
 

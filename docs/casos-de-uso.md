@@ -6,6 +6,17 @@
 |:------:|:------:|:-------:|:-------:|
 | 16/09/2018 | Lucas Gomes | 0.1 | Criado UC10 - Manter empresas |
 | 16/09/2018 | Wictor Girardi | 0.2 | Criado UC01 - Cadastrar Administrador |
+| 16/09/2018 | Wictor Girardi | 0.3 | Criado UC05 - Visualizar Analise |
+| 16/09/2018 | Brian Lui | 0.4 | Criado UC06 - Listar notas fiscais |
+| 16/09/2018 | Brian Lui | 0.5 | Criado UC08 - Manter funcionarios |
+| 16/09/2018 | Luis Cláudio | 0.6 | Criado UC04 - Adicionar PDF notas fiscais |
+| 16/09/2018 | Luis Cláudio | 0.7 | Criado UC09 - Editar Perfil |
+| 16/09/2018 | Julio Litwin| 0.8 | Criado UC07 - Visualizar nota fiscal |
+| 16/09/2018 | Julio Litwin| 0.8 | Criado UC11 - Remover nota fiscal |
+| 16/09/2018 | Rafael Teodosio | 0.9 | Criado UC02 - Efetuar Login |
+| 16/09/2018 | Rafael Teodosio | 0.10 | Criado UC03 - Selecionar empresa |
+
+
 
 ## Casos de Uso
 

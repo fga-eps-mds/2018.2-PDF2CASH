@@ -5,10 +5,11 @@
 | Data | Responsável | Versão | Mudança realizada |
 |:------:|:------:|:-------:|:-------:|
 | 16/09/2018 | Lucas Gomes | 0.1 | Criado UC10 - Manter empresas |
+| 16/09/2018 | Wictor Girardi | 0.2 | Criado UC01 - Cadastrar Administrador |
 
 ## Casos de Uso
 
-- [ ] [UC01 - Cadastrar administrador](use-case/uc01.md)
+- [x] [UC01 - Cadastrar administrador](use-case/uc01.md)
 - [ ] [UC02 - Efetuar login](use-case/uc02.md)
 - [ ] [UC03 - Selecionar empresa](use-case/uc03.md)
 - [ ] [UC04 - Adicionar PDF de nota fiscal](use-case/uc04.md)

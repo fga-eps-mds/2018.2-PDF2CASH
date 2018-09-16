@@ -2,6 +2,20 @@
 ***
 # Especificação Suplementar
 ***
+# Histórico da Revisão
+| Data | Versão | Descrição | Autor |
+|:----:|:------:|:---------:|:-----:|
+| 09/09/18 | 0.1 | Abertura do documento de Especificação Suplementar | Lucas Gomes |
+| 10/08/18 | 0.2 | Confiabilidade |  Brian Lui |
+| 10/08/18 | 0.3 | Portabilidade |  Brian Lui |
+| 11/08/18 | 0.4 | Desempenho | Lucas Gomes |
+| 13/09/18 | 0.5 | Interoperabilidade | Julio Litwin |
+| 13/09/18 | 0.6 | Segurança | Julio Litwin |
+| 13/09/18 | 0.7 | Restrições de Design | Lucas Gomes |
+| 13/09/18 | 0.8 | Introdução | Rafael Teodosio |
+| 14/09/18 | 0.9 |  Interface de usuário | Luis Claudio T. Lima |
+| 16/09/18 | 0.10 |   Funcionalidades | Wictor Girardi|
+
 
 ## 1.                  Introdução
 
@@ -46,6 +60,32 @@ O sistema deve possuir uma maneira de cadastrar a empresa da qual a nota fiscal 
 ### 2.4               Consulta no histórico de gastos
 
 O sistema deve possuir uma maneira de gerar informações cronológicas de gastos com as notas fiscais.
+
+### 3. Usabilidade
+
+Um ponto essencial para a usabilidade do sistema proposto é que o mesmo ofereça um design e uma interação intuitiva e fácil para a parte financeira de uma empresa, para isso usaremos um design simples e objetivo, com acessos rápidos e diretos para todas as funcionalidades da aplicação. Nosso objetivo é que o programa seja facilmente usado por pessoas que não  necessitem de um treinamento específico para o uso, conseguindo operar o software sem maiores problemas com todas as suas funcionalidades. 	
+
+### 3.1 Metas de usabilidade
+
+#### Eficaz:
+ O sistema deve fazer o que eu espero que faça, alcance seu objetivo.
+#### Eficiente:
+ Velocidade de uso.
+#### Segurança:
+ Proteção ao usuário contra condições perigosas (monetárias e pessoais).
+#### Utilidade:
+Oferece o tipo certo de funcionalidade.
+#### Aprendizado:
+Fácil de aprender.
+#### Memorização:
+ Fácil de lembrar como se usa.
+#### Prevenção de erros:
+Evitar inserção de dados errôneos ou inadequados.
+#### Diagnóstico de erro fácil para o usuário:
+ Mensagens de erro claras e de fácil entendimento para o usuário.
+#### Visibilidade de estado do sistema:
+ Deixar claro ao usuário o que está acontecendo em tempo real.
+
 
 
 ## 4. Confiabilidade

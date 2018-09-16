@@ -10,7 +10,7 @@
 ## Casos de Uso
 
 - [x] [UC01 - Cadastrar administrador](use-case/uc01.md)
-- [ ] [UC02 - Efetuar login](use-case/uc02.md)
+- [x] [UC02 - Efetuar login](use-case/uc02.md)
 - [ ] [UC03 - Selecionar empresa](use-case/uc03.md)
 - [ ] [UC04 - Adicionar PDF de nota fiscal](use-case/uc04.md)
 - [ ] [UC05 - Visualizar análise](use-case/uc05.md)

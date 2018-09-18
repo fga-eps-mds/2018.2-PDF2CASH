@@ -15,6 +15,7 @@
 | 07/09/18 | 0.5 | Introdução | Julio Litwin |
 | 07/09/18 | 0.6 | Visão geral | Wictor Girardi |
 | 12/09/18 | 0.7 | Diagrama de Casos de Uso| Luís Cláudio T. Lima
+|18/09/18 | 0.8 | Revisão da Representação da Arquitetura | Rafael Teodosio
 ***
 ### 1. Introdução
 ***
@@ -31,17 +32,59 @@ Neste documento, será tratado todas as informações de arquitetura do software
 
 #### 1.3 Definições, Acrônimos e Abreviações
 
-MVC(Model View Controller): Arquitetura de software utilizada em sistemas que desejam separar a modelagem de dados, interface e processamento de requisições em camadas independentes.
-Active View: Biblioteca do framework ruby, responsável por implementar o tratamento de requisições da view.
-Active Controller: Biblioteca do framework ruby que implementa toda a camada Controller.
-Active Record: Biblioteca do framework ruby on rails que implementa operações da camada Model.
+>MVC(Model View Controller): Arquitetura de software utilizada em sistemas que desejam separar a modelagem de dados, interface e processamento de requisições em camadas independentes.
+
+>Active View: Biblioteca do framework ruby, responsável por implementar o tratamento de requisições da view.
+
+>Active Controller: Biblioteca do framework ruby que implementa toda a camada Controller.
+
+>Active Record: Biblioteca do framework ruby on rails que implementa
+operações da camada Model.
+
+>JSON(JavaScript Object Notation): Formato de texto com uma formatação leve de troca de dados.
+
 
 #### 1.4 Referências
 > BORGES, Ateldy; MATIAS, Bruno; Rodrigues, Carlos Enrique; MARQUES, Daniel; COUTINHO, Francisco Wallacy; SANTOS, Yasmin; DADAMOS, Rodrigo. **SIGS**: Documento de Arquitetura. Disponível em:
 https://github.com/fga-eps-mds/2017.1-SIGS/wiki/Documento-de-Arquitetura
 
 ***
+
+***
+### 2. Representação da Arquitetura
+
+A arquitetura utilizada contém dois ambientes diferentes para a nossa aplicação, o ambiente de controle de dados que é conhecido como API e o um ambiente web/desktop para os usuários, contemplando um portal onde a população interessada possa ter acesso às informações e um sistema onde usuários podem criar seus projetos, importar dados e adicionar colaboradores.
+
+Com relação a API, o projeto PDF2CA$H será desenvolvido utilizando o framework Django Rest, que conta com um padrão arquitetural próprio conhecido como MVT, o qual será adotado na execução desse projeto.
+O Django, segundo o próprio Django Book, segue o padrão MVC suficientemente para que este seja considerado um framework MVC, entretanto deve-se salientar a diferença entre os padrões arquiteturais.
+No padrão MVC clássico a aplicação é dividida em três principais componentes interconectados, sendo estes:
+
+* **Model** : é incumbido de tratar a parte lógica relacionada aos dados, sendo encarregado por definir sua estrutura, consultas e validação destes, atentando, obviamente, às regras de negócio relacionadas ao banco de dados.
+
+* **View** : é responsável pela visualização gráfica da interface de usuário, definindo, portanto, como ocorrerão as interações com o usuário.
+
+* **Controller** : efetua a comunicação entre a Model e View.
+
+![Dcu](img/mvc.png)
+
+No padrão MVT utilizado pelo Django ocorre a separação em três partes: Model, View, Template, Serializers .Essas partes podem ser melhor definidas como:
+
+* **Model** : A Model do MVT pode ser considerada equivalente à do MVC em termos de responsabilidade, entretanto deve-se notar que o Framework Django facilita na interface com o banco de dados.
+
+* **View** : A View está contida a lógica de negócio, possuindo a lógica que define o acesso a Model e sendo responsável por enviar e definir quais dados serão exibidos na camada de Template, assemelhando-se a camada Controller do MVC clássico.
+
+* **Template** : São definidos como os dados recebidos através da View serão exibidos ao usuário, sendo, esta camada, responsável por renderizar a interface gráfica do usuário, como a camada View no MVC clássico.
+
+* **Serializers** : Os Serializers permitem que dados complexos, como querysets e instâncias de modelo, sejam convertidos em tipos de dados Python nativos que podem ser facilmente renderizados em JSON, ou outros tipos de conteúdo.
+
+A arquitetura será representada da seguinte forma:
+
+![Dcu](img/rpa.png)
+
+***
+
 ### 3. Metas e Restrições de Arquitetura
+
 ***
 
 1. O projeto PDF2K-Nativo possui as seguintes metas:
@@ -147,6 +190,7 @@ As mudanças no sistema são feitas através das alterações e evoluções feit
 ***
 ### 7. Referências
 ***
+[Django REST Framework] http://www.django-rest-framework.org/api-guide/serializers
 
 [Introdução ao Electron] https://tableless.com.br/introducao-ao-electron/
 

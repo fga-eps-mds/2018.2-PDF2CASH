@@ -1,1 +1,1 @@
-![general_roadmap](assets/general_roadmap.png)
+![general_roadmap](docs/assets/general_roadmap.png)

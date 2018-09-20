@@ -1,1 +1,1 @@
-![roles_roadmap](assets/roles_roadmap.png)
+![roles_roadmap](docs/assets/roles_roadmap.png)

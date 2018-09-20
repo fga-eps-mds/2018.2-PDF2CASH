@@ -225,9 +225,8 @@ O PDF2K irá sistematizar o processo de leitura e transformação de arquivos (P
 
 ### 4.4 Licenciamento e Instalação
 
-A instalação será realizada de forma interativa e simples por meio de um instalador, que será disponibilizado no site oficial do produto, o mesmo será compatível com os sistemas Windows sendo necessário espaço no HD o suficiente para concluir a instalação.
-O licenciamento do produto estará vinculado à sua conta associada ao produto sendo diferenciada através de funcionalidades, abrangendo assim uma gama de usuários maior atendendo suas necessidades.
-
+Não será necessaria a instalação do software pois o mesmo será uma aplicação Web.
+O licenciamento do produto será do tipo MIT(software livre), no caso é concedida permissão, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software e dos arquivos de documentação associados, para negociar o Software sem restrições, incluindo, sem limitação, os direitos de uso, cópia, modificação e fusão , publicar, distribuir, sublicenciar e / ou vender cópias do Software, e permitir que as pessoas a quem o Software é fornecido o façam.
 ***
 ## 5. Recursos do Produto
 ***

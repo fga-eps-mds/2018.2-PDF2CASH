@@ -15,6 +15,7 @@
 | 13/09/18 | 0.8 | Introdução | Rafael Teodosio |
 | 14/09/18 | 0.9 |  Interface de usuário | Luis Claudio T. Lima |
 | 16/09/18 | 0.10 |   Funcionalidades | Wictor Girardi|
+| 20/09/18 | 1.0 |   Revisão | Carlos Aragon|
 
 
 ## 1.                  Introdução

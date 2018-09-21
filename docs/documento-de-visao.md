@@ -79,13 +79,13 @@ A empresa de modo geral e principalmente seu setor financeiro
 ### 2.3 Sentença de Posição do Produto
 
 <table>
-  <tr><th>Para</th><td>Empresas e negócios, com ênfase no setor financeiro </td></tr>
+  <tr><th>Para</th><td>Microempresas, com ênfase no setor financeiro </td></tr>
   <tr><th>Que</th><td>
 Possuem a necessidade de um software que realize de maneira automatizada, prática e organizada o controle de gastos por meio de gráficos, organização de notas fiscais sem a necessidade de interação humana durante o processo
 </td></tr>
   <tr><th>O (nome do produto)</th><td>PDF2CASH</td></tr>
   <tr><th>Diferente de</th><td>Noov e Arquivei</td></tr>
-  <tr><th>Nosso produto</th><td>Gera dados úteis baseando-se na leitura nativa de arquivos PDF’s de notas fiscais de maneira automática e rápida, agrupando os gastos relacionados, gerando gráficos de história e realizando um armazenando seguro das notas fiscais </td></tr>
+  <tr><th>Nosso produto</th><td>Gera dados úteis baseando-se na leitura nativa de arquivos PDF’s de notas fiscais de maneira automática e rápida por meio do nosso software livre, agrupando os gastos relacionados, gerando gráficos de história e realizando um armazenando seguro das notas fiscais nos bancos de dados da empresa </td></tr>
 </table>
 
 ***
@@ -248,6 +248,9 @@ O licenciamento do produto será do tipo MIT(software livre), no caso é concedi
 | RF2 | Arquivação de notas fiscais | O sistema deve arquivar de maneira automática ou não as notas fiscais que forem inseridas no programa | Alta |
 | RF3 | Cadastro da empresa | O sistema deve possuir uma maneira de cadastrar aa empresa da qual a nota fiscal está sendo trabalhada | Alta |
 | RF4 | Consulta no histórico de gastos | O sistema deve possuir uma maneira de gerar informações cronológicas de gastos com as notas fiscais | Media
+| RF5 | Criar contas | O sistema deve possuir uma maneira que possibilite o usuário criar e administrar diversas contas. | Alta
+| RF6 | Processo de autenticação | O sistema deve possuir uma maneira que o usuário possa fazer o processo de autenticação. Login e logout. | Media
+| RF7 | Deletar notas fiscais | O sistema deve possuir uma maneira que o usuário possa deletar as notas fiscais cadastradas no banco de dados | Media
 
 ***
 ## 6. Restrições

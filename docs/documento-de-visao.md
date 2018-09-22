@@ -17,6 +17,13 @@
 | 05/09/18 | 0.7 | Intervalos de Qualidade | Luis Claudio T. Lima |
 | 07/09/18 | 0.8 | Revisão geral do documento | Brian Lui, Julio Litwin, Lucas Gomes, Luis Claudio, Wictor Girardi, Rafael Teodosio   |
 | 07/09/18 | 1.0 | Documento estável | Brian Lui, Julio Litwin, Lucas Gomes, Luis Claudio, Wictor Girardi, Rafael Teodosio |
+| 20/09/18 | 1.1 | Correção da Finalidade e Escopo | Brian Lui |
+| 20/09/18 | 1.2 | Correção da Visão Geral do Produto | Rafael Teodosio |
+| 21/09/18 | 1.3 | Correção do Posicionamento | Wictor Girardi |
+| 21/09/18 | 1.4 | Correção das Descrições dos Envolvidos e dos Usuários | Lucas Gomes |
+
+
+
 
 ***
 ## 1. Introdução
@@ -102,17 +109,16 @@ Possuem a necessidade de um software que realize de maneira automatizada, práti
 ### 3.2 Resumo dos Usuários
 | Nome | Descrição | Responsabilidades | Envolvido |
 |:----:|:---------:|:-----------------:|:---------:|
-| Administrador | Operador do sistema com mais recurso para uso | Responsável por realizar cadastro de novos usuários e empresas | Usuário |
-| Usuário Comum | Operador do sistema | Responsável pelo “upload” das notas fiscais e fará uso da aplicação | Usuário |
+| Administrador | Operador do sistema com mais recurso para uso | Responsável por realizar cadastro de novos usuários e empresas e excluir nota fiscal | Usuário |
+| Funcionário Cadastrado | Operador do sistema | Responsável pela inserção dos PDF das notas fiscais, visualização de análises e nota fiscal e listagem das notas fiscais | Usuário |
 
 ### 3.3 Perfis dos Envolvidos
 
 #### 3.3.1	Investidores
 <table>
-  <tr><th>Representante</th><td>Investidor</td></tr>
   <tr><th>Descrição</th><td>Investidor com o interesse em automatizar o gerenciamento de notas fiscais da empresa.</td></tr>
   <tr><th>Tipo</th><td>Conhecimento na área administrativa e financeira</td></tr>
-  <tr><th>Responsabilidades</th><td>Observar e dar sua opinião sobre a aplicação</td></tr>
+  <tr><th>Responsabilidades</th><td> Analisar, dar opinião e averiguar a utilização do produto em sua empresa</td></tr>
   <tr><th>Critérios de Sucesso</th><td>Receber uma aplicação que possa suprir suas necessidades diante as notas fiscais de forma automatizada.</td></tr>
   <tr><th>Envolvimento</th><td>Alto</td></tr>
   <tr><th>Comentários / Problemas</th><td>-</td></tr>
@@ -153,22 +159,20 @@ Possuem a necessidade de um software que realize de maneira automatizada, práti
 #### 3.4.1 Administrador
 
 <table>
-  <tr><th>Representante</th><td>Usuários</td></tr>
-  <tr><th>Descrição</th><td>Funcionários que fazem parte da administração da área financeira ou de confiança  da empresa</td></tr>
+  <tr><th>Descrição</th><td>Funcionário que faz parte da administração da área financeira ou de confiança  da empresa</td></tr>
   <tr><th>Tipo</th><td>Usuário avançado</td></tr>
-  <tr><th>Responsabilidades</th><td>Conhecer a aplicação de modo que possa organizar os PDFs presentes na aplicação, gerar relatórios, adicionar novas empresas ao sistema e realizar o cadastro de novos usuários.</td></tr>
+  <tr><th>Responsabilidades</th><td>Conhecer a aplicação de modo que possa organizar os PDFs presentes na aplicação, gerenciar gastos no sistema, adicionar novas empresas ao sistema e realizar o cadastro de novos usuários.</td></tr>
   <tr><th>Critérios de Sucesso</th><td>Receber um sistema capaz de automatizar tarefas repetitivas que envolvem notas fiscais</td></tr>
   <tr><th>Envolvimento</th><td>Usuário final do sistema</td></tr>
   <tr><th>Comentários / Problemas</th><td>-</td></tr>
 </table>
 
-#### 3.4.2 Administrador
+#### 3.4.2 Funcionário
 
 <table>
-  <tr><th>Representante</th><td>Usuários</td></tr>
-  <tr><th>Descrição</th><td>Funcionários que fazem parte do setor financeiro ou de confiança da empresa</td></tr>
+  <tr><th>Descrição</th><td>Funcionários que fazem parte do setor financeiro</td></tr>
   <tr><th>Tipo</th><td>Usuário comum</td></tr>
-  <tr><th>Responsabilidades</th><td>Conhecer a aplicação de modo que possa organizar os PDFs presentes na aplicação e gerar relatórios</td></tr>
+  <tr><th>Responsabilidades</th><td>Conhecer a aplicação de modo que possa organizar os PDFs presentes na aplicação e gerenciar gastos no sistema</td></tr>
   <tr><th>Critérios de Sucesso</th><td>Receber um sistema capaz de automatizar tarefas repetitivas que envolvem notas fiscais</td></tr>
   <tr><th>Envolvimento</th><td>Usuário final do sistema</td></tr>
   <tr><th>Comentários / Problemas</th><td>-</td></tr>
@@ -178,19 +182,19 @@ Possuem a necessidade de um software que realize de maneira automatizada, práti
 
 | Necessidade | Prioridade | Preocupações | Solução Atual | Soluções Propostas |
 |:---:|:---:|:---:|:---:|:---:|
-| Agilidade e automatização na análise e organização de notas fiscais | Alta | Falta de agilidade na análise das notas fiscais e possíveis erros humanos | Verificação manual das notas fiscais | Realizar a leitura da nota fiscal com o auxílio de aprendizagem de máquina ou divisão da nota fiscal por blocos onde as notas são adicionadas para serem lidas de forma automática |
-| Gerar relatórios com base nas notas fiscais recebidas | Alta | Possíveis erros humanos na hora da elaboração do relatório | Feito de forma manual | De acordo com a leitura feita nas notas fiscais, a aplicação gerará relatórios conforme a necessidade do usuário |
+| Agilidade e automatização na análise e armazenamento de notas fiscais | Alta | Falta de agilidade na análise das notas fiscais e possíveis erros humanos | Verificação manual das notas fiscais | Realizar a leitura da nota fiscal com o auxílio de aprendizagem de máquina ou divisão da nota fiscal por blocos onde as notas são adicionadas para serem lidas de forma automática |
+| Gerar relatórios com base nas notas fiscais recebidas | Alta | Possíveis erros humanos na hora da elaboração do relatório | Feito de forma manual | De acordo com a leitura feita nas notas fiscais, a aplicação gerará análises conforme a necessidade do usuário |
 
 ### 3.6 Alternativas e Concorrência
 
 #### 3.6.1 Noov
-É uma plataforma web gratuito onde é possível realizar o armazenamento de NFes que garante o backup seguro de suas notas na nuvem tendo também a opção de envio ou recebimento de notas fiscais de forma automática. O Noov permite também compartilhar as notas fiscais da empresa com seus clientes, parceiros e contadores. Esse portal possui uma API voltada a desenvolvedores com o intuito de desenvolverem novos aplicativos e colaborarem com a plataforma Noov.
+É uma plataforma web gratuito onde é possível realizar o armazenamento de NFes que garante o backup seguro de suas notas na nuvem tendo também a opção de envio ou recebimento de notas fiscais de forma automática. O Noov permite também compartilhar as notas fiscais da empresa com seus clientes, parceiros e contadores. Esse portal possui uma API voltada a desenvolvedores com o intuito de desenvolverem novos aplicativos e colaborarem com a plataforma Noov. Essa plataforma não lê notas fiscais em PDF e não há análise dos gastos financeiros.
 
 ![Noov](https://uploaddeimagens.com.br/images/001/604/543/original/Noov.png?1536550429)
 
 
 #### 3.6.2 Arquivei
-Desenvolvido e mantido por uma startup constituída por alunos e ex-alunos da Universidade de São Paulo, o Arquivei é uma plataforma web paga que tem como objetivo o acesso fácil aos documentos fiscais da empresa. A plataforma é conectado à Secretaria da Fazenda e baixa automaticamente todas as NFes e CTes emitidas para o CNPJ da empresa, armazenando-as no painel de gestão de notas da plataforma. Todas informações presentes na plataforma se tornam gráficos para melhor visualização do usuário. O Arquivei possui três planos de contratação com taxas mensais: o primeiro, Plano Starter, no valor de R$ 29,90; o segundo com o nome de Plano Controle no valor de R$ 49,90 e; o terceiro plano, intitulado Plano Business, possuindo o valor de R$ 89,90.
+Desenvolvido e mantido por uma startup constituída por alunos e ex-alunos da Universidade de São Paulo, o Arquivei é uma plataforma web paga que tem como objetivo o acesso fácil aos documentos fiscais da empresa. A plataforma é conectado à Secretaria da Fazenda e baixa automaticamente todas as NFes e CTes emitidas para o CNPJ da empresa, armazenando-as no painel de gestão de notas da plataforma. Todas informações presentes na plataforma se tornam gráficos para melhor visualização do usuário. O Arquivei possui três planos de contratação com taxas mensais: o primeiro, Plano Starter, no valor de R$ 29,90; o segundo com o nome de Plano Controle no valor de R$ 49,90 e; o terceiro plano, intitulado Plano Business, possuindo o valor de R$ 89,90. Essa plataforma não lê notas fiscais em PDF e não há uma gama de tipos de análises.
 
 ![Arquivei](https://uploaddeimagens.com.br/images/001/604/545/original/Arquivei.png?1536550547)
 

@@ -69,7 +69,7 @@ Neste documento é definido o problema a ser resolvido de acordo com os requisit
 
 ### 2.1 Oportunidade de Negócios
 
-Atualmente diversas empresas enfrentam problemas relacionados ao seus controles de gastos e com consequência disso ocorre a dificuldade de maximização de lucros, levando em consideração o grande volume de vendas e compras realizados, e algumas vezes por falta de experiência na coordenação econômica da empresa. Com base nesses problemas o PDF2K busca realizar de maneira rápida e prática a organização, armazenamento e geração de gráficos de dados baseados nas notas fiscais recebidas por essas empresas, gerando assim um maior controle de onde está sendo gasto o dinheiro e se está ocorrendo aumentos ou quedas no histórico monetário dessa empresa além da prevenção de possíveis multas causadas pela falta de armazenamento das notas fiscais.
+Atualmente diversas empresas enfrentam problemas relacionados ao seus controles de gastos e com consequência disso ocorre a dificuldade de maximização de lucros, levando em consideração o grande volume de vendas e compras realizados, e algumas vezes por falta de experiência na coordenação econômica da empresa. Com base nesses problemas o PDF2CASH busca realizar de maneira rápida e prática a organização, armazenamento e geração de gráficos de dados baseados nas notas fiscais recebidas por essas empresas, gerando assim um maior controle de onde está sendo gasto o dinheiro e se está ocorrendo aumentos ou quedas no histórico monetário dessa empresa além da prevenção de possíveis multas causadas pela falta de armazenamento das notas fiscais.
 
 ### 2.2 Descrição do Problema
 
@@ -250,7 +250,7 @@ O licenciamento do produto será do tipo MIT(software livre), no caso é concedi
 |:----:|:---------:|:-----------------:|:--------|
 | RF1 | Geração de gráficos  |O sistema de maneira automática deve gerar gráficos baseados nos gastos condizente nas notas fiscais. | Alta |
 | RF2 | Arquivação de notas fiscais | O sistema deve arquivar de maneira automática ou não as notas fiscais que forem inseridas no programa | Alta |
-| RF3 | Cadastro da empresa | O sistema deve possuir uma maneira de cadastrar aa empresa da qual a nota fiscal está sendo trabalhada | Alta |
+| RF3 | Gerenciamento de funcionario | O sistema deve possuir uma maneira de gerencia de funcionarios | Media |
 | RF4 | Consulta no histórico de gastos | O sistema deve possuir uma maneira de gerar informações cronológicas de gastos com as notas fiscais | Media
 | RF5 | Criar contas | O sistema deve possuir uma maneira que possibilite o usuário criar e administrar diversas contas. | Alta
 | RF6 | Processo de autenticação | O sistema deve possuir uma maneira que o usuário possa fazer o processo de autenticação. Login e logout. | Media

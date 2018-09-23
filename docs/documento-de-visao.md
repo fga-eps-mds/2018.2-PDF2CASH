@@ -261,8 +261,7 @@ O licenciamento do produto será do tipo MIT(software livre), no caso é concedi
 ***
 * O PDF deverá ser nativo, sendo assim, um PDF “original” com texto (sem ser um PDF escaneado).
 * O sistema funcionará apenas para notas fiscais.
-* Notas fiscais deverão seguir um certo padrão, caso seja utilizado a tecnologia Machine Learning.
-* O sistema só funcionará com uma conexão de rede de internet.
+* Notas fiscais deverão seguir um determinado padrão, para ser reconhecido os valores pelo parser e lexer.
 * Apenas o Administrador poderá gerenciar os outros usuários, como a criação das contas dos funcionários.
 * Conhecimento básico em Português e Inglês.
 

@@ -16,6 +16,7 @@
 | 07/09/18 | 0.6 | Visão geral | Wictor Girardi |
 | 12/09/18 | 0.7 | Diagrama de Casos de Uso| Luís Cláudio T. Lima
 |18/09/18 | 0.8 | Revisão da Representação da Arquitetura | Rafael Teodosio
+|24/09/18 | 1.0 |Revisão Geral | Rafael Teodosio
 ***
 ### 1. Introdução
 ***
@@ -53,33 +54,44 @@ https://github.com/fga-eps-mds/2017.1-SIGS/wiki/Documento-de-Arquitetura
 ***
 ### 2. Representação da Arquitetura
 
-A arquitetura utilizada contém dois ambientes diferentes para a nossa aplicação, o ambiente de controle de dados que é conhecido como API e o um ambiente web/desktop para os usuários, contemplando um portal onde a população interessada possa ter acesso às informações e um sistema onde usuários podem criar seus projetos, importar dados e adicionar colaboradores.
+A arquitetura utilizada contém dois ambientes diferentes para a nossa aplicação, o ambiente de controle de dados que é conhecido como API e o um ambiente web desenvolvido em ReactJS para os usuários, contemplando um sistema onde usuários podem criar seus projetos, importar dados e adicionar colaboradores.
 
-Com relação a API, o projeto PDF2CA$H será desenvolvido utilizando o framework Django Rest, que conta com um padrão arquitetural próprio conhecido como MVT, o qual será adotado na execução desse projeto.
-O Django, segundo o próprio Django Book, segue o padrão MVC suficientemente para que este seja considerado um framework MVC, entretanto deve-se salientar a diferença entre os padrões arquiteturais.
-No padrão MVC clássico a aplicação é dividida em três principais componentes interconectados, sendo estes:
+Com relação a API, o projeto PDF2CA$H será desenvolvido utilizando o framework Django com a API REST.
 
-* **Model** : é incumbido de tratar a parte lógica relacionada aos dados, sendo encarregado por definir sua estrutura, consultas e validação destes, atentando, obviamente, às regras de negócio relacionadas ao banco de dados.
-
-* **View** : é responsável pela visualização gráfica da interface de usuário, definindo, portanto, como ocorrerão as interações com o usuário.
-
-* **Controller** : efetua a comunicação entre a Model e View.
-
-![Dcu](img/mvc.png)
-
-No padrão MVT utilizado pelo Django ocorre a separação em três partes: Model, View, Template, Serializers .Essas partes podem ser melhor definidas como:
-
-* **Model** : A Model do MVT pode ser considerada equivalente à do MVC em termos de responsabilidade, entretanto deve-se notar que o Framework Django facilita na interface com o banco de dados.
-
-* **View** : A View está contida a lógica de negócio, possuindo a lógica que define o acesso a Model e sendo responsável por enviar e definir quais dados serão exibidos na camada de Template, assemelhando-se a camada Controller do MVC clássico.
-
-* **Template** : São definidos como os dados recebidos através da View serão exibidos ao usuário, sendo, esta camada, responsável por renderizar a interface gráfica do usuário, como a camada View no MVC clássico.
+A API REST é um estilo de arquitetura para fornecer padrões entre sistemas de computador na Web, facilitando a comunicação entre os sistemas. são caracterizados pela forma como são sem estado e separam as preocupações do cliente e do servidor.
 
 * **Serializers** : Os Serializers permitem que dados complexos, como querysets e instâncias de modelo, sejam convertidos em tipos de dados Python nativos que podem ser facilmente renderizados em JSON, ou outros tipos de conteúdo.
 
+
+* **End Points**: Um Endpoint de um serviço Web é a URL onde seu serviço pode ser acessado por uma aplicação cliente.
+
+A parte visual da aplicação será feita em ReactJS, React é uma biblioteca para criar interfaces.
+
 A arquitetura será representada da seguinte forma:
 
-![Dcu](img/rpa.png)
+![Dcu](img/rpa.jpg)
+
+
+* **PostgreSQL**: Banco de dados.  
+
+
+* **PDFToInvoice**: Conversão de PDF nativo para texto.
+
+
+* **API Gateway**: API Gateway é o único ponto de entrada para todos os clientes manipulando todas as solicitações, fornecendo assim o serviço ideal para cada cliente dependendo da sua necessidade.
+
+
+* **Identity management**: Identity management é o processo organizational de identificar, autenticar, e autorizar grupos ou usuários que tenham acesso a aplicação associando os direitos e restrições estabelecidos.
+
+
+* **Metabase**: É uma ferramenta de inteligencia de negocios por onde os dados iram passar para serem feitos os cálculos e graficos.
+
+
+* **Business Inteligence**: Usar da coleta de dados, organização, análise, ação e monitoramento para tomar melhores decisões e saber se os investimentos feitos estão trazendo bons resultados.
+  * **Coleta de dados**: Tudo o que acontece no negócio é analisado para determinar aspectos-chave, como produtividade, gastos, aproveitamento de oportunidades.
+  *  **Organização e análise**: Todos os dados captados em cada ação da empresa são organizados em um banco de dados e apresentados de forma visual, para facilitar a análise dos tomadores de decisão.
+  * **Ação e monitoramento**: Os responsáveis tomam decisões com base nas informações analisadas, e monitoram seus resultados para ver se estão sendo bem-sucedidos.
+
 
 ***
 
@@ -87,14 +99,15 @@ A arquitetura será representada da seguinte forma:
 
 ***
 
-1. O projeto PDF2K-Nativo possui as seguintes metas:
-* Compatibilidade com o Sistema operacional Windows 10
+ O projeto PDF2CA$H possui as seguintes metas:
+
 * Suporte com os principais navegadores web da atualidade : Google Chrome, Internet Explorer, Microsoft Edge e Mozilla Firefox
-2. Logo abaixo será apresentada as restrições da arquitetura:
+
+Logo abaixo será apresentada as restrições da arquitetura:
 * Framework Django 2.0.3 com Python 3.5.2
 * Django REST: um framework utilizada para construção de WEB APIs
 * Banco de dados relacional PostgreSQL
-* Electron
+
 
 ***
 ### 4. Visão Geral
@@ -155,20 +168,6 @@ Templates é a camada que retorna a visão para o usuário do programa. Essa cam
 As resoluções de urls, responsabilidade dada às controllers no MVC, é feita pela própria estrutura do framework;
 O Django oferece uma interface com o banco de dados que permite ao desenvolvedor não se preocupar com a conexão entre suas classes de domínio e banco.
 
-#### 5.1.4. Electron
-O Electron foi desenvolvido para permitir que o desenvolvimento de aplicações desktop usando JavaScript, HTML e CSS fosse muito mais fácil. Criado pela equipe do GitHub, ficou conhecido no começo como Atom Shell. O Electron foi criado usando tecnologias como o Node.js e o Chromium, e atualmente roda em ambiente de produção de vários projetos, como o próprio editor Atom e outros, como o Slack e o Visual Studio Code. Ele é um framework bem simples de trabalhar e de rápida configuração, para construção de pequenas e grandes aplicações desktop.
-
-#### 5.1.5. Funcionamento Electron
-Ao ser executado, um aplicativo Electron mínimo é composto de pelo menos dois processos: o processo principal e um processo 'renderer'. Como são processos separados, eles executam scripts Javascript diferentes, em contextos diferentes (um não interfere no outro).
-O processo principal é onde tudo começa. No aplicativo de exemplo, o script main.js roda no processo principal. O ambiente é muito semelhante ao Node.js "puro". Quando este processo cria um objeto BrowserWindow, aparece uma janela de UI. (A rigor um app Electron não precisa ter UI mas aí faria mais sentido rodá-lo diretamente no Node.js.)
-Cada janela de UI é um browser, e para cada janela é criado um processo 'renderer'. O conteúdo da UI é construído com HTML5: abre-se uma página HTML com CSS e eventual código Javascript. O script renderer.js do exemplo roda no contexto do processo 'renderer'. No exemplo, ele não faz nada, mas além das APIs HTML5 ele também tem acesso às APIs do Node.js (e portanto às APIs do Electron).
-Como são processos separados, é preciso usar uma API de IPC para trocar mensagens entre o processo principal e o(s) processo(s) 'renderer', se necessário.
-Como é de se esperar, algumas tarefas só podem ser levadas a cabo pelo script do processo principal (exemplo: adicionar um ícone no 'tray' da barra de tarefas). Também haverá tarefas do seu aplicativo que talvez só façam sentido no processo principal.
-O interpretador do script main.js não é o Node.js instalado em sua máquina; mas sim um binário do próprio Electron (que incorpora versões estáticas do Node.js e do Chromium). Isso elimina toda uma classe de problemas de dependências, e simplifica muito o empacotamento final da aplicação.
-
-
-
-
 
 #### 5.2 Micro Serviços e Camadas
 A arquitetura de micro serviços é utilizada para desenvolver uma aplicação como um conjunto de pequenos serviços, cada um funcionando em seu próprio processo. Cada serviço é desenvolvido em torno de um conjunto de regras de negócio específico, e é implementado de forma independente.
@@ -190,11 +189,13 @@ As mudanças no sistema são feitas através das alterações e evoluções feit
 ***
 ### 7. Referências
 ***
+[Business Intelligence]
+https://inteligencia.rockcontent.com/business-intelligence/
+
+[What is REST]
+https://www.codecademy.com/articles/what-is-rest
+
 [Django REST Framework] http://www.django-rest-framework.org/api-guide/serializers
-
-[Introdução ao Electron] https://tableless.com.br/introducao-ao-electron/
-
-[Electron: aplicações desktop em Javascript, Html e CSS] https://epxx.co/artigos/electron.html
 
 [Modelo MVT em Django]   
 https://github.com/fga-eps-mds/A-Disciplina/wiki/Padr%C3%B5es-Arquiteturais---MVC-X-Arquitetura-do-Django

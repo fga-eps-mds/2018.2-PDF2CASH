@@ -10,6 +10,6 @@
 
 Abaixo pode-se visualizar o modelo de negócio do projeto:
 
-![canvas](assets/canvas-v1.png)
+![canvas](/docs/assets/canvas-v1.png)
 
-Para visualizar a imagem ampliada [clique aqui](assets/canvas-v1.png).
+Para visualizar a imagem ampliada [clique aqui](/docs/assets/canvas-v1.png).

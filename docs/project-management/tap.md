@@ -41,9 +41,9 @@ O prazo para construção do produto será de 16 semanas, totalizando 112 dias d
 | Release 01 | 02/09/2018 |
 | Release 02 | 06/12/2018 |
 
-![processo](assets/processo.jpg)
+![processo](/docs/assets/processo.jpg)
 
-Para visualizar a imagem de forma ampliada [clique aqui](assets/processo.jpg)
+Para visualizar a imagem de forma ampliada [clique aqui](/docs/assets/processo.jpg)
 
 O foco da primeira etapa estará nas seguintes atividades:
 * Definição do escopo do projeto.

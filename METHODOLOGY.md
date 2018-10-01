@@ -110,10 +110,9 @@ XP
   * Integração Contínua (Continuous Integration)
 
 ### Referências
-O que é o Scrum?. Disponível em: http://www.desenvolvimentoagil.com.br/scrum/. Acessado em 13/03/2018
+O que é o Scrum?. Disponível em: http://www.desenvolvimentoagil.com.br/scrum/. 
 
-Scrum Guide. Disponível em: https://www.scrumguides.org/scrum-guide.html. Acessado em 13/03/2018
+Scrum Guide. Disponível em: https://www.scrumguides.org/scrum-guide.html. 
 
-Extreme Programming Conceitos e Práticas. Disponível em: https://www.devmedia.com.br/extreme-programming-conceitos-e-praticas/1498. Acessado em 10/03/2018
-
-Arquitetura de Software em DevOps. Disponível em: https://imasters.com.br/desenvolvimento/arquitetura-de-software-em-devops/?trace=1519021197&source=single. Acessado em 15/03/2018
+Extreme Programming Conceitos e Práticas. Disponível em: https://www.devmedia.com.br/extreme-programming-conceitos-e-praticas/1498. 
+Arquitetura de Software em DevOps. Disponível em: https://imasters.com.br/desenvolvimento/arquitetura-de-software-em-devops/?trace=1519021197&source=single.

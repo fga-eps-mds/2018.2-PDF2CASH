@@ -2,9 +2,10 @@
 | Data | Versão | Descrição | Autor |
 |---|---|---|---|
 | 16/09/2018| 1.0 |Criação do documento | Carlos Aragon |
+| 29/09/2018| 1.1 |Revisão | Carlos Aragon |
 -------------------------------------------------------------------------------------------------
 
-**Número da Sprint:** 1
+**Número da Sprint:** 2
 
 **Data de ínicio:** 25/08/2018
 
@@ -12,20 +13,6 @@
 
 
 ## **Planejamento**
-
-**Pontos Planejados:** Não se aplica
-
-**Pontos Adicionados:** Não se aplica
-
-**Pontos totais:** Não se aplica
-
-### **Pareamento**
-
-Não se aplica
-
-### **Priorização**
-
-Não se aplica
 
 ### **Backlog da Sprint**
 
@@ -43,19 +30,11 @@ Não se aplica
 
 ### **Fechamento da Sprint**
 
-Primeira sprint com entrega de valor, alguns documentos e principalmente estabelecimento de diretrizes do projeto.
-
-### **Burndown**
-
-Não se aplica
-
-### **Quadro de Conhecimento**
-
-Não se aplica
+Primeira sprint com entregas representativas, alguns documentos e principalmente estabelecimento de diretrizes do projeto.
 
 ### **Retrospectiva**
 
-**Pontos Negativos:** Problemas para definicão das tarefas.
+**Pontos Negativos:** Problemas para definição das tarefas.
 
 **Pontos Positivos:** Alinhamento dos membros.
 
@@ -64,4 +43,4 @@ Não se aplica
 
 ## **Análise do Scrum Master**
 
-Por essa sprint ja podemos começar a perceber quais são os maiores riscos do projeto.
+Essa sprint possibilitou uma projeção melhor de como ocorrerá o desenvolvimento em termos gerais do projeto.

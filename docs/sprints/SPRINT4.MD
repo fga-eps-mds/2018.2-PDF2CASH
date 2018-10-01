@@ -2,9 +2,10 @@
 | Data | Versão | Descrição | Autor |
 |---|---|---|---|
 | 16/09/2018| 1.0 |Criação do documento | Carlos Aragon |
+| 29/10/2018| 1.1 |Revisão | Carlos Aragon |
 -------------------------------------------------------------------------------------------------
 
-**Número da Sprint:** 2
+**Número da Sprint:** 4
 
 **Data de ínicio:** 8/09/2018
 
@@ -12,20 +13,6 @@
 
 
 ## **Planejamento**
-
-**Pontos Planejados:** Não se aplica
-
-**Pontos Adicionados:** Não se aplica
-
-**Pontos totais:** Não se aplica
-
-### **Pareamento**
-
-Não se aplica
-
-### **Priorização**
-
-Não se aplica
 
 ### **Backlog da Sprint**
 
@@ -43,19 +30,11 @@ Não se aplica
 
 ### **Fechamento da Sprint**
 
-Conclusão dos documentos de MDS.
-
-### **Burndown**
-
-Não se aplica
-
-### **Quadro de Conhecimento**
-
-Não se aplica
+Conclusão de versão estável dos documentos de MDS.
 
 ### **Retrospectiva**
 
-**Pontos Negativos:** Rituais ageis geram alguns gargalos.
+**Pontos Negativos:** Rituais ágeis geram alguns gargalos.
 
 **Pontos Positivos:** Conclusão da etapa de documentação inicial.
 
@@ -64,4 +43,4 @@ Não se aplica
 
 ## **Análise do Scrum Master**
 
-Etapa de documentação inicial concluida equipe pronta para entrar na fase de codigo do projeto.
+Etapa de documentação inicial concluída equipe pronta para entrar na fase de código do projeto.

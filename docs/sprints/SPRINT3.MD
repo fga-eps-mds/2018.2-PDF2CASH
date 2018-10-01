@@ -2,9 +2,10 @@
 | Data | Versão | Descrição | Autor |
 |---|---|---|---|
 | 16/09/2018| 1.0 |Criação do documento | Carlos Aragon |
+| 29/09/2018| 1.1 |Revisão | Carlos Aragon |
 -------------------------------------------------------------------------------------------------
 
-**Número da Sprint:** 2
+**Número da Sprint:** 3
 
 **Data de ínicio:** 1/09/2018
 
@@ -13,26 +14,14 @@
 
 ## **Planejamento**
 
-**Pontos Planejados:** Não se aplica
-
-**Pontos Adicionados:** Não se aplica
-
-**Pontos totais:** Não se aplica
-
-### **Pareamento**
-
-Não se aplica
-
-### **Priorização**
-
-Não se aplica
-
 ### **Backlog da Sprint**
 
 | Issue | Status |
 |-----------------------|-------------|
 | [#7](https://github.com/fga-eps-mds/2018.2-PDF2CASH/issues/7) | Nova |
 | [#9](https://github.com/fga-eps-mds/2018.2-PDF2CASH/issues/9) | Nova |
+| [#10](https://github.com/fga-eps-mds/2018.2-PDF2CASH/issues/10) | Nova |
+| [#11](https://github.com/fga-eps-mds/2018.2-PDF2CASH/issues/11) | Nova |
 | [#12](https://github.com/fga-eps-mds/2018.2-PDF2CASH/issues/12) | Nova |
 | [#13](https://github.com/fga-eps-mds/2018.2-PDF2CASH/issues/13) | Nova |
 | [#14](https://github.com/fga-eps-mds/2018.2-PDF2CASH/issues/14) | Nova |
@@ -46,23 +35,18 @@ Não se aplica
 
 Sprint concluida sem muitas dificuldades.
 
-### **Burndown**
-
-Não se aplica
-
-### **Quadro de Conhecimento**
-
-Não se aplica
-
 ### **Retrospectiva**
 
-**Pontos Negativos:** Arquitetura de microserviços ainda gera duvidas.
+**Pontos Negativos:** Arquitetura de micro serviços ainda gerando dúvidas e atrasos.
 
-**Pontos Positivos:** Avanços consideraveis na frente de produto.
+**Pontos Positivos:** Avanços consideráveis na frente de produto.
 
-**Melhorias:** Mais comprometimento com os rituais ageis.
+**Melhorias:** Mais comprometimento com os rituais ágeis.
 
 
 ## **Análise do Scrum Master**
 
-O maior risco dessa sprint segue sendo a arquitetura.
+O maior risco do projeto até o momento segue sendo a implantação da arquitetura de micro serviços.
+
+
+

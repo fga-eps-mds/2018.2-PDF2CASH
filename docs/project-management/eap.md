@@ -8,6 +8,6 @@
 
 ### Diagrama para o projeto PDF2CASH
 
-![EAP](assets/EAP.jpg)
+![EAP](/docs/assets/EAP.jpg)
 
-Para visualizar a imagem ampliada [clique aqui](assets/EAP.jpg)
+Para visualizar a imagem ampliada [clique aqui](/docs/assets/EAP.jpg)

@@ -4,7 +4,8 @@
 
 | Data | Versão | Descrição | Autor |
 |:----:|:------:|:---------:|:-----:|
-| 25/08/18 | 0.1 | Criação da TAP | Daniel Marques |
+| 25/08/18 | 1.0 | Criação da TAP | Daniel Marques |
+| 25/09/18 | 1.1 | Correção do resumo de custos | Daniel Marques |
 
 ## 1. Introdução
 Este documento tem como objetivo declarar o início do projeto e descrever a base do projeto PDF2CASH. Sendo assim, neste artefato terá informações como: visão de alto nível dos requisitos e riscos, limites e recursos, como também apresentam estudo sobre a viabilidade do produto, além dos dados sobre a equipe de desenvolvedores e engenheiros de produto.
@@ -60,32 +61,52 @@ Já na segunda etapa será as seguintes atividades:
 * Implementação das outras funcionalidades do software.
 * Testar a implementação.
 
-## 7. Resumo do Orçamento
+## 7. Resumo do Orçamento (valor planejado)
 
-O salário médio para Desenvolvedor de Software Full Stack é de **R$ 4.850**/mensal.
+O calculo do salário por hora foi calculado através da média de salário mensal no Brasil de cada profissão. Sendo que o profissional trabalharia 40 horas por semana e 1 mês há 5 semanas. Para visualizar as referências dos salários clique em um dos links abaixo:
 
-O salário médio para Engenheiro de Produto Júnior é de **R$ 7.691**/mensal.
+[Programador de Software](https://www.catho.com.br/profissoes/programador-de-software):
+
+    R$ 3.033,04 mensal
+    R$ 15,16 por hora
+
+[Engenheiro de Software](https://www.catho.com.br/profissoes/engenheiro-de-software):
+
+    R$ 4.688,06 mensal
+    R$ 23,34 por hora
+
+* Programadores de Software:
+
+      15 horas por semana * 5 semanas = 75
+      R$ 15,16 por hora * 75 = R$ 1.137,00 por mês
+      R$ 1.137,00 por mês * 4 meses = R$ 4.548,00 por integrante
+      R$ 4.548,00 por integrante * 6 integrantes = R$ 27.288,00
  
-* Desenvolvedores:
-    R$ 4.850,00 * 6 desenvolvedores * 4 meses = **R$ 116.500,00**
+* Engenheiros de Software:
+
+      15 horas por semana * 5 semanas = 75
+      R$ 23,34 por hora * 75 = R$ 1.758,00 por mês
+      R$ 1.758,00 por mês * 4 meses = R$ 7.032,00 por integrante
+      R$ 7.032,00 por integrante * 4 integrantes = R$ 28.128,00
  
-* Devops:
-      R$ 7.691,00 * 4 devops * 4 meses = **R$ 123.056,00**
- 
-* Notebooks:
-      R$ 2.500,00 * 10 membros = **R$ 25.000,00**
- 
-* Moradia:
-      R$ 500,00 * 4 meses = **R$ 2000,00**
- 
-* Internet:
-      R$ 120,00 * 4 meses = **R$ 480,00**
- 
-* Energia:
-      R$ 200,00 * 4 meses = **R$ 800,00**
+* [Notebook](https://www.magazineluiza.com.br/notebook-asus-vivobook-15-x510ua-br540t-intel-core-i5-8gb-1tb-led-156-windows-10/p/220286100/in/note/?partner_id=4651&utm_source=google&utm_medium=pla&seller_id=magazineluiza&product_group_id=320285090761&ad_group_id=12602793504&aw_viq=pla&gclid=EAIaIQobChMIrPK0hJLh3QIVDBCRCh3z_gi2EAQYASABEgKCd_D_BwE): Asus Vivobook 15 X510UA-BR540T
+
+      R$ 2.231,07 * 10 membros = R$ 22.310,70
+
+* [Escritório](https://www.wimoveis.com.br/propriedades/comercial-asa-sul-2937221139.html?labs=I-spark-fav-filter-&labs_source=Recomendados_ficha_propiedad_desktop&itemid=2937183576&userid=0): 33 M² - Asa Sul
+
+      aluguel = R$ 500,00
+      condomínio = R$ 507,00
+      R$ 500,00 + R$ 507,00 = R$ 1.007,00
+      R$ 1.007,00 * 4 meses = R$ 4028,00
+
+* [Internet corporativa](https://www.net.com.br/produtosnet/ofertanegocio_se3/?gclid=Cj0KCQjwxbzdBRCoARIsACzIK2nA0HYqxLZf2_J8sX014f135dqybDZ_2TRrF0sCT5ymyziKVLYSIccaAg2hEALw_wcB): NET - 140 mega
+
+      R$ 155,00 * 4 meses = R$ 620,00
  
 * Total:
-      **R$ 267.836,00**
+
+      R$ 82.374,70
 
 ## 8. Partes Interessadas
 

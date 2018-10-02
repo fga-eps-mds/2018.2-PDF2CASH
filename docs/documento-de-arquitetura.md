@@ -129,23 +129,24 @@ O Usuário comum pode visualizar a empresa da qual está cadastrado, adicionar n
 
 #### 4.5 Descrição dos Casos de Uso
 
-##### UC01 - (ME) Manter Empresa:
-Esse caso de uso permite que o usuário com acesso de administrador no programa possui o poder de criar, manter, modificar ou deletar as empresas adicionadas por ele ao programa.
-##### UC02 - Manter User:
-Esse caso de uso permite que o administrador possui o poder de criar, deletar, modificar ou manter usuários em suas empresas cadastradas.
-###### UC03 - (MA) Manter Analise:
-Esse caso de uso permite que o usuário tenha o poder de criar, deletar, modificar ou manter análises baseadas nas notas fiscais existentes.
-###### UC04 - (RNF) Remover Nota Fiscal:
-Esse caso de uso permite ao usuário e ao administrador remover as notas fiscais já existentes no programa, de maneira completa ou não.
-###### UC05 -(VE) Visualizar Empresa:
-Esse caso de uso permite que o usuário visualizar a empresa da qual é cadastrado.
-###### UC06 - (ANF) Adicionar Nota Fiscal:
-Esse caso de uso permite ao usuário fazer a adição de notas fiscais ao programa.
-###### UC07 -(ENF) Editar Nota Fiscal:
- Esse caso de uso permite ao usuário fazer a edição de uma nota fiscal.
-###### UC08 -(VNF) Visualizar Nota Fiscal:
-Esse caso de uso permite ao usuário e ao administrador visualizarem uma nota fiscal.
-
+##### UC01 - Cadastrar Administrador:
+Esse caso de uso permite que o usuário se cadastre como administrador e assim poder manter os usuários.
+##### UC02 - Efetuar Login:
+Esse caso de uso permite que o usuário consiga entrar no sistema.
+##### UC03 - Adicionar PDF de Nota Fiscal:
+Esse caso de uso permite que o usuário adicione uma ou mais notas fiscais no sistema.
+##### UC04 - Visualizar Análise:
+Esse caso de uso permite ao usuário e ao administrador visualizar as análises das notas fiscais.
+##### UC05 - Listar Notas Fiscais:
+Esse caso de uso permite que o usuário listar todas as notas fiscais.
+##### UC06 - Visualizar Nota Fiscal:
+Esse caso de uso permite ao usuário visualizar os dados de alguma nota fiscal.
+##### UC07 - Manter Nota Fiscal:
+ Esse caso de uso permite ao usuário manter uma nota fiscal.
+##### UC08 - Editar Perfil:
+Esse caso de uso permite ao usuário e ao administrador alterar os dados do perfil.
+##### UC09 - Remover Nota Fiscal:
+Esse caso de uso permite ao usuário e ao administrador remover um ou mais notas fiscais.
 
 ***
 ### 5. Arquitetura dos Serviços e Visão de Implementação

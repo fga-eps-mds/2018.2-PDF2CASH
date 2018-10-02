@@ -4,10 +4,16 @@
 
 | Data | Versão | Descrição | Autor |
 |:----:|:------:|:---------:|:-----:|
-| 25/08/18 | 0.1 | Criação da EAP | Daniel Marques |
+| 25/08/18 | 1.0 | Criação da EAP | Daniel Marques |
+| 26/08/18 | 2.0 | Correção da granularidade e alteração das atividades | Daniel Marques |
 
 ### Diagrama para o projeto PDF2CASH
 
-![EAP](/docs/assets/EAP.jpg)
 
-Para visualizar a imagem ampliada [clique aqui](/docs/assets/EAP.jpg)
+![EAP Versão 2.0](/docs/assets/EAP-v2.jpg)
+
+Para visualizar a imagem ampliada [clique aqui](/docs/assets/EAP-v2.jpg)
+
+
+### Versões anteriores
+- [EAP Versão 1.0](/docs/assets/EAP.jpg)

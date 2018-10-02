@@ -4,7 +4,6 @@
 
 | Data | Responsável | Versão | Mudança realizada |
 |:------:|:------:|:-------:|:-------:|
-| 16/09/2018 | Lucas Gomes | 0.1 | Criado UC09 - Manter empresas |
 | 16/09/2018 | Wictor Girardi | 0.2 | Criado UC01 - Cadastrar Administrador |
 | 16/09/2018 | Wictor Girardi | 0.3 | Criado UC04 - Visualizar Analise |
 | 16/09/2018 | Brian Lui | 0.4 | Criado UC05 - Listar notas fiscais |
@@ -27,5 +26,4 @@
 - [x] [UC06 - Visualizar nota fiscal](use-case/uc06.md)
 - [x] [UC07 - Manter funcionários](use-case/uc07.md)
 - [x] [UC08 - Editar perfil](use-case/uc08.md)
-- [x] [UC09 - Manter empresas](use-case/uc09.md)
-- [x] [UC10 - Remover nota fiscal](use-case/uc10.md)
+- [x] [UC09 - Remover nota fiscal](use-case/uc09.md)

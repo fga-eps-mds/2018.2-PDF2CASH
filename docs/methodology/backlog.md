@@ -33,7 +33,7 @@ Abaixo está descrito as histórias de usuário:
     <th>STATUS</th>
   </tr>
   <tr>
-    <td rowspan="9">EP01 - Usuário</td>
+    <td rowspan="11">EP01 - Usuário</td>
     <td rowspan="5">FE01 - Manuntenção do Funcionário</td>
     <th>US01</th>
     <td>Criar funcionário</td>
@@ -125,6 +125,27 @@ Abaixo está descrito as histórias de usuário:
     <td>Should</td>
     <td>2</td>
     <td>Não implementado</td>
+  </tr>
+  <tr>
+    <td rowspan="2">FE06 - Instalação</td>
+    <th>US15</th>
+    <td>Instalar o software</td>
+    <td>administrador</td>
+    <td>instalar o sistema em uma maquina</td>
+    <td>para ter acesso ao sistema</td>
+    <td>Must</td>
+    <td>2</td>
+    <td>Implementado</td>
+  </tr>
+  <tr>
+    <th>US16</th>
+    <td>Atualizar a aplicação</td>
+    <td>administrador ou funcionário</td>
+    <td>atualizar aversão do sistema</td>
+    <td>utilizar a versão mais recente do software</td>
+    <td>Should</td>
+    <td>13</td>
+    <td>Implementado</td>
   </tr>
   <tr>
     <td rowspan="6">EP02 - Financeiro</td>

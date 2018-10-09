@@ -138,7 +138,7 @@ Abaixo está descrito as histórias de usuário:
     <td>Implementado</td>
   </tr>
   <tr>
-    <th>US16</th>
+    <th>US17</th>
     <td>Atualizar a aplicação</td>
     <td>administrador ou funcionário</td>
     <td>atualizar aversão do sistema</td>
@@ -148,7 +148,7 @@ Abaixo está descrito as histórias de usuário:
     <td>Implementado</td>
   </tr>
   <tr>
-    <td rowspan="6">EP02 - Financeiro</td>
+    <td rowspan="9">EP02 - Financeiro</td>
     <td rowspan="4">FE02 - Manuntenção da nota fiscal</td>
     <th>US07</th>
     <td>Criar nota fiscal</td>
@@ -208,6 +208,34 @@ Abaixo está descrito as histórias de usuário:
     <td>para ter conhecimento da análise dos gastos de um determinado período de tempo</td>
     <td>Must</td>
     <td>8</td>
+    <td>Não implementado</td>
+  </tr>
+  <td rowspan="3">FE07 - Dashboard</td>
+  <th>US18</th>
+    <td>Gráfico por valor e tempo</td>
+    <td>administrador ou funcionário</td>
+    <td>selecionar uma opção de análise financeira</td>
+    <td>ter uma visão de negócio mais ampla a partir da análise do valor gasto pelo tempo</td>
+    <td>Must</td>
+    <td>13</td>
+    <td>Não implementado</td>
+  </tr>
+  <th>US19</th>
+    <td>Gráfico por categoria e valor</td>
+    <td>administrador ou funcionário</td>
+    <td>selecionar uma opção de análise financeira</td>
+    <td>ter uma visão de negócio mais ampla a partir da análise do valor gasto pela categoria do gasto</td>
+    <td>Must</td>
+    <td>13</td>
+    <td>Não implementado</td>
+  </tr>
+  <th>US20</th>
+    <td>Gráfico por destinatario e valor</td>
+    <td>administrador ou funcionário</td>
+    <td>selecionar uma opção de análise financeira</td>
+    <td>ter uma visão de negócio mais ampla a partir da análise do valor gasto por destinatario</td>
+    <td>Must</td>
+    <td>13</td>
     <td>Não implementado</td>
   </tr>
 </table>

@@ -1,3 +1,35 @@
 site_name: PDF2Ca$h
+nav:
+  - Home: vision-document.md
+  - DevOps: 
+    - GitFlow: devops/gitflow.md
+    - Politica de Issues: devops/issue-policy.md
+  - Metodologia:
+    - Backlog: methodology/backlog.md
+    - Riscos: methodology/risks.md
+    - Sprints:
+      - Sprint 1: methodology/sprints/SPRINT1.md
+      - Sprint 2: methodology/sprints/SPRINT2.md
+      - Sprint 3: methodology/sprints/SPRINT3.md
+      - Sprint 4: methodology/sprints/SPRINT4.md
+      - Sprint 5: methodology/sprints/SPRINT5.md
+      - Sprint 6: methodology/sprints/SPRINT6.md
+      - Sprint 7: methodology/sprints/SPRINT7.md
+      - Sprint 8: methodology/sprints/SPRINT8.md
+      - Sprint 9: methodology/sprints/SPRINT9.md
+  - Gerencia de projeto:
+    - Canvas: project-management/canvas.md
+    - EAP: project-management/eap.md
+    - TAP: project-management/tap.md
+  - Casos de uso: casos-de-uso.md
+  - Codigo de conduta: CODE_OF_CONDUCT.md
+  - Politica de contribuição: CONTRIBUTING.md
+  - Especificação suplementar: documento-de-especificacao-suplementar.md
+  - Roadmaps:
+    - Geral: GENERAL_ROADMAP.md
+    - Por papel: ROLE_ROADMAP.md
+  - Licença: LICENSE.md
+  - Documento de visão: vision-document.md
+
 theme:
   name: 'material'

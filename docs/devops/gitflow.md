@@ -8,7 +8,7 @@ O presente documento tem como objetivo apresentar o modelo de fluxo de trabalho 
 
 O modelo escolhido para satisfazer estas necessidades baseia-se fortemente nos famosos modelos [Github Flow](https://guides.github.com/introduction/flow/) e [Gitflow](https://nvie.com/posts/a-successful-git-branching-model/). De cada um foram retirados aspectos que foram tidos como pertinentes ao atual cenário de desenvolvimento. Um exemplo do modelo pode ser visualizado na seguinte figura:
 
-![Gitflow model](/docs/assets/gitflow.png)
+![Gitflow model](/assets/gitflow.png)
 
 ### _Branch_ de produção
 

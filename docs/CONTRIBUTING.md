@@ -9,9 +9,9 @@ Ajude-nos a manter o bom convivio de nossa comunidade ao ler e seguir o nosso [c
 ## Como contribuir
 ***
 ### Reportando _bugs_
-Caso tenha descoberto um _bug_ e deseja fazer um _report_ do mesmo por favor submita uma _issue_ seguindo este [template](.github/ISSUE_TEMPLATE/bug_report.md).
+Caso tenha descoberto um _bug_ e deseja fazer um _report_ do mesmo por favor submita uma _issue_ seguindo este [template](ISSUE_TEMPLATE/bug_report.md).
 ### Sugerindo melhorias
-Caso tenha sugestões de melhorias ou deseja fazer um pedido de uma nova _feature_ por favor submita uma _issue_ seguindo este [template](.github/ISSUE_TEMPLATE/feature_request.md).
+Caso tenha sugestões de melhorias ou deseja fazer um pedido de uma nova _feature_ por favor submita uma _issue_ seguindo este [template](ISSUE_TEMPLATE/feature_request.md).
 ### _Pull Requests_
   * Preencha este [template](/PULL_REQUEST_TEMPLATE.md).
   * Siga o nosso [guia de estilo]().

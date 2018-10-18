@@ -1,6 +1,6 @@
 site_name: PDF2Ca$h
 nav:
-  - Home: vision-document.md
+  - Home: index.md
   - DevOps: 
     - GitFlow: devops/gitflow.md
     - Politica de Issues: devops/issue-policy.md
@@ -23,7 +23,7 @@ nav:
     - TAP: project-management/tap.md
   - Casos de uso: casos-de-uso.md
   - Codigo de conduta: CODE_OF_CONDUCT.md
-  - Politica de contribuição: CONTRIBUTING.md
+  - Politica de contribuição: index.md
   - Especificação suplementar: documento-de-especificacao-suplementar.md
   - Roadmaps:
     - Geral: GENERAL_ROADMAP.md

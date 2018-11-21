@@ -34,7 +34,7 @@ Nesta introdução será apresentada uma visão geral para o entendimento do pro
 
 ### 1.1 Finalidade
 
-Este documento tem como objetivo definir os requisitos, necessidades e os recursos necessários, especificamente as de alto nível,  para que o investidor possa compreender e tenha o completo entendimento do projeto PDF2CASH.
+Este documento tem como objetivo definir os requisitos, necessidades e os recursos necessários, especificamente os de alto nível,  para que o investidor possa compreender e tenha o completo entendimento do projeto PDF2CASH.
 
 ### 1.2 Escopo
 

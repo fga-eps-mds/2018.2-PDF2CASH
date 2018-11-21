@@ -34,7 +34,7 @@ Nesta introdução será apresentada uma visão geral para o entendimento do pro
 
 ### 1.1 Finalidade
 
-Este documento tem como objetivo definir os requisitos, necessidades e os recursos necessários, especificamente os de alto nível,  para que o investidor possa compreender e tenha o completo entendimento do projeto PDF2CASH.
+Este documento tem como objetivo definir os requisitos, necessidades e os recursos necessários, especificamente os de alto nível, para que o investidor possa compreender e tenha o completo entendimento do projeto PDF2CASH.
 
 ### 1.2 Escopo
 
@@ -42,16 +42,15 @@ Neste documento serão abordados os pontos necessários para o desenvolvimento d
 
 ### 1.3 Definições, Acrônimos e Abreviações
 
-Alguns termos e conceitos serão necessários saber para o total entendimento deste documento e que estarão listadas logo abaixo :
+Alguns termos e conceitos serão necessários para a concepcao do total entendimento deste documento e estao listados logo abaixo :
 
   1. PDF(Portable Document Format): É um formato de arquivo usado para exibir e compartilhar documentos de maneira compatível.
   2. NFe (Nota Fiscal Eletrônica): Arquivo eletrônico com o objetivo de substituir a tradicional nota fiscal em papel, onde contém as informações fiscais da operação comercial.
   3. HD(Hard Disk): Sistema de armazenamento de alta capacidade destinado ao armazenamento de arquivos e programas.
   4. PO (Product Owner): Membro responsável por compreender a idéia e ser os “olhos” do cliente dentro do projeto.
-  5. IA (inteligência artificial): Conjunto de técnicas com o objetivo de criar aplicações com inteligência que se assemelha a inteligência humana.
-  6. CTe (Conhecimento de Transporte Eletrônico): Documento digital, para fins fiscais, onde é documentado prestação de serviço de transporte de cargas realizadas por qualquer modal.
-  7. CNPJ (Cadastro Nacional da Pessoa Jurídica): Número único que identifica uma pessoa jurídica.
-  8. Backup: Cópia de um ou mais arquivos onde será guardado em dispositivo de armazenamento ou diretório diferente do arquivo original.
+  5. CTe (Conhecimento de Transporte Eletrônico): Documento digital, para fins fiscais, onde é documentado prestação de serviço de transporte de cargas realizadas por qualquer modal.
+  6. CNPJ (Cadastro Nacional da Pessoa Jurídica): Número único que identifica uma pessoa jurídica.
+  7. Backup: Cópia de um ou mais arquivos onde será guardado em dispositivo de armazenamento ou diretório diferente do arquivo original.
 
 ### 1.4 Referências
 
@@ -69,7 +68,7 @@ Neste documento é definido o problema a ser resolvido de acordo com os requisit
 
 ### 2.1 Oportunidade de Negócios
 
-Atualmente diversas empresas enfrentam problemas relacionados ao seus controles de gastos e com consequência disso ocorre a dificuldade de maximização de lucros, levando em consideração o grande volume de vendas e compras realizados, e algumas vezes por falta de experiência na coordenação econômica da empresa. Com base nesses problemas o PDF2CASH busca realizar de maneira rápida e prática a organização, armazenamento e geração de gráficos de dados baseados nas notas fiscais recebidas por essas empresas, gerando assim um maior controle de onde está sendo gasto o dinheiro e se está ocorrendo aumentos ou quedas no histórico monetário dessa empresa além da prevenção de possíveis multas causadas pela falta de armazenamento das notas fiscais.
+Atualmente diversas empresas enfrentam problemas relacionados ao seus controles de gastos e como consequência disso ocorre a dificuldade de maximização de lucros, levando em consideração o grande volume de vendas e compras realizadas, e algumas vezes por falta de experiência na coordenação econômica da empresa. Com base nesses problemas o PDF2CASH busca realizar, de maneira rápida e prática, a organização, armazenamento e geração de gráficos de dados baseados nas notas fiscais recebidas por essas empresas, gerando assim um maior controle de onde está sendo gasto o dinheiro e se está ocorrendo aumentos ou quedas no histórico monetário dessa empresa, além da prevenção de possíveis multas causadas pela falta de armazenamento das notas fiscais.
 
 ### 2.2 Descrição do Problema
 
@@ -79,7 +78,7 @@ Atualmente diversas empresas enfrentam problemas relacionados ao seus controles 
 A empresa de modo geral e principalmente seu setor financeiro
 </td></tr>
   <tr><th>Cujo impacto é</th><td>O setor financeiro da empresa já que não consegue de maneira prática manter a organização e controle de seus gastos e o armazenamento de suas notas fiscais, causando dano ao lucro geral da empresa</td></tr>
-  <tr><th>Uma boa solução seria</th><td>Uma aplicação prática e inteligente que por meio de artifícios de IA e aprendizado de máquina reconhece notas fiscais emitidas e trabalha em cima delas, gerando de maneira automatizada gráficos de  gastos recentes ou mesmo dentro de um histórico, gerando um melhor entendimento de onde e porque está sendo gasto o dinheiro da empresa, juntamente com o armazenamento automático dessas notas, evitando assim burocracia e trabalho desnecessário realizando uma maximização de lucros da empresa</td></tr>
+  <tr><th>Uma boa solução seria</th><td>Uma aplicação prática e inteligente que reconhece notas fiscais emitidas e trabalha em cima delas gerando, de maneira automatizada, gráficos de gastos recentes ou mesmo dentro de um histórico e gerando um melhor entendimento de onde e porque está sendo gasto o dinheiro da empresa, juntamente com o armazenamento automático dessas notas, evitando assim burocracia e trabalho desnecessário, no intuito de realizar uma maximização de lucros da empresa</td></tr>
 </table>
 
 
@@ -88,11 +87,11 @@ A empresa de modo geral e principalmente seu setor financeiro
 <table>
   <tr><th>Para</th><td>Microempresas, com ênfase no setor financeiro </td></tr>
   <tr><th>Que</th><td>
-Possuem a necessidade de um software que realize de maneira automatizada, prática e organizada o controle de gastos por meio de gráficos, organização de notas fiscais sem a necessidade de interação humana durante o processo
+Possuem a necessidade de um software que realize de maneira automatizada, prática e organizada o controle de gastos por meio de gráficos e organização de notas fiscais sem a necessidade de interação humana durante o processo
 </td></tr>
-  <tr><th>O (nome do produto)</th><td>PDF2CASH</td></tr>
+  <tr><th>Nome do produto</th><td>PDF2CASH</td></tr>
   <tr><th>Diferente de</th><td>Noov e Arquivei</td></tr>
-  <tr><th>Nosso produto</th><td>Gera dados úteis baseando-se na leitura nativa de arquivos PDF’s de notas fiscais de maneira automática e rápida por meio do nosso software livre, agrupando os gastos relacionados, gerando gráficos de história e realizando um armazenando seguro das notas fiscais nos bancos de dados da empresa </td></tr>
+  <tr><th>Nosso produto</th><td>Gera dados úteis baseando-se na leitura nativa de arquivos PDF’s de notas fiscais eletrônicas de maneira automática e rápida por meio do nosso software livre, agrupando os gastos relacionados, gerando gráficos de história e realizando um armazenando seguro das notas fiscais nos bancos de dados da empresa </td></tr>
 </table>
 
 ***

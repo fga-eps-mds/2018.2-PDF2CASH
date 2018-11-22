@@ -49,6 +49,7 @@ Alguns termos e conceitos serão necessários para a concepcao do total entendim
   5. CTe (Conhecimento de Transporte Eletrônico): Documento digital, para fins fiscais, onde é documentado prestação de serviço de transporte de cargas realizadas por qualquer modal.
   6. CNPJ (Cadastro Nacional da Pessoa Jurídica): Número único que identifica uma pessoa jurídica.
   7. Backup: Cópia de um ou mais arquivos onde será guardado em dispositivo de armazenamento ou diretório diferente do arquivo original.
+  8. Parser: É um componente de compilador ou interpretador que atua no processo de análise de sentenças e sequências de palavras ou símbolos mostrando sua relação sintática ou semântica entre si para conversão em informações.  
 
 ### 1.4 Referências
 
@@ -256,7 +257,7 @@ O licenciamento do produto será do tipo MIT(software livre). No caso é concedi
 ***
 ## 6. Restrições
 ***
-* O PDF deverá ser nativo, sendo assim, um PDF “original” com texto (sem ser um PDF escaneado).
+* O PDF deverá ser nativo, sendo assim, um PDF “original” com texto selecionável (sem ser um PDF escaneado).
 * O sistema funcionará apenas para notas fiscais.
 * Notas fiscais deverão seguir um determinado padrão, para ser reconhecido os valores pelo parser e lexer.
 * Apenas o Administrador poderá gerenciar os outros usuários, como a criação das contas dos funcionários.
@@ -267,18 +268,19 @@ O licenciamento do produto será do tipo MIT(software livre). No caso é concedi
 ***
 
 ### 7.1   Requisitos de Sistema
-* O sistema consiste em uma aplicação desktop na qual é necessário acesso a uma rede estável para a conexão com o servidor.
-* Deve ser possível instalar a aplicação desktop nos seguintes sistemas operacionais: Windows, distribuições Linux e MacOS.
+* O sistema consiste em uma aplicação desktop na qual o acesso a rede será necessário apenas para instalação e atualizacão do mesmo.
+* Deve ser possível instalar a aplicação desktop em sistemas operacionais de distribuição Linux.
 
 ### 7.2   Requisitos de Desempenho
-* O sistema deve ter o tempo de execução e resposta de acordo com a qualidade da conexão de internet, sendo assim, a velocidade de rede irá impactar diretamente o sistema em todas as suas funcionalidades.
-* O sistema deve suportar no mínimo 100 usuários possíveis.
+* O PARSER deve ser capaz de ler e converter em dados as informações contidas nas notas fiscais em menos de um segundo.
+* Os gráficos de dados das notas fiscais devem ser atualizados assim que a pagina onde os mesmos se encontram seja novamente carregada.
+* O sistema deverá autenticar rapidamente todo usuário que deseje utilizar o software.
 
 ### 7.3   Requisitos de Design
-* O sistema deve ter uma interface organizada e intuitiva suficiente para o uso adequado, tendo também cores indicadoras que possam diferenciar cada funcionalidade.
+* O sistema deve ter uma interface organizada e intuitiva suficiente para o uso adequado, tendo ícones, simbolos e cores indicadores que possam diferenciar cada funcionalidade.
 
 ### 7.4   Requisitos de Confiabilidade      
-* O sistema deve calcular com precisão o valores de cada item na nota fiscal.
+* O sistema deve calcular com precisão os valores de cada item na nota fiscal.
 * O sistema deve poder se recuperar de falhas que possam ocorrer durante a sua utilização.
 
 ### 7.5   Requisitos de Arquitetura
@@ -291,7 +293,7 @@ O licenciamento do produto será do tipo MIT(software livre). No caso é concedi
 * O sistema deve exibir notificações caso tenha erro ou sucesso no preenchimento do formulário.
 
 ### 7.7   Requisitos de Suportabilidade
-* Nesse sistema deve ser possível fazer a instalação no sistema do usuário para a execução do mesmo.
+* Deve ser possível fazer a instalação do sistema na máquina do usuário para a execução do mesmo.
 * O sistema deve seguir o padrão de codificação criado pelo integrate devops da equipe.
 
 ### 7.8   Requisitos de Segurança

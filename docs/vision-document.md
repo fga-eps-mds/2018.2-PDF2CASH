@@ -1,5 +1,6 @@
 # Documento de visão
 ***
+
 ## Histórico de Revisão
 ***
 
@@ -21,9 +22,6 @@
 | 20/09/18 | 1.2 | Correção da Visão Geral do Produto | Rafael Teodosio |
 | 21/09/18 | 1.3 | Correção do Posicionamento | Wictor Girardi |
 | 21/09/18 | 1.4 | Correção das Descrições dos Envolvidos e dos Usuários | Lucas Gomes |
-
-
-
 
 ***
 ## 1. Introdução
@@ -81,7 +79,6 @@ A empresa de modo geral e principalmente seu setor financeiro
   <tr><th>Uma boa solução seria</th><td>Uma aplicação prática e inteligente que reconhece notas fiscais emitidas e trabalha em cima delas gerando, de maneira automatizada, gráficos de gastos recentes ou mesmo dentro de um histórico e gerando um melhor entendimento de onde e porque está sendo gasto o dinheiro da empresa, juntamente com o armazenamento automático dessas notas, evitando assim burocracia e trabalho desnecessário, no intuito de realizar uma maximização de lucros da empresa</td></tr>
 </table>
 
-
 ### 2.3 Sentença de Posição do Produto
 
 <table>
@@ -109,30 +106,31 @@ Possuem a necessidade de um software que realize de maneira automatizada, práti
 | Nome | Descrição | Responsabilidades | Envolvido |
 |:----:|:---------:|:-----------------:|:---------:|
 | Administrador | Operador do sistema com mais recurso para uso | Responsável por realizar cadastro de novos usuários e empresas e excluir nota fiscal | Usuário |
-| Funcionário Cadastrado | Operador do sistema | Responsável pela inserção dos PDF das notas fiscais, visualização de análises e nota fiscal e listagem das notas fiscais | Usuário |
+| Funcionário Cadastrado | Operador do sistema | Responsável pela inserção dos PDFs das notas fiscais, visualização de análises e nota fiscal e listagem das notas fiscais | Usuário |
 
 ### 3.3 Perfis dos Envolvidos
 
 #### 3.3.1	Investidores
 <table>
   <tr><th>Descrição</th><td>Investidor com o interesse em automatizar o gerenciamento de notas fiscais da empresa.</td></tr>
-  <tr><th>Tipo</th><td>Conhecimento na área administrativa e financeira</td></tr>
-  <tr><th>Responsabilidades</th><td> Analisar, dar opinião e averiguar a utilização do produto em sua empresa</td></tr>
-  <tr><th>Critérios de Sucesso</th><td>Receber uma aplicação que possa suprir suas necessidades diante as notas fiscais de forma automatizada.</td></tr>
-  <tr><th>Envolvimento</th><td>Alto</td></tr>
-  <tr><th>Comentários / Problemas</th><td>-</td></tr>
+  <tr><th>Tipo</th><td>Conhecimento na área administrativa e financeira.</td></tr>
+  <tr><th>Responsabilidades</th><td> Analisar, dar opinião e averiguar a utilização do produto em sua empresa.</td></tr>
+  <tr><th>Critérios de Sucesso </th><td>Receber uma aplicação que possa suprir suas necessidades diante as notas fiscais de forma automatizada.</td></tr>
+  <tr><th> Envolvimento </th><td> Alto </td></tr>
+  <tr><th> Comentários / Problemas </th><td> - </td></tr>
 </table>
 
 #### 3.3.2	Equipe de Desenvolvedores
 <table>
-  <tr><th>Representante</th><td>Brian Lui<br>
+  <tr><th> Representantes </th><td>
+  Brian Lui<br>
   Julio Cesar Litwin<br>
   Lucas Gomes Silva<br>
   Luis Claudio Telles Lima<br>
   Rafael Santos Teodosio<br>
   Wictor Bastos Girardi<br></td></tr>
   <tr><th>Descrição</th><td>Desenvolvedores do projeto</td></tr>
-  <tr><th>Tipo</th><td>Graduandos de Engenharia de Software na Universidade de Brasília, matriculados na disciplina de Métodos de Desenvolvimento de Software</td></tr>
+  <tr><th>Tipo</th><td> Graduandos de Engenharia de Software na Universidade de Brasília, matriculados na disciplina de Métodos de Desenvolvimento de Software.</td></tr>
   <tr><th>Responsabilidades</th><td>Planejar o sistema, realizar testes de implementação, documentar a estrutura do software e implementar o sistema de acordo com a documentação.</td></tr>
   <tr><th>Critérios de Sucesso</th><td>Desenvolver o sistema dentro do prazo estimado e adquirir novos conhecimentos sobre desenvolvimento de software.</td></tr>
   <tr><th>Envolvimento</th><td>Alto</td></tr>
@@ -141,7 +139,7 @@ Possuem a necessidade de um software que realize de maneira automatizada, práti
 
 #### 3.3.3	Equipe de Desenvolvedores
 <table>
-  <tr><th>Representante</th><td>Bruno Matias Casas<br>
+  <tr><th>Representantes</th><td>Bruno Matias Casas<br>
   Carlos Enrique Rodrigues Aragon<br>
   Daniel Marques Rangel<br>
   Francisco Wallacy Coutinho Braz<br></td></tr>

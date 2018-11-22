@@ -71,12 +71,12 @@ Atualmente diversas empresas enfrentam problemas relacionados ao seus controles 
 ### 2.2 Descrição do Problema
 
 <table>
-  <tr><th>O problema de</th><td>Falta de praticidade no trabalho relacionado às notas fiscais que abrange a falta de organização e a falta de controle de gastos </td></tr>
+  <tr><th>O problema de</th><td>Falta de praticidade no trabalho relacionado às notas fiscais que abrange a falta de organização e a falta de controle de gastos. </td></tr>
   <tr><th>Afeta</th><td>
-A empresa de modo geral e principalmente seu setor financeiro
+A empresa de modo geral e principalmente seu setor financeiro.
 </td></tr>
-  <tr><th>Cujo impacto é</th><td>O setor financeiro da empresa já que não consegue de maneira prática manter a organização e controle de seus gastos e o armazenamento de suas notas fiscais, causando dano ao lucro geral da empresa</td></tr>
-  <tr><th>Uma boa solução seria</th><td>Uma aplicação prática e inteligente que reconhece notas fiscais emitidas e trabalha em cima delas gerando, de maneira automatizada, gráficos de gastos recentes ou mesmo dentro de um histórico e gerando um melhor entendimento de onde e porque está sendo gasto o dinheiro da empresa, juntamente com o armazenamento automático dessas notas, evitando assim burocracia e trabalho desnecessário, no intuito de realizar uma maximização de lucros da empresa</td></tr>
+  <tr><th>Cujo impacto é</th><td>O setor financeiro da empresa já que não consegue de maneira prática manter a organização e controle de seus gastos e o armazenamento de suas notas fiscais, causando dano ao lucro geral da empresa.</td></tr>
+  <tr><th>Uma boa solução seria</th><td>Uma aplicação prática e inteligente que reconhece notas fiscais emitidas e trabalha em cima delas gerando, de maneira automatizada, gráficos de gastos recentes ou mesmo dentro de um histórico e gerando um melhor entendimento de onde e porque está sendo gasto o dinheiro da empresa, juntamente com o armazenamento automático dessas notas, evitando assim burocracia e trabalho desnecessário, no intuito de realizar uma maximização de lucros da empresa.</td></tr>
 </table>
 
 ### 2.3 Sentença de Posição do Produto
@@ -84,11 +84,11 @@ A empresa de modo geral e principalmente seu setor financeiro
 <table>
   <tr><th>Para</th><td>Microempresas, com ênfase no setor financeiro </td></tr>
   <tr><th>Que</th><td>
-Possuem a necessidade de um software que realize de maneira automatizada, prática e organizada o controle de gastos por meio de gráficos e organização de notas fiscais sem a necessidade de interação humana durante o processo
+Possuem a necessidade de um software que realize de maneira automatizada, prática e organizada o controle de gastos por meio de gráficos e organização de notas fiscais sem a necessidade de interação humana durante o processo.
 </td></tr>
   <tr><th>Nome do produto</th><td>PDF2CASH</td></tr>
   <tr><th>Diferente de</th><td>Noov e Arquivei</td></tr>
-  <tr><th>Nosso produto</th><td>Gera dados úteis baseando-se na leitura nativa de arquivos PDF’s de notas fiscais eletrônicas de maneira automática e rápida por meio do nosso software livre, agrupando os gastos relacionados, gerando gráficos de história e realizando um armazenando seguro das notas fiscais nos bancos de dados da empresa </td></tr>
+  <tr><th>Nosso produto</th><td>Gera dados úteis baseando-se na leitura nativa de arquivos PDF’s de notas fiscais eletrônicas de maneira automática e rápida por meio do nosso software livre, agrupando os gastos relacionados, gerando gráficos de história e realizando um armazenando seguro das notas fiscais nos bancos de dados da empresa. </td></tr>
 </table>
 
 ***
@@ -236,9 +236,9 @@ O licenciamento do produto será do tipo MIT(software livre). No caso é concedi
 
 <table>
   <tr><th>Prioridade</th><th>Caracteristica</td></tr>
-  <tr><td>Alta</th><td>Requisito fundamental para o sistema </td></tr>
-  <tr><td>Intermediaria</th><td>Requisito importante, mas não é fundamental para o funcionamento do sistema</td></tr>
-  <tr><td>Baixa</th><td>Requisito não fundamental e pouco usado no sistema</td></tr>
+  <tr><td>Alta</th><td>Requisito fundamental para o sistema. </td></tr>
+  <tr><td>Intermediaria</th><td>Requisito importante, mas não é fundamental para o funcionamento do sistema.</td></tr>
+  <tr><td>Baixa</th><td>Requisito não fundamental e pouco usado no sistema.</td></tr>
 
 </table>
 
@@ -246,12 +246,12 @@ O licenciamento do produto será do tipo MIT(software livre). No caso é concedi
 | Identificador| Nome | Descrição | Prioridade |
 |:----:|:---------:|:-----------------:|:--------|
 | RF1 | Geração de gráficos  |O sistema de maneira automática deve gerar gráficos baseados nos gastos condizente nas notas fiscais. | Alta |
-| RF2 | Arquivação de notas fiscais | O sistema deve arquivar de maneira automática ou não as notas fiscais que forem inseridas no programa | Alta |
-| RF3 | Gerenciamento de funcionario | O sistema deve possuir uma maneira de gerencia de funcionarios | Media |
-| RF4 | Consulta no histórico de gastos | O sistema deve possuir uma maneira de gerar informações cronológicas de gastos com as notas fiscais | Media
+| RF2 | Arquivação de notas fiscais | O sistema deve arquivar de maneira automática, ou não, as notas fiscais que forem inseridas no programa. | Alta |
+| RF3 | Gerenciamento de funcionario | O sistema deve possuir uma maneira de gerência de funcionarios. | Media |
+| RF4 | Consulta no histórico de gastos | O sistema deve possuir uma maneira de gerar informações cronológicas de gastos com as notas fiscais. | Media
 | RF5 | Criar contas | O sistema deve possuir uma maneira que possibilite o usuário criar e administrar diversas contas. | Alta
 | RF6 | Processo de autenticação | O sistema deve possuir uma maneira que o usuário possa fazer o processo de autenticação. Login e logout. | Media
-| RF7 | Deletar notas fiscais | O sistema deve possuir uma maneira que o usuário possa deletar as notas fiscais cadastradas no banco de dados | Media
+| RF7 | Deletar notas fiscais | O sistema deve possuir uma maneira que o usuário possa deletar as notas fiscais cadastradas no banco de dados. | Media
 
 ***
 ## 6. Restrições

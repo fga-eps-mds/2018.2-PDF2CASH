@@ -98,15 +98,15 @@ Possuem a necessidade de um software que realize de maneira automatizada, práti
 ### 3.1 Resumo dos Envolvidos
 | Nome | Descrição | Responsabilidades |
 |:----:|:---------:|:-----------------:|
-| Investidores | Micro empresas com interesse em automatizar o controle de notas fiscais | Avaliar a qualidade do produto no intuito de comprar o mesmo. |
-| Equipe de desenvolvimento do projeto | Equipe de alunos de Métodos de Desenvolvimento de Software da UnB | Planejar, desenvolver, testar, documentar e implementar o sistema. |
-| Equipe de engenharia de produto | Equipe de alunos de Engenharia de Produto de Software da UnB | Planejar, projetar e gerir o projeto. Onde a equipe é composta pelo PO, Scrum Master, DevOps e Arquiteto que desempenham os papéis de, respectivamente, compreender, guiar a equipe, estudar a implementação e, configurar o ambiente de desenvolvimento do projeto. |
+| Investidores | Micro empresas com interesse em automatizar o controle de notas fiscais. | Avaliar a qualidade do produto no intuito de comprar o mesmo. |
+| Equipe de desenvolvimento do projeto | Equipe de alunos de Métodos de Desenvolvimento de Software da UnB. | Planejar, desenvolver, testar, documentar e implementar o sistema. |
+| Equipe de engenharia de produto | Equipe de alunos de Engenharia de Produto de Software da UnB. | Planejar, projetar e gerir o projeto. Onde a equipe é composta pelo PO, Scrum Master, DevOps e Arquiteto que desempenham os papéis de, respectivamente, compreender, guiar a equipe, estudar a implementação e, configurar o ambiente de desenvolvimento do projeto. |
 
 ### 3.2 Resumo dos Usuários
 | Nome | Descrição | Responsabilidades | Envolvido |
 |:----:|:---------:|:-----------------:|:---------:|
-| Administrador | Operador do sistema com mais recurso para uso | Responsável por realizar cadastro de novos usuários e empresas e excluir nota fiscal | Usuário |
-| Funcionário Cadastrado | Operador do sistema | Responsável pela inserção dos PDFs das notas fiscais, visualização de análises e nota fiscal e listagem das notas fiscais | Usuário |
+| Administrador | Operador do sistema com mais recurso para uso | Responsável por realizar cadastro de novos usuários e empresas e excluir nota fiscal. | Usuário |
+| Funcionário Cadastrado | Operador do sistema | Responsável pela inserção dos PDFs das notas fiscais, visualização de análises e nota fiscal e listagem das notas fiscais. | Usuário |
 
 ### 3.3 Perfis dos Envolvidos
 
@@ -144,9 +144,9 @@ Possuem a necessidade de um software que realize de maneira automatizada, práti
   Daniel Marques Rangel<br>
   Francisco Wallacy Coutinho Braz<br></td></tr>
   <tr><th>Descrição</th><td>Engenheiros de Produto de Software</td></tr>
-  <tr><th>Tipo</th><td>Graduandos de Engenharia de Software na Universidade de Brasília, matriculados na disciplina de Engenharia de Produto de Software</td></tr>
+  <tr><th>Tipo</th><td>Graduandos de Engenharia de Software na Universidade de Brasília, matriculados na disciplina de Engenharia de Produto de Software.</td></tr>
   <tr><th>Responsabilidades</th><td>Planejar o projeto, programar os recursos definidos do projeto e gerir a equipe de desenvolvedores. A equipe é composta pelo Product Owner, Scrum Master, DevOps e Arquiteto que desempenham os papéis de, respectivamente, compreender o mercado e vender a idéia ao investidor, guiar e facilitar as tarefas realizadas pela equipe, configurar o ambiente de desenvolvimento do projeto e estudar formas de implementação do sistema por completo.</td></tr>
-  <tr><th>Critérios de Sucesso</th><td>Entregar a aplicação no tempo estimado, vender a idéia da aplicação aos investidores e aumentar a experiência na área de desenvolvimento de software e gestão de projeto.</td></tr>
+  <tr><th>Critérios de Sucesso</th><td>Entregar a aplicação no tempo estimado, vender a idéia da aplicação aos investidores e aumentar a experiência na área de desenvolvimento de software e gestão de projetos.</td></tr>
   <tr><th>Envolvimento</th><td>Alto</td></tr>
   <tr><th>Comentários / Problemas</th><td>-</td></tr>
 </table>
@@ -156,10 +156,10 @@ Possuem a necessidade de um software que realize de maneira automatizada, práti
 #### 3.4.1 Administrador
 
 <table>
-  <tr><th>Descrição</th><td>Funcionário que faz parte da administração da área financeira ou de confiança  da empresa</td></tr>
+  <tr><th>Descrição</th><td>Funcionário que faz parte da administração da área financeira ou de confiança  da empresa.</td></tr>
   <tr><th>Tipo</th><td>Usuário avançado</td></tr>
   <tr><th>Responsabilidades</th><td>Conhecer a aplicação de modo que possa organizar os PDFs presentes na aplicação, gerenciar gastos no sistema, adicionar novas empresas ao sistema e realizar o cadastro de novos usuários.</td></tr>
-  <tr><th>Critérios de Sucesso</th><td>Receber um sistema capaz de automatizar tarefas repetitivas que envolvem notas fiscais</td></tr>
+  <tr><th>Critérios de Sucesso</th><td>Receber um sistema capaz de automatizar tarefas repetitivas que envolvem notas fiscais.</td></tr>
   <tr><th>Envolvimento</th><td>Usuário final do sistema</td></tr>
   <tr><th>Comentários / Problemas</th><td>-</td></tr>
 </table>
@@ -167,10 +167,10 @@ Possuem a necessidade de um software que realize de maneira automatizada, práti
 #### 3.4.2 Funcionário
 
 <table>
-  <tr><th>Descrição</th><td>Funcionários que fazem parte do setor financeiro</td></tr>
+  <tr><th>Descrição</th><td>Funcionários que fazem parte do setor financeiro.</td></tr>
   <tr><th>Tipo</th><td>Usuário comum</td></tr>
-  <tr><th>Responsabilidades</th><td>Conhecer a aplicação de modo que possa organizar os PDFs presentes na aplicação e gerenciar gastos no sistema</td></tr>
-  <tr><th>Critérios de Sucesso</th><td>Receber um sistema capaz de automatizar tarefas repetitivas que envolvem notas fiscais</td></tr>
+  <tr><th>Responsabilidades</th><td>Conhecer a aplicação de modo que possa organizar os PDFs presentes na aplicação e gerenciar gastos no sistema.</td></tr>
+  <tr><th>Critérios de Sucesso</th><td>Receber um sistema capaz de automatizar tarefas repetitivas que envolvem notas fiscais.</td></tr>
   <tr><th>Envolvimento</th><td>Usuário final do sistema</td></tr>
   <tr><th>Comentários / Problemas</th><td>-</td></tr>
 </table>
@@ -179,8 +179,8 @@ Possuem a necessidade de um software que realize de maneira automatizada, práti
 
 | Necessidade | Prioridade | Preocupações | Solução Atual | Soluções Propostas |
 |:---:|:---:|:---:|:---:|:---:|
-| Agilidade e automatização na análise e armazenamento de notas fiscais | Alta | Falta de agilidade na análise das notas fiscais e possíveis erros humanos | Verificação manual das notas fiscais | Realizar a leitura da nota fiscal com o auxílio de aprendizagem de máquina ou divisão da nota fiscal por blocos onde as notas são adicionadas para serem lidas de forma automática |
-| Gerar relatórios com base nas notas fiscais recebidas | Alta | Possíveis erros humanos na hora da elaboração do relatório | Feito de forma manual | De acordo com a leitura feita nas notas fiscais, a aplicação gerará análises conforme a necessidade do usuário |
+| Agilidade e automatização na análise e armazenamento de notas fiscais. | Alta | Falta de agilidade na análise das notas fiscais e possíveis erros humanos. | Verificação manual das notas fiscais | Realizar a leitura da nota fiscal com sua divisão por blocos na qual as mesmas são adicionadas para serem lidas de forma automática. |
+| Gerar relatórios com base nas notas fiscais recebidas. | Alta | Possíveis erros humanos na hora da elaboração do relatório | Feito de forma manual. | De acordo com a leitura feita nas notas fiscais, a aplicação irá gerar análises conforme a necessidade do usuário. |
 
 ### 3.6 Alternativas e Concorrência
 
@@ -191,7 +191,7 @@ Possuem a necessidade de um software que realize de maneira automatizada, práti
 
 
 #### 3.6.2 Arquivei
-Desenvolvido e mantido por uma startup constituída por alunos e ex-alunos da Universidade de São Paulo, o Arquivei é uma plataforma web paga que tem como objetivo o acesso fácil aos documentos fiscais da empresa. A plataforma é conectado à Secretaria da Fazenda e baixa automaticamente todas as NFes e CTes emitidas para o CNPJ da empresa, armazenando-as no painel de gestão de notas da plataforma. Todas informações presentes na plataforma se tornam gráficos para melhor visualização do usuário. O Arquivei possui três planos de contratação com taxas mensais: o primeiro, Plano Starter, no valor de R$ 29,90; o segundo com o nome de Plano Controle no valor de R$ 49,90 e; o terceiro plano, intitulado Plano Business, possuindo o valor de R$ 89,90. Essa plataforma não lê notas fiscais em PDF e não há uma gama de tipos de análises.
+Desenvolvido e mantido por uma startup constituída por alunos e ex-alunos da Universidade de São Paulo, o Arquivei é uma plataforma web paga que tem como objetivo o acesso fácil aos documentos fiscais da empresa. A plataforma é conectado à Secretaria da Fazenda e baixa automaticamente todas as NFes e CTes emitidas para o CNPJ da empresa, armazenando-as no painel de gestão de notas da plataforma. Todas informações presentes na plataforma se tornam gráficos para melhor visualização do usuário. O Arquivei possui três planos de contratação com taxas mensais: o primeiro, Plano Starter, no valor de R$ 29,90; o segundo com o nome de Plano Controle no valor de R$ 49,90; e o terceiro plano, intitulado Plano Business, possuindo o valor de R$ 89,90. Essa plataforma não lê notas fiscais em PDF e não há uma gama de tipos de análises.
 
 ![Arquivei](https://uploaddeimagens.com.br/images/001/604/545/original/Arquivei.png?1536550547)
 
@@ -202,7 +202,7 @@ Desenvolvido e mantido por uma startup constituída por alunos e ex-alunos da Un
 
 ### 4.1 Perspectiva do Produto
 
-O PDF2K irá sistematizar o processo de leitura e transformação de arquivos (PDF). De tal forma que, Diretores e funcionários da empresa tenham o controle sobre seus gastos. O produto fornecerá aos usuários as informações necessárias para melhor gerirem a parte financeira. Tais informações contemplam categoria de gastos, valores unitários, valores totais, análise de dados, margem de gastos, histórico de gastos . Assim, têm-se como expectativa facilitar, agilizar o processo de controle fiscal, além de ampliar os lucros pelo fato de ter-se um controle automatizado dos gastos.
+O PDF2CASH irá sistematizar o processo de leitura e transformação de NFes de tal forma que diretores e funcionários da empresa tenham o controle sobre seus gastos. O produto fornecerá aos usuários as informações necessárias para melhor gestão da financeira. Tais informações contemplam categoria de gastos, valores unitários, valores totais, análise de dados, margem de gastos, histórico de gastos. Assim, têm-se como expectativa facilitar e agilizar o processo de controle fiscal, além de ampliar os lucros pelo fato de ter-se um controle automatizado dos gastos.
 
 ### 4.2 Resumo dos Recursos
 
@@ -226,8 +226,8 @@ O PDF2K irá sistematizar o processo de leitura e transformação de arquivos (P
 
 ### 4.4 Licenciamento e Instalação
 
-Não será necessaria a instalação do software pois o mesmo será uma aplicação Web.
-O licenciamento do produto será do tipo MIT(software livre), no caso é concedida permissão, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software e dos arquivos de documentação associados, para negociar o Software sem restrições, incluindo, sem limitação, os direitos de uso, cópia, modificação e fusão , publicar, distribuir, sublicenciar e / ou vender cópias do Software, e permitir que as pessoas a quem o Software é fornecido o façam.
+Será necessária a instalação do software pois o mesmo será uma aplicação Desktop.
+O licenciamento do produto será do tipo MIT(software livre). No caso é concedida permissão, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software e dos arquivos de documentação associados, para negociar o Software sem restrições, incluindo, sem limitação, os direitos de uso, cópia, modificação e fusão, publicar, distribuir, sublicenciar e/ou vender cópias do Software, além de permitir que as pessoas a quem o Software é fornecido o façam.
 ***
 ## 5. Recursos do Produto
 ***

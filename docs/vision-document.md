@@ -22,7 +22,7 @@
 | 20/09/18 | 1.2 | Correção da Visão Geral do Produto | Rafael Teodosio |
 | 21/09/18 | 1.3 | Correção do Posicionamento | Wictor Girardi |
 | 21/09/18 | 1.4 | Correção das Descrições dos Envolvidos e dos Usuários | Lucas Gomes |
-
+|22/11/18 | 1.5 | Revisão de Documento | Luís Cláudio T. Lima
 ***
 ## 1. Introdução
 ***

@@ -17,17 +17,13 @@
 | 16/09/18 | 0.10 |   Funcionalidades | Wictor Girardi|
 | 20/09/18 | 1.0 |   Revisão | Carlos Aragon|
 
-
 ## 1.                  Introdução
 
-
 ### 1.1               Finalidade
-
 
 Este documento tem como objetivo abordar aspectos técnicos, legais e demais requisitos sobre a aplicação PDF2CA$H, que não foram abordados nos demais documentos: Documento de Visão e Documento de Arquitetura.
 
 ### 1.2               Escopo
-
 
 Os requisitos aqui explicados fazem parte do processo de desenvolvimento da aplicação web PDF2CA$H, que auxiliará diretores e funcionários de empresas de pequeno porte à controlar os gastos gerados por seus funcionários por meio de notas fiscais eletrônicas geradas em PDF.
 
@@ -44,19 +40,19 @@ Os requisitos aqui explicados fazem parte do processo de desenvolvimento da apli
 
 ## 2.                  Funcionalidade
 
-Um ponto essencial para a usabilidade do sistema é que o mesmo ofereça um design e uma interação acessível aos diretores e funcionários da empresa. Considerando o mais leigo dos usuários, o sistema deverá prezar pela simplicidade e acesso intuitivo, tendo em vista sua importância para o controle de gastos e uma utilização adequada pelos usuários da aplicação. Para alcançar tal meta, a aplicação deve conter um design limpo, de fácil visualização e entendimento, com acesso rápido e intuitivo a informações e funcionalidades importantes, sempre utilizando-se uma linguagem de fácil entendimento e compreensão.
+Um ponto essencial para a usabilidade do sistema é que o mesmo ofereça um design e uma interação acessível para diretores e funcionários de empresas. Considerando o mais leigo dos usuários, o sistema deverá prezar pela simplicidade e acesso intuitivo, tendo em vista sua importância para o controle de gastos e uma utilização adequada pelos usuários da aplicação. Para alcançar tal meta, a aplicação deve conter um design limpo, de fácil visualização e entendimento, com acesso rápido e intuitivo a informações e funcionalidades importantes, sempre utilizando-se uma linguagem de fácil entendimento e compreensão.
 
 ### 2.1               Geração de gráficos
 
-O sistema de maneira automática deve gerar gráficos baseados nos gastos condizente nas notas fiscais.
+O sistema deve, de maneira automática, gerar gráficos baseados nos gastos condizente nas notas fiscais.
 
 ### 2.2               Arquivação de notas fiscais
 
-O sistema deve arquivar de maneira automática ou não as notas fiscais que forem inseridas no programa.
+O sistema deve arquivar, de maneira automática ou não, as notas fiscais que forem inseridas no programa.
 
-### 2.3               Cadastro da empresa
+### 2.3               Cadastro de funcionários
 
-O sistema deve possuir uma maneira de cadastrar a empresa da qual a nota fiscal está sendo trabalhada.
+O sistema deve possuir uma maneira de cadastrar funcionários de empresas da qual a nota fiscal está sendo trabalhada.
 
 ### 2.4               Consulta no histórico de gastos
 

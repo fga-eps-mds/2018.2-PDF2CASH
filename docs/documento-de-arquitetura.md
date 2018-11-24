@@ -70,7 +70,10 @@ A parte visual da aplicação será feita em ReactJS, React é uma biblioteca Ja
 
 A arquitetura será representada da seguinte forma:
 
-![Dcu](img/rpa.jpg)
+![Dcu2](img/dcu2.jpg)
+
+[Diagrama de caso de uso V1](img/rpa.jpg)
+
 
 
 * **SQLite**: Banco de dados utilizado por nossa aplicação.  
@@ -125,7 +128,15 @@ O Usuário comum pode visualizar a empresa da qual está cadastrado, adicionar n
 ![Dcuv2](img/dcuv2.png)
 
 #### 4.4.1 Versões anteriores
-[Diagrama de caso de uso 1 ](img/dcuv2.png)
+[Diagrama de caso de uso V-8](img/dcuv2.png)
+[Diagrama de caso de uso V-7](img/6.jpg)
+[Diagrama de caso de uso V-6](img/5.jpg)
+[Diagrama de caso de uso V-5](img/4.jpg)
+[Diagrama de caso de uso V-4](img/3.jpg)
+[Diagrama de caso de uso V-3](img/2.jpg)
+[Diagrama de caso de uso V-2](img/1.jpg)
+[Diagrama de caso de uso V-1](img/dcu.png)
+
 
 
 #### 4.5 Descrição dos Casos de Uso

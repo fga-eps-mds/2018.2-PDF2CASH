@@ -125,10 +125,10 @@ O Administrador é uma peça chave na execução do programa, para a criação d
 O Usuário comum pode visualizar a empresa da qual está cadastrado, adicionar notas fiscais ao programa, gerenciar as análises baseadas nas notas fiscais geradas pelo programa assim como visualizar, modificar e deletar as notas fiscais já existentes.
 
 #### 4.4 Diagrama de Casos de Uso         
-![Dcuv2](img/dcuv2.png)
+![Dcuv2](img/dcuuu.png)
 
 #### 4.4.1 Versões anteriores
-[Diagrama de caso de uso V-8](img/dcuv2.png)
+[Diagrama de caso de uso V-8](img/dcuv2.jpeg)
 [Diagrama de caso de uso V-7](img/6.jpg)
 [Diagrama de caso de uso V-6](img/5.jpg)
 [Diagrama de caso de uso V-5](img/4.jpg)

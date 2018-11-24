@@ -13,6 +13,20 @@ O presente repositório é de uso da equipe PDF2CASH para fins gerênciais, tais
 
 Os repositórios _source_ estão disponíveis em [PDF2CASH](https://github.com/PDF2CASH).
 
+### Equipe de Desenvolvimento
+
+Membros da equipe que tem a responsabilidade de documentar parte do software, implementar e testá-lo e seguir a documentação relacionada às metodologias definidas.
+
+| Nome | E-mail | Github |
+| ---- | ------ |:------:|
+| Brian Lui | brianlui2387@gmail.com | @Brian2397 |
+| Julio Cesar Litwin | j.litwin@live.com | @jclitwin |
+| Lucas Gomes Silva | lucas.gomesgs0@gmail.com | @lucasgomesgs0 |
+| Luis Claudio Telles Lima | lclaudio.tl@gmail.com | @LuisCL94 |
+| Rafael Santos Teodosio | rafael.s.t@hotmail.com | @rafaelteodosio |
+| Wictor Bastos Girardi | wictor.girardi@gmail.com | @Wictorgirardi |
+
+
 ## Licensa
 ---
 

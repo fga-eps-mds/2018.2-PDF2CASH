@@ -13,9 +13,10 @@
 | 13/09/18 | 0.6 | Segurança | Julio Litwin |
 | 13/09/18 | 0.7 | Restrições de Design | Lucas Gomes |
 | 13/09/18 | 0.8 | Introdução | Rafael Teodosio |
-| 14/09/18 | 0.9 |  Interface de usuário | Luis Claudio T. Lima |
-| 16/09/18 | 0.10 |   Funcionalidades | Wictor Girardi|
-| 20/09/18 | 1.0 |   Revisão | Carlos Aragon|
+| 14/09/18 | 0.9 | Interface de usuário | Luís Cláudio T. Lima |
+| 16/09/18 | 1.0 | Funcionalidades | Wictor Girardi|
+| 20/09/18 | 1.1 | Revisão | Carlos Aragon|
+| 23/11/18 | 1.2 | Revisão | Luís Cláudio T. Lima|
 
 ## 1.                  Introdução
 
@@ -110,7 +111,7 @@ Nosso sistema busca incluir boas práticas de segurança de informações como: 
 ## 9. Restrições de Design
 O PDF2CASH será uma aplicação minimalista e com cores que não tragam cansaço para a vista do usuário. As informações, links e botões serão organizados para que sejam de fácil acesso para melhor experiência do usuário desde o aprendizado até o uso diário do sistema.
 
-Sua arquitetura será baseada na arquitetura de microserviços onde será desenvolvida com o uso dos frameworks React e Django das linguagens JavaScript e Python, respectivamente.
+Sua arquitetura será baseada em microserviços e será desenvolvida com o uso dos frameworks React e Django das linguagens JavaScript e Python, respectivamente.
 
 Além dos frameworks e linguagens citados anteriormente, serão utilizados algumas ferramentas como forma de melhorar e organizar o processo de desenvolvimento do software, que são elas: Travis, Docker, GitHub e ZenHub.
 
@@ -118,12 +119,9 @@ Além dos frameworks e linguagens citados anteriormente, serão utilizados algum
 As seguintes telas serão disponibilizadas no sistema:
 * Tela inicial
 * Login
-* Cadastro de empresas
-* Lista de empresas
-* Perfil da empresa
-* Cadastro de funcionario
-* Lista de funcionarios
-* Perfil de funcionario
-* Cadastro de nota fiscal
-* Lista de notas fiscais
-* Informações da nota fiscal
+* Cadastrar funcionário
+* Listar funcionarios
+* Visualizar funcionário
+* Cadastrar nota fiscal
+* Listar notas fiscais
+* Visualizar nota fiscal

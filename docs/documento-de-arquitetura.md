@@ -18,6 +18,7 @@
 |18/09/18 | 0.8 | Revisão da Representação da Arquitetura | Rafael Teodosio
 |24/09/18 | 1.0 | Revisão Geral | Rafael Teodosio
 |22/11/18 | 1.1 | Revisão de Documento | Wictor Girardi
+|24/11/18 | 1.2 | Revisão de Documento | Wictor Girardi
 ***
 ### 1. Introdução
 ***
@@ -34,7 +35,7 @@ Neste documento, será tratado todas as informações de arquitetura do software
 
 #### 1.3 Definições, Acrônimos e Abreviações
 
->MVC(Model View Controller): Arquitetura de software utilizada em sistemas que desejam separar a modelagem de dados, interface e processamento de requisições em camadas independentes.
+>MVT(Model View template): Arquitetura de software utilizada em sistemas que desejam separar a modelagem de dados, interface e processamento de requisições em camadas independentes.
 
 >Active View: Biblioteca do framework ruby, responsável por implementar o tratamento de requisições da view.
 
@@ -58,7 +59,7 @@ https://github.com/fga-eps-mds/2017.1-SIGS/wiki/Documento-de-Arquitetura
 A arquitetura utilizada contém dois ambientes diferentes para a nossa aplicação, o ambiente de controle de dados que é conhecido como API e o um ambiente web desenvolvido em ReactJS para os usuários, contemplando um sistema onde usuários podem criar seus projetos, importar dados e adicionar colaboradores.
 
 Com relação a API, o projeto PDF2CA$H será desenvolvido utilizando o framework Django com a API REST.
-A API REST é um estilo de arquitetura para fornecer padrões entre sistemas de computador na Web, facilitando a comunicação entre os sistemas. são caracterizados pela forma como são sem estado e separam as preocupações do cliente e do servidor.
+A API REST é um estilo de arquitetura para fornecer padrões entre sistemas de computador na Web, facilitando a comunicação entre os sistemas. São caracterizados pela forma como são sem estado e separam as preocupações do cliente e do servidor.
 
 Dentro do framework Django Rest existem:
 
@@ -66,31 +67,23 @@ Dentro do framework Django Rest existem:
 
 * **End Points**: Um Endpoint de um serviço Web é a URL onde seu serviço pode ser acessado por uma aplicação cliente.
 
+* **View Set**: Uma classe view set é uma classe baseada da views do Django, não possuindo assim metodos como .get(), .post() e outros.
+
 A parte visual da aplicação será feita em ReactJS, React é uma biblioteca JavaScript declarativa, eficiente e flexível para a criação de interfaces de usuário (UI) criada pelo Facebook.
 
 A arquitetura será representada da seguinte forma:
 
-![Dcu2](img/dcu2.jpg)
+![Dcu3](img/dcuuu.png)
 
-[Diagrama de caso de uso V1](img/rpa.jpg)
+* **SQLite**: Banco de dados utilizado por nossa aplicação que armazena notas fiscais e funcionarios.  
 
-
-
-* **SQLite**: Banco de dados utilizado por nossa aplicação.  
-
-
-* **PDFToInvoice**: Conversão de PDF nativo para texto e criação de seu parser, que é a transformação de texto em uma estrutura de dados que possa ser usada de maneira útil ao sistema.
+* **PDFToInvoice**: É uma aplicação que utiliza a tecnologia Django Rest que trata as informações obtidas pelo parser e as direciona de maneira filtrada para o FrontEnd. Sendo um dos tratamentos que o PDFToInvoice é responsável é realizar a filtração das informações a serem passadas para o frontEnd para serem realizadas a geração de gráficos. Alem disso, ele recebe os dados do FrontEnd e os armazena no banco de dados SQLite.
 
 * **API Gateway**: API Gateway é o único ponto de entrada para todos os clientes manipulando todas as solicitações, permitindo a criação, controle, edição e visualização de usuários e de administradores que utilizarão a aplicação e realizarão requisições. Realizando todos esses processos de maneira autenticada e segura, limitando o acesso a determinadas partes do programa de acordo com o grau de poder que o cliente possui.
 
-* **React chartJs 2**: É um pacote do React Js que possibilita a criação de gráficos a partir dos dados obtidos pelo programa.
+* **CloudUpdater**: É um microsserviço que recebe os builds dos outros repositórios existentes e tem a capacidade de servir-los ao launcher.
 
-* **Coleta de dados**: Tudo o que acontece no negócio é analisado para determinar aspectos-chave, como produtividade e gastos.
-
-*  **Organização e análise**: Todos os dados captados em cada ação da empresa são organizados em um banco de dados e apresentados de forma visual, para facilitar a análise financeira pela empresa.
-
-* **Ação e monitoramento**: Os responsáveis financeiros da empresa tomam decisões com base nas informações analisadas, e monitoram seus resultados para ver se estão sendo bem-sucedidos.
-
+* **FrontEnd**: Utilizando tecnologias como React Next, esse microsserviço interage diretamente com o usuário, manda e recebe requisições do Django. Utiliza também um pacote do React Js que possibilita a criação de gráficos a partir dos dados obtidos pelo programa.
 
 ***
 
@@ -118,6 +111,8 @@ Logo abaixo será apresentada as restrições da arquitetura:
 
 #### 4.2 Administrador
 
+O administrador além de poder realizar todas as funcionalidades que o usuário comum é habilitado, ele ainda pode manter funcionários, que significa a capacidade de criar, editar, visualizar e deletar funcionários cadastrados.
+
 O Administrador é uma peça chave na execução do programa, para a criação de usuários e cadastramento de notas fiscais é necessários que haja um administrador cadastrado e logado no sistema, possuindo assim a maior permissão dentro do programa, criando, editando e deletando os funcionários cadastrados por si mesmo e suas notas ficais.
 
 #### 4.3 Usuário
@@ -125,17 +120,17 @@ O Administrador é uma peça chave na execução do programa, para a criação d
 O Usuário comum pode visualizar a empresa da qual está cadastrado, adicionar notas fiscais ao programa, gerenciar as análises baseadas nas notas fiscais geradas pelo programa assim como visualizar, modificar e deletar as notas fiscais já existentes.
 
 #### 4.4 Diagrama de Casos de Uso         
-![Dcuv2](img/dcuuu.png)
+![Dcuv2](img/dcuv2.jpg)
 
 #### 4.4.1 Versões anteriores
-[Diagrama de caso de uso V-8](img/dcuv2.jpeg)
-[Diagrama de caso de uso V-7](img/6.jpg)
-[Diagrama de caso de uso V-6](img/5.jpg)
-[Diagrama de caso de uso V-5](img/4.jpg)
-[Diagrama de caso de uso V-4](img/3.jpg)
-[Diagrama de caso de uso V-3](img/2.jpg)
-[Diagrama de caso de uso V-2](img/1.jpg)
-[Diagrama de caso de uso V-1](img/dcu.png)
+* [Diagrama de caso de uso V-8](img/ducv3.jpg)
+* [Diagrama de caso de uso V-7](img/dcu-6.jpg)
+* [Diagrama de caso de uso V-6](img/dcu-5.jpg)
+* [Diagrama de caso de uso V-5](img/dcu-4.jpg)
+* [Diagrama de caso de uso V-4](img/dcu-3.jpg)
+* [Diagrama de caso de uso V-3](img/dcu-2.jpg)
+* [Diagrama de caso de uso V-2](img/dcu-1.jpg)
+* [Diagrama de caso de uso V-1](img/dcu.png)
 
 
 
@@ -166,13 +161,13 @@ Esse caso de uso permite ao usuário e ao administrador remover um ou mais notas
 
 
 #### 5.1.1. Model
-As Models do MVC e do MV são equivalentes em responsabilidades. O framework Django facilita na interface com o banco de dados. Cada classe da modelo se compara a uma tabela do banco de dados, e as instâncias destas classes, representam os registros destas tabelas. Para adicionar valores ao banco, basta defini-los nas respectivas variáveis. Esta camada contém qualquer coisa e tudo sobre os dados: como acessá-lo , como validá-lo , quais comportamentos que têm e as relações entre os dados. Para o mapeamento dos dados, não será necessário utilizar códigos em SQL para garantir a persistência dos dados no banco.
+As Models do MVT e do MV são equivalentes em responsabilidades. O framework Django facilita na interface com o banco de dados. Cada classe da modelo se compara a uma tabela do banco de dados, e as instâncias destas classes, representam os registros destas tabelas. Para adicionar valores ao banco, basta defini-los nas respectivas variáveis. Esta camada contém qualquer coisa e tudo sobre os dados: como acessá-lo , como validá-lo , quais comportamentos que têm e as relações entre os dados. Para o mapeamento dos dados, não será necessário utilizar códigos em SQL para garantir a persistência dos dados no banco.
 
 #### 5.1.2. View
 A camada View é responsável pela implementação das regras de apresentação e negócio do nosso sistema. É nela onde iremos nos comunicar com a Model, cadastrando e tratando as informações recebidas. Retornando para o usuário uma resposta, como HTMLs, XML, ou erros encontrados.
 
 #### 5.1.3. Detalhes arquiteturais de projetos Django
-As resoluções de urls, responsabilidade dada às controllers no MVC(Que no nosso caso do Django Rest é MV), é feita pela própria estrutura do framework;
+As resoluções de urls, responsabilidade dada às controllers no MVT(que no nosso caso do Django Rest é MV), é feita pela própria estrutura do framework;
 O Django oferece uma interface com o banco de dados que permite ao desenvolvedor não se preocupar com a conexão entre suas classes de domínio e banco.
 
 #### 5.2 ReactJs

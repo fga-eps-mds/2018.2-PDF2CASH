@@ -4,7 +4,8 @@ nav:
   - DevOps: 
     - GitFlow: devops/gitflow.md
     - Politica de Issues: devops/issue-policy.md
-  - Metodologia: methodoloy/methodology.md
+  - Metodologia: 
+    - Praticas: methodology/methodology.md
     - Backlog: methodology/backlog.md
     - Riscos: methodology/risks.md
     - Sprints:

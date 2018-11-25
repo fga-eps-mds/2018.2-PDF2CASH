@@ -6,7 +6,7 @@ O projeto PDF2CASH tem como objetivo gerar um aplicativo capaz de realizar anál
 ## Informações gerais
 ---
 
-O presente repositório é de uso da equipe PDF2CASH para fins gerênciais, tais como comunicação técnica,publicação de artefatos e definições metodólogicas. Para aqueles interessados em contribuir com o projeto, favor acesse o nosso [CONTRIBUTING.md](CONTRIBUTING.md).
+O presente repositório é de uso da equipe PDF2CASH para fins gerênciais, tais como comunicação técnica,publicação de artefatos e definições metodólogicas. Para aqueles interessados em contribuir com o projeto, favor acesse a nossa [Política de contribuição](politca_contribuicao.md).
 
 ### Equipe de Engenheiros de Software
 

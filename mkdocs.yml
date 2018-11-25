@@ -1,6 +1,6 @@
 site_name: PDF2Ca$h
 nav:
-  - Home: ../README.md
+  - Home: home.md
   - DevOps: 
     - GitFlow: devops/gitflow.md
     - Politica de Issues: devops/issue-policy.md

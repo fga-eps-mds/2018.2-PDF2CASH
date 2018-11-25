@@ -6,12 +6,13 @@
 |:----:|:------:|:---------:|:-----:|
 | 25/08/18 | 1.0 | Criação da TAP | Daniel Marques |
 | 25/09/18 | 1.1 | Correção do resumo de custos | Daniel Marques |
+| 25/11/18 | 2.0 | Revisão final | Carlos Aragon |
 
 ## 1. Introdução
-Este documento tem como objetivo declarar o início do projeto e descrever a base do projeto PDF2CASH. Sendo assim, neste artefato terá informações como: visão de alto nível dos requisitos e riscos, limites e recursos, como também apresentam estudo sobre a viabilidade do produto, além dos dados sobre a equipe de desenvolvedores e engenheiros de produto.
+Este documento tem como objetivo declarar o início do projeto e descrever a base do projeto PDF2CASH. Sendo assim, esse artefato disponibilizará informações como: visão de alto nível dos requisitos e riscos, limites e recursos, como também apresentam estudo sobre a viabilidade do produto, além dos dados sobre a equipe de desenvolvedores e engenheiros de produto.
 
 ## 2. Descrição do Projeto
-O projeto PDF2CASH é um software desktop que automatiza o processo, especificamente, do setor financeiro de micro empresas. O processo na qual será automatizado é o gerenciamento de gastos feitos pela empresa por meio da nota fiscal.
+O projeto PDF2CASH é um software desktop que automatiza o processo, especificamente, do setor financeiro de micro empresas. O processo na qual será automatizado é o gerenciamento de gastos da empresa por meio da gerência de notas fiscais.
 
 ## 3. Problemas e Solução do Projeto
 Como o setor financeiro é considerado o “coração” de uma empresa, é necessário sempre procurar melhorar os processos dessa parte, caso queira que a empresa cresça para competir no mercado com vários outros concorrentes. E um dos problemas encontrados é o gerenciamento de gastos, na qual é contabilizado as notas fiscais recebidas de forma manual, ocorrendo assim, erros humanos como por exemplo: valor total  lançado errado, itens da nota fiscal anotados de modo equívoco etc.
@@ -114,7 +115,7 @@ O calculo do salário por hora foi calculado através da média de salário mens
 
 Micro empresas que querem automatizar seu setor financeiro para desenvolver a companhia frente aos concorrentes no mercado.
 
-### 8.2 Equipe de Engenheiros de Produção
+### 8.2 Equipe de Engenheiros de Software
 
 A equipe é composta pelo Product Owner, Scrum Master, DevOps e Arquiteto que desempenham os papéis de, respectivamente, compreender o mercado e vender a idéia ao investidor, guiar e facilitar as tarefas realizadas pela equipe, configurar o ambiente de desenvolvimento do projeto e estudar formas de implementação do sistema por completo.
 

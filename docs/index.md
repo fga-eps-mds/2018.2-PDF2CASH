@@ -1,37 +1,3 @@
-# PDF2CASH
----
-
-O projeto PDF2CASH tem como objetivo gerar um aplicativo capaz de realizar análises por meio do tratamento de dados extraídos de notas fiscais eletrônicas.
-
-## Informações gerais
----
-
-O presente repositório é de uso da equipe PDF2CASH para fins gerênciais, tais como comunicação técnica,publicação de artefatos e definições metodólogicas. Para aqueles interessados em contribuir com o projeto, favor acesse o nosso [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## Repositórios _source_
----
-
-Os repositórios _source_ estão disponíveis em [PDF2CASH](https://github.com/PDF2CASH).
-
-### Equipe de Desenvolvimento
-
-Membros da equipe que tem a responsabilidade de documentar parte do software, implementar e testá-lo e seguir a documentação relacionada às metodologias definidas.
-
-| Nome | E-mail | Github |
-| ---- | ------ |:------:|
-| Brian Lui | brianlui2387@gmail.com | @Brian2397 |
-| Julio Cesar Litwin | j.litwin@live.com | @jclitwin |
-| Lucas Gomes Silva | lucas.gomesgs0@gmail.com | @lucasgomesgs0 |
-| Luis Claudio Telles Lima | lclaudio.tl@gmail.com | @LuisCL94 |
-| Rafael Santos Teodosio | rafael.s.t@hotmail.com | @rafaelteodosio |
-| Wictor Bastos Girardi | wictor.girardi@gmail.com | @Wictorgirardi |
-
-
-## Licensa
----
-
-O projeto PDF2CASH é licenciado sobre a licença [MIT](LICENSE.md).
-
 # Contribuindo com o PDF2CA$H.
 ***
 Agredecemos sua vontade em contribuir com nosso projeto. A seguir encontram-se algumas diretrizes para aqueles que desejam realizar contribuições junto ao PDF2CA$H.

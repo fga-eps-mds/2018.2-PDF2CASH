@@ -1,6 +1,6 @@
-#Política de criação de Issues
-
-##Este documento tem como finalidade definir e padronizar a criação de issues para o projeto Pdf2Cash.
+# Política de criação de Issues
+ 
+## Este documento tem como finalidade definir e padronizar a criação de issues para o projeto Pdf2Cash.
 
 * Toda tarefa executada no projeto deve ser referente a uma issue
 * O nome e conteúdo da issue deve ser escrito em português

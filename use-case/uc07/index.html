@@ -176,7 +176,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../.." title="Home" class="md-nav__link">
+    <a href="../../../README.md" title="Home" class="md-nav__link">
       Home
     </a>
   </li>
@@ -840,14 +840,20 @@
 <td align="center">Revisão</td>
 <td align="center">Brian Lui</td>
 </tr>
+<tr>
+<td align="center">22/11/2018</td>
+<td align="center">1.1</td>
+<td align="center">Revisão de Documento</td>
+<td align="center">Brian Lui</td>
+</tr>
 </tbody>
 </table>
 <h2 id="descricao">Descrição</h2>
-<p>Permite que o usuário gerencie os usuários, sendo possível utilizar as seguintes funções:
-<em> Criar: o usuário pode criar um funcionário
-</em> Deletar: o usuário pode deletar funcionário
-<em> Modificar: o usuário pode alterar os dados do funcionário
-</em> Visualizar: o usuário pode visualizar os dados de um funcionário</p>
+<p>Permite que o administrador gerencie os usuários, sendo possível utilizar as seguintes funções:
+<em> Criar: o administrador pode criar um funcionário
+</em> Deletar: o administrador pode deletar funcionário
+<em> Modificar: o administrador pode alterar os dados do funcionário
+</em> Visualizar: o administrador pode visualizar os dados de um funcionário</p>
 <h2 id="atores">Atores</h2>
 <ul>
 <li>Administrador</li>
@@ -881,6 +887,24 @@
 <td align="center">Obrigatório</td>
 </tr>
 <tr>
+<td align="center">Username</td>
+<td align="center">Username do usuário</td>
+<td align="center">Texto</td>
+<td align="center">Obrigatório</td>
+</tr>
+<tr>
+<td align="center">Password</td>
+<td align="center">Senha do usuário</td>
+<td align="center">Password</td>
+<td align="center">Obrigatório</td>
+</tr>
+<tr>
+<td align="center">Email</td>
+<td align="center">Email do usuário</td>
+<td align="center">Texto</td>
+<td align="center">Obrigatório</td>
+</tr>
+<tr>
 <td align="center">CPF</td>
 <td align="center">CPF do usuário</td>
 <td align="center">Texto</td>
@@ -891,44 +915,45 @@
 <h2 id="fluxo-principal">Fluxo Principal</h2>
 <h3 id="criar">Criar</h3>
 <p>O usuário irá :
- 1. Acessar o site
+ 1. Acessar a página de login.
  2. Preencher os campos com seus respectivos dados
- 3. Clicar em "Acessar Conta".[FA01]
- 4. Selecionar o botão de "Gerenciar funcionários"
+ 3. Clicar em "Login".[FA01]
+ 4. Selecionar o ícone de "Visualizar funcionários"
  5. Ser encaminhado para a página com todos os funcionários
- 6. Selecionar o botão de "Criar novo funcionário"
+ 6. Selecionar o ícone de "Criar novo funcionário"
  7. Preencher os campos de acordo com os dados solicitados sobre o novo funcionário
  8. Apertar o botão de "Criar"[FA02]
  9. O caso de uso é encerrado</p>
 <h3 id="deletar">Deletar</h3>
 <p>O usuário irá :
- 1. Acessar o site.
+ 1. Acessar a página de login.
  2. Preencher os campos com seus respectivos dados.
- 3. Clicar em "Acessar Conta".[FA01]
- 4. Selecionar o botão de "Gerenciar funcionários"
+ 3. Clicar em "Login".[FA01]
+ 4. Selecionar o ícone de "Visualizar funcionários"
  5. Ser encaminhado para a página com todos os funcionários
- 6. Clicar no botão de "Deletar Funcionário" do funcionário que deseja
- 7. O caso de uso é encerrado.</p>
+ 6. Clicar no ícone de "Deletar Funcionário" do funcionário que deseja
+ 7. O funcionário é deletado
+ 7. O caso de uso é encerrado</p>
 <h3 id="modificar">Modificar</h3>
 <p>O usuário irá:
- 1. Acessar o site.
+ 1. Acessar a página de login.
  2. Preencher os campos com seus respectivos dados.
- 3. Clicar em "Acessar Conta".[FA01]
- 4. Selecionar o botão de "Gerenciar funcionários"
+ 3. Clicar em "Login".[FA01]
+ 4. Selecionar o ícone de "Visualizar funcionários"
  5. Ser encaminhado para a página com todos os funcionários
- 6. Clicar no botão de "Modificar os dados" do funcionário que deseja
+ 6. Clicar no ícone de "Editar os dados" do funcionário que deseja
  7. Ser encaminhado para a página com todos os dados do funcionário
  8. Alterar os dados que deseja
  9. Clicar no botão de "Salvar"
  10. O caso de uso é encerrado</p>
 <h3 id="visualizar">Visualizar</h3>
 <p>O usuário irá:
- 1. Acessar o site.
+ 1. Acessar a página de login.
  2. Preencher os campos com seus respectivos dados.
- 3. Clicar em "Acessar Conta".[FA01]
- 4. Selecionar o botão de "Gerenciar funcionários"
+ 3. Clicar em "Login".[FA01]
+ 4. Selecionar o ícone de "Gerenciar funcionários"
  5. Ser encaminhado para a página com todos os funcionários
- 6. Clicar no botão de "Excluir Funcionário" do funcionário que deseja
+ 6. Clicar no ícone de "Excluir Funcionário" do funcionário que deseja
  7. Ser encaminhado para a página com todos os dados do funcionário
  8. O caso de uso é encerrado.</p>
 <h2 id="fluxo-alternativo">Fluxo Alternativo</h2>
@@ -942,7 +967,7 @@
  2. O sistema retorna para o passo 2 do fluxo principal com [M2].</p>
 <h2 id="mensagem">Mensagem</h2>
 <ul>
-<li>[M1] Seus Dados estão incorretos.</li>
+<li>[M1] Não foi possível efetuar o login.</li>
 <li>[M2] Usuário já cadastrado</li>
 </ul>
                 

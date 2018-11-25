@@ -176,7 +176,7 @@
 
 
   <li class="md-nav__item">
-    <a href=".." title="Home" class="md-nav__link">
+    <a href="../../README.md" title="Home" class="md-nav__link">
       Home
     </a>
   </li>
@@ -663,13 +663,6 @@
     Histórico de Revisão
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#1-introducao" title="1. Introdução" class="md-nav__link">
-    1. Introdução
-  </a>
-  
     <nav class="md-nav">
       <ul class="md-nav__list">
         
@@ -1040,13 +1033,6 @@
         <li class="md-nav__item">
   <a href="#historico-de-revisao" title="Histórico de Revisão" class="md-nav__link">
     Histórico de Revisão
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#1-introducao" title="1. Introdução" class="md-nav__link">
-    1. Introdução
   </a>
   
     <nav class="md-nav">
@@ -1512,28 +1498,49 @@
 <td align="center">Correção das Descrições dos Envolvidos e dos Usuários</td>
 <td align="center">Lucas Gomes</td>
 </tr>
+<tr>
+<td align="center">22/11/18</td>
+<td align="center">1.5</td>
+<td align="center">Revisão de Documento</td>
+<td align="center">Luís Cláudio T. Lima</td>
+</tr>
+<tr>
+<td align="center">***</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">## 1. Introdução</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">***</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
 </tbody>
 </table>
-<hr />
-<h2 id="1-introducao">1. Introdução</h2>
-<hr />
 <p>Esta documentação tem como propósito coletar, analisar e definir os insumos necessários para a realização do PDF2CASH, que é uma ferramenta para gerar dados a partir de notas fiscais eletrônicas(NFe). Sendo possível o armazenamento e a organização.
 Nesta introdução será apresentada uma visão geral para o entendimento do projeto, de tal modo que fique claro para todos os recursos necessários e as razões que levam a essas necessidades.</p>
 <h3 id="11-finalidade">1.1 Finalidade</h3>
-<p>Este documento tem como objetivo definir os requisitos, necessidades e os recursos necessários, especificamente as de alto nível,  para que o investidor possa compreender e tenha o completo entendimento do projeto PDF2CASH.</p>
+<p>Este documento tem como objetivo definir os requisitos, necessidades e os recursos necessários, especificamente os de alto nível, para que o investidor possa compreender e tenha o completo entendimento do projeto PDF2CASH.</p>
 <h3 id="12-escopo">1.2 Escopo</h3>
 <p>Neste documento serão abordados os pontos necessários para o desenvolvimento do PDF2CASH, de tal modo que o produto será de fácil entendimento para pessoas leigas. Resumidamente, este software será utilizado no setor financeira de micro empresas gerando dados a partir de notas fiscais eletrônicas, primeiramente sendo realizada a leitura automatizada do pdf, o armazenamento dos dados, o gerenciamento dos gastos e a geração de gráficos de análise financeira respectivamente. Em relação ao controle de segurança, foi determinado que os funcionários da parte financeira terão acesso apenas as notas fiscais da empresa em que trabalha.</p>
 <h3 id="13-definicoes-acronimos-e-abreviacoes">1.3 Definições, Acrônimos e Abreviações</h3>
-<p>Alguns termos e conceitos serão necessários saber para o total entendimento deste documento e que estarão listadas logo abaixo :</p>
+<p>Alguns termos e conceitos serão necessários para a concepcao do total entendimento deste documento e estao listados logo abaixo :</p>
 <ol>
 <li>PDF(Portable Document Format): É um formato de arquivo usado para exibir e compartilhar documentos de maneira compatível.</li>
 <li>NFe (Nota Fiscal Eletrônica): Arquivo eletrônico com o objetivo de substituir a tradicional nota fiscal em papel, onde contém as informações fiscais da operação comercial.</li>
 <li>HD(Hard Disk): Sistema de armazenamento de alta capacidade destinado ao armazenamento de arquivos e programas.</li>
 <li>PO (Product Owner): Membro responsável por compreender a idéia e ser os “olhos” do cliente dentro do projeto.</li>
-<li>IA (inteligência artificial): Conjunto de técnicas com o objetivo de criar aplicações com inteligência que se assemelha a inteligência humana.</li>
 <li>CTe (Conhecimento de Transporte Eletrônico): Documento digital, para fins fiscais, onde é documentado prestação de serviço de transporte de cargas realizadas por qualquer modal.</li>
 <li>CNPJ (Cadastro Nacional da Pessoa Jurídica): Número único que identifica uma pessoa jurídica.</li>
 <li>Backup: Cópia de um ou mais arquivos onde será guardado em dispositivo de armazenamento ou diretório diferente do arquivo original.</li>
+<li>Parser: É um componente de compilador ou interpretador que atua no processo de análise de sentenças e sequências de palavras ou símbolos mostrando sua relação sintática ou semântica entre si para conversão em informações.  </li>
 </ol>
 <h3 id="14-referencias">1.4 Referências</h3>
 <p>WARNOCK, John. Adobe. Disponível em: <a href="https://acrobat.adobe.com/br/pt/acrobat/about-adobe-pdf.html">https://acrobat.adobe.com/br/pt/acrobat/about-adobe-pdf.html</a>. Acesso em: 29 ago. 2018.
@@ -1545,26 +1552,26 @@ Desconhecido. Conheça o CT-e. Disponível em: <a href="http://www.cte.fazenda.g
 <h2 id="2-posicionamento">2. Posicionamento</h2>
 <hr />
 <h3 id="21-oportunidade-de-negocios">2.1 Oportunidade de Negócios</h3>
-<p>Atualmente diversas empresas enfrentam problemas relacionados ao seus controles de gastos e com consequência disso ocorre a dificuldade de maximização de lucros, levando em consideração o grande volume de vendas e compras realizados, e algumas vezes por falta de experiência na coordenação econômica da empresa. Com base nesses problemas o PDF2CASH busca realizar de maneira rápida e prática a organização, armazenamento e geração de gráficos de dados baseados nas notas fiscais recebidas por essas empresas, gerando assim um maior controle de onde está sendo gasto o dinheiro e se está ocorrendo aumentos ou quedas no histórico monetário dessa empresa além da prevenção de possíveis multas causadas pela falta de armazenamento das notas fiscais.</p>
+<p>Atualmente diversas empresas enfrentam problemas relacionados ao seus controles de gastos e como consequência disso ocorre a dificuldade de maximização de lucros, levando em consideração o grande volume de vendas e compras realizadas, e algumas vezes por falta de experiência na coordenação econômica da empresa. Com base nesses problemas o PDF2CASH busca realizar, de maneira rápida e prática, a organização, armazenamento e geração de gráficos de dados baseados nas notas fiscais recebidas por essas empresas, gerando assim um maior controle de onde está sendo gasto o dinheiro e se está ocorrendo aumentos ou quedas no histórico monetário dessa empresa, além da prevenção de possíveis multas causadas pela falta de armazenamento das notas fiscais.</p>
 <h3 id="22-descricao-do-problema">2.2 Descrição do Problema</h3>
 <table>
-  <tr><th>O problema de</th><td>Falta de praticidade no trabalho relacionado às notas fiscais que abrange a falta de organização e a falta de controle de gastos </td></tr>
+  <tr><th>O problema de</th><td>Falta de praticidade no trabalho relacionado às notas fiscais que abrange a falta de organização e a falta de controle de gastos. </td></tr>
   <tr><th>Afeta</th><td>
-A empresa de modo geral e principalmente seu setor financeiro
+A empresa de modo geral e principalmente seu setor financeiro.
 </td></tr>
-  <tr><th>Cujo impacto é</th><td>O setor financeiro da empresa já que não consegue de maneira prática manter a organização e controle de seus gastos e o armazenamento de suas notas fiscais, causando dano ao lucro geral da empresa</td></tr>
-  <tr><th>Uma boa solução seria</th><td>Uma aplicação prática e inteligente que por meio de artifícios de IA e aprendizado de máquina reconhece notas fiscais emitidas e trabalha em cima delas, gerando de maneira automatizada gráficos de  gastos recentes ou mesmo dentro de um histórico, gerando um melhor entendimento de onde e porque está sendo gasto o dinheiro da empresa, juntamente com o armazenamento automático dessas notas, evitando assim burocracia e trabalho desnecessário realizando uma maximização de lucros da empresa</td></tr>
+  <tr><th>Cujo impacto é</th><td>O setor financeiro da empresa já que não consegue de maneira prática manter a organização e controle de seus gastos e o armazenamento de suas notas fiscais, causando dano ao lucro geral da empresa.</td></tr>
+  <tr><th>Uma boa solução seria</th><td>Uma aplicação prática e inteligente que reconhece notas fiscais emitidas e trabalha em cima delas gerando, de maneira automatizada, gráficos de gastos recentes ou mesmo dentro de um histórico e gerando um melhor entendimento de onde e porque está sendo gasto o dinheiro da empresa, juntamente com o armazenamento automático dessas notas, evitando assim burocracia e trabalho desnecessário, no intuito de realizar uma maximização de lucros da empresa.</td></tr>
 </table>
 
 <h3 id="23-sentenca-de-posicao-do-produto">2.3 Sentença de Posição do Produto</h3>
 <table>
   <tr><th>Para</th><td>Microempresas, com ênfase no setor financeiro </td></tr>
   <tr><th>Que</th><td>
-Possuem a necessidade de um software que realize de maneira automatizada, prática e organizada o controle de gastos por meio de gráficos, organização de notas fiscais sem a necessidade de interação humana durante o processo
+Possuem a necessidade de um software que realize de maneira automatizada, prática e organizada o controle de gastos por meio de gráficos e organização de notas fiscais sem a necessidade de interação humana durante o processo.
 </td></tr>
-  <tr><th>O (nome do produto)</th><td>PDF2CASH</td></tr>
+  <tr><th>Nome do produto</th><td>PDF2CASH</td></tr>
   <tr><th>Diferente de</th><td>Noov e Arquivei</td></tr>
-  <tr><th>Nosso produto</th><td>Gera dados úteis baseando-se na leitura nativa de arquivos PDF’s de notas fiscais de maneira automática e rápida por meio do nosso software livre, agrupando os gastos relacionados, gerando gráficos de história e realizando um armazenando seguro das notas fiscais nos bancos de dados da empresa </td></tr>
+  <tr><th>Nosso produto</th><td>Gera dados úteis baseando-se na leitura nativa de arquivos PDF’s de notas fiscais eletrônicas de maneira automática e rápida por meio do nosso software livre, agrupando os gastos relacionados, gerando gráficos de história e realizando um armazenando seguro das notas fiscais nos bancos de dados da empresa. </td></tr>
 </table>
 
 <hr />
@@ -1582,17 +1589,17 @@ Possuem a necessidade de um software que realize de maneira automatizada, práti
 <tbody>
 <tr>
 <td align="center">Investidores</td>
-<td align="center">Micro empresas com interesse em automatizar o controle de notas fiscais</td>
+<td align="center">Micro empresas com interesse em automatizar o controle de notas fiscais.</td>
 <td align="center">Avaliar a qualidade do produto no intuito de comprar o mesmo.</td>
 </tr>
 <tr>
 <td align="center">Equipe de desenvolvimento do projeto</td>
-<td align="center">Equipe de alunos de Métodos de Desenvolvimento de Software da UnB</td>
+<td align="center">Equipe de alunos de Métodos de Desenvolvimento de Software da UnB.</td>
 <td align="center">Planejar, desenvolver, testar, documentar e implementar o sistema.</td>
 </tr>
 <tr>
 <td align="center">Equipe de engenharia de produto</td>
-<td align="center">Equipe de alunos de Engenharia de Produto de Software da UnB</td>
+<td align="center">Equipe de alunos de Engenharia de Produto de Software da UnB.</td>
 <td align="center">Planejar, projetar e gerir o projeto. Onde a equipe é composta pelo PO, Scrum Master, DevOps e Arquiteto que desempenham os papéis de, respectivamente, compreender, guiar a equipe, estudar a implementação e, configurar o ambiente de desenvolvimento do projeto.</td>
 </tr>
 </tbody>
@@ -1611,13 +1618,13 @@ Possuem a necessidade de um software que realize de maneira automatizada, práti
 <tr>
 <td align="center">Administrador</td>
 <td align="center">Operador do sistema com mais recurso para uso</td>
-<td align="center">Responsável por realizar cadastro de novos usuários e empresas e excluir nota fiscal</td>
+<td align="center">Responsável por realizar cadastro de novos usuários e empresas e excluir nota fiscal.</td>
 <td align="center">Usuário</td>
 </tr>
 <tr>
 <td align="center">Funcionário Cadastrado</td>
 <td align="center">Operador do sistema</td>
-<td align="center">Responsável pela inserção dos PDF das notas fiscais, visualização de análises e nota fiscal e listagem das notas fiscais</td>
+<td align="center">Responsável pela inserção dos PDFs das notas fiscais, visualização de análises e nota fiscal e listagem das notas fiscais.</td>
 <td align="center">Usuário</td>
 </tr>
 </tbody>
@@ -1626,22 +1633,23 @@ Possuem a necessidade de um software que realize de maneira automatizada, práti
 <h4 id="331-investidores">3.3.1  Investidores</h4>
 <p><table>
   <tr><th>Descrição</th><td>Investidor com o interesse em automatizar o gerenciamento de notas fiscais da empresa.</td></tr>
-  <tr><th>Tipo</th><td>Conhecimento na área administrativa e financeira</td></tr>
-  <tr><th>Responsabilidades</th><td> Analisar, dar opinião e averiguar a utilização do produto em sua empresa</td></tr>
-  <tr><th>Critérios de Sucesso</th><td>Receber uma aplicação que possa suprir suas necessidades diante as notas fiscais de forma automatizada.</td></tr>
-  <tr><th>Envolvimento</th><td>Alto</td></tr>
-  <tr><th>Comentários / Problemas</th><td>-</td></tr>
+  <tr><th>Tipo</th><td>Conhecimento na área administrativa e financeira.</td></tr>
+  <tr><th>Responsabilidades</th><td> Analisar, dar opinião e averiguar a utilização do produto em sua empresa.</td></tr>
+  <tr><th>Critérios de Sucesso </th><td>Receber uma aplicação que possa suprir suas necessidades diante as notas fiscais de forma automatizada.</td></tr>
+  <tr><th> Envolvimento </th><td> Alto </td></tr>
+  <tr><th> Comentários / Problemas </th><td> - </td></tr>
 </table></p>
 <h4 id="332-equipe-de-desenvolvedores">3.3.2  Equipe de Desenvolvedores</h4>
 <p><table>
-  <tr><th>Representante</th><td>Brian Lui<br>
+  <tr><th> Representantes </th><td>
+  Brian Lui<br>
   Julio Cesar Litwin<br>
   Lucas Gomes Silva<br>
   Luis Claudio Telles Lima<br>
   Rafael Santos Teodosio<br>
   Wictor Bastos Girardi<br></td></tr>
   <tr><th>Descrição</th><td>Desenvolvedores do projeto</td></tr>
-  <tr><th>Tipo</th><td>Graduandos de Engenharia de Software na Universidade de Brasília, matriculados na disciplina de Métodos de Desenvolvimento de Software</td></tr>
+  <tr><th>Tipo</th><td> Graduandos de Engenharia de Software na Universidade de Brasília, matriculados na disciplina de Métodos de Desenvolvimento de Software.</td></tr>
   <tr><th>Responsabilidades</th><td>Planejar o sistema, realizar testes de implementação, documentar a estrutura do software e implementar o sistema de acordo com a documentação.</td></tr>
   <tr><th>Critérios de Sucesso</th><td>Desenvolver o sistema dentro do prazo estimado e adquirir novos conhecimentos sobre desenvolvimento de software.</td></tr>
   <tr><th>Envolvimento</th><td>Alto</td></tr>
@@ -1649,34 +1657,34 @@ Possuem a necessidade de um software que realize de maneira automatizada, práti
 </table></p>
 <h4 id="333-equipe-de-desenvolvedores">3.3.3  Equipe de Desenvolvedores</h4>
 <p><table>
-  <tr><th>Representante</th><td>Bruno Matias Casas<br>
+  <tr><th>Representantes</th><td>Bruno Matias Casas<br>
   Carlos Enrique Rodrigues Aragon<br>
   Daniel Marques Rangel<br>
   Francisco Wallacy Coutinho Braz<br></td></tr>
   <tr><th>Descrição</th><td>Engenheiros de Produto de Software</td></tr>
-  <tr><th>Tipo</th><td>Graduandos de Engenharia de Software na Universidade de Brasília, matriculados na disciplina de Engenharia de Produto de Software</td></tr>
+  <tr><th>Tipo</th><td>Graduandos de Engenharia de Software na Universidade de Brasília, matriculados na disciplina de Engenharia de Produto de Software.</td></tr>
   <tr><th>Responsabilidades</th><td>Planejar o projeto, programar os recursos definidos do projeto e gerir a equipe de desenvolvedores. A equipe é composta pelo Product Owner, Scrum Master, DevOps e Arquiteto que desempenham os papéis de, respectivamente, compreender o mercado e vender a idéia ao investidor, guiar e facilitar as tarefas realizadas pela equipe, configurar o ambiente de desenvolvimento do projeto e estudar formas de implementação do sistema por completo.</td></tr>
-  <tr><th>Critérios de Sucesso</th><td>Entregar a aplicação no tempo estimado, vender a idéia da aplicação aos investidores e aumentar a experiência na área de desenvolvimento de software e gestão de projeto.</td></tr>
+  <tr><th>Critérios de Sucesso</th><td>Entregar a aplicação no tempo estimado, vender a idéia da aplicação aos investidores e aumentar a experiência na área de desenvolvimento de software e gestão de projetos.</td></tr>
   <tr><th>Envolvimento</th><td>Alto</td></tr>
   <tr><th>Comentários / Problemas</th><td>-</td></tr>
 </table></p>
 <h3 id="34-perfis-dos-usuarios">3.4 Perfis dos Usuários</h3>
 <h4 id="341-administrador">3.4.1 Administrador</h4>
 <table>
-  <tr><th>Descrição</th><td>Funcionário que faz parte da administração da área financeira ou de confiança  da empresa</td></tr>
+  <tr><th>Descrição</th><td>Funcionário que faz parte da administração da área financeira ou de confiança  da empresa.</td></tr>
   <tr><th>Tipo</th><td>Usuário avançado</td></tr>
   <tr><th>Responsabilidades</th><td>Conhecer a aplicação de modo que possa organizar os PDFs presentes na aplicação, gerenciar gastos no sistema, adicionar novas empresas ao sistema e realizar o cadastro de novos usuários.</td></tr>
-  <tr><th>Critérios de Sucesso</th><td>Receber um sistema capaz de automatizar tarefas repetitivas que envolvem notas fiscais</td></tr>
+  <tr><th>Critérios de Sucesso</th><td>Receber um sistema capaz de automatizar tarefas repetitivas que envolvem notas fiscais.</td></tr>
   <tr><th>Envolvimento</th><td>Usuário final do sistema</td></tr>
   <tr><th>Comentários / Problemas</th><td>-</td></tr>
 </table>
 
 <h4 id="342-funcionario">3.4.2 Funcionário</h4>
 <table>
-  <tr><th>Descrição</th><td>Funcionários que fazem parte do setor financeiro</td></tr>
+  <tr><th>Descrição</th><td>Funcionários que fazem parte do setor financeiro.</td></tr>
   <tr><th>Tipo</th><td>Usuário comum</td></tr>
-  <tr><th>Responsabilidades</th><td>Conhecer a aplicação de modo que possa organizar os PDFs presentes na aplicação e gerenciar gastos no sistema</td></tr>
-  <tr><th>Critérios de Sucesso</th><td>Receber um sistema capaz de automatizar tarefas repetitivas que envolvem notas fiscais</td></tr>
+  <tr><th>Responsabilidades</th><td>Conhecer a aplicação de modo que possa organizar os PDFs presentes na aplicação e gerenciar gastos no sistema.</td></tr>
+  <tr><th>Critérios de Sucesso</th><td>Receber um sistema capaz de automatizar tarefas repetitivas que envolvem notas fiscais.</td></tr>
   <tr><th>Envolvimento</th><td>Usuário final do sistema</td></tr>
   <tr><th>Comentários / Problemas</th><td>-</td></tr>
 </table>
@@ -1694,18 +1702,18 @@ Possuem a necessidade de um software que realize de maneira automatizada, práti
 </thead>
 <tbody>
 <tr>
-<td align="center">Agilidade e automatização na análise e armazenamento de notas fiscais</td>
+<td align="center">Agilidade e automatização na análise e armazenamento de notas fiscais.</td>
 <td align="center">Alta</td>
-<td align="center">Falta de agilidade na análise das notas fiscais e possíveis erros humanos</td>
+<td align="center">Falta de agilidade na análise das notas fiscais e possíveis erros humanos.</td>
 <td align="center">Verificação manual das notas fiscais</td>
-<td align="center">Realizar a leitura da nota fiscal com o auxílio de aprendizagem de máquina ou divisão da nota fiscal por blocos onde as notas são adicionadas para serem lidas de forma automática</td>
+<td align="center">Realizar a leitura da nota fiscal com sua divisão por blocos na qual as mesmas são adicionadas para serem lidas de forma automática.</td>
 </tr>
 <tr>
-<td align="center">Gerar relatórios com base nas notas fiscais recebidas</td>
+<td align="center">Gerar relatórios com base nas notas fiscais recebidas.</td>
 <td align="center">Alta</td>
 <td align="center">Possíveis erros humanos na hora da elaboração do relatório</td>
-<td align="center">Feito de forma manual</td>
-<td align="center">De acordo com a leitura feita nas notas fiscais, a aplicação gerará análises conforme a necessidade do usuário</td>
+<td align="center">Feito de forma manual.</td>
+<td align="center">De acordo com a leitura feita nas notas fiscais, a aplicação irá gerar análises conforme a necessidade do usuário.</td>
 </tr>
 </tbody>
 </table>
@@ -1714,13 +1722,13 @@ Possuem a necessidade de um software que realize de maneira automatizada, práti
 <p>É uma plataforma web gratuito onde é possível realizar o armazenamento de NFes que garante o backup seguro de suas notas na nuvem tendo também a opção de envio ou recebimento de notas fiscais de forma automática. O Noov permite também compartilhar as notas fiscais da empresa com seus clientes, parceiros e contadores. Esse portal possui uma API voltada a desenvolvedores com o intuito de desenvolverem novos aplicativos e colaborarem com a plataforma Noov. Essa plataforma não lê notas fiscais em PDF e não há análise dos gastos financeiros.</p>
 <p><img alt="Noov" src="https://uploaddeimagens.com.br/images/001/604/543/original/Noov.png?1536550429" /></p>
 <h4 id="362-arquivei">3.6.2 Arquivei</h4>
-<p>Desenvolvido e mantido por uma startup constituída por alunos e ex-alunos da Universidade de São Paulo, o Arquivei é uma plataforma web paga que tem como objetivo o acesso fácil aos documentos fiscais da empresa. A plataforma é conectado à Secretaria da Fazenda e baixa automaticamente todas as NFes e CTes emitidas para o CNPJ da empresa, armazenando-as no painel de gestão de notas da plataforma. Todas informações presentes na plataforma se tornam gráficos para melhor visualização do usuário. O Arquivei possui três planos de contratação com taxas mensais: o primeiro, Plano Starter, no valor de R$ 29,90; o segundo com o nome de Plano Controle no valor de R$ 49,90 e; o terceiro plano, intitulado Plano Business, possuindo o valor de R$ 89,90. Essa plataforma não lê notas fiscais em PDF e não há uma gama de tipos de análises.</p>
+<p>Desenvolvido e mantido por uma startup constituída por alunos e ex-alunos da Universidade de São Paulo, o Arquivei é uma plataforma web paga que tem como objetivo o acesso fácil aos documentos fiscais da empresa. A plataforma é conectado à Secretaria da Fazenda e baixa automaticamente todas as NFes e CTes emitidas para o CNPJ da empresa, armazenando-as no painel de gestão de notas da plataforma. Todas informações presentes na plataforma se tornam gráficos para melhor visualização do usuário. O Arquivei possui três planos de contratação com taxas mensais: o primeiro, Plano Starter, no valor de R$ 29,90; o segundo com o nome de Plano Controle no valor de R$ 49,90; e o terceiro plano, intitulado Plano Business, possuindo o valor de R$ 89,90. Essa plataforma não lê notas fiscais em PDF e não há uma gama de tipos de análises.</p>
 <p><img alt="Arquivei" src="https://uploaddeimagens.com.br/images/001/604/545/original/Arquivei.png?1536550547" /></p>
 <hr />
 <h2 id="4-visao-geral-do-produto">4. Visão Geral do Produto</h2>
 <hr />
 <h3 id="41-perspectiva-do-produto">4.1 Perspectiva do Produto</h3>
-<p>O PDF2K irá sistematizar o processo de leitura e transformação de arquivos (PDF). De tal forma que, Diretores e funcionários da empresa tenham o controle sobre seus gastos. O produto fornecerá aos usuários as informações necessárias para melhor gerirem a parte financeira. Tais informações contemplam categoria de gastos, valores unitários, valores totais, análise de dados, margem de gastos, histórico de gastos . Assim, têm-se como expectativa facilitar, agilizar o processo de controle fiscal, além de ampliar os lucros pelo fato de ter-se um controle automatizado dos gastos.</p>
+<p>O PDF2CASH irá sistematizar o processo de leitura e transformação de NFes de tal forma que diretores e funcionários da empresa tenham o controle sobre seus gastos. O produto fornecerá aos usuários as informações necessárias para melhor gestão da financeira. Tais informações contemplam categoria de gastos, valores unitários, valores totais, análise de dados, margem de gastos, histórico de gastos. Assim, têm-se como expectativa facilitar e agilizar o processo de controle fiscal, além de ampliar os lucros pelo fato de ter-se um controle automatizado dos gastos.</p>
 <h3 id="42-resumo-dos-recursos">4.2 Resumo dos Recursos</h3>
 <table>
 
@@ -1740,17 +1748,17 @@ Possuem a necessidade de um software que realize de maneira automatizada, práti
 
 <h3 id="43-custos-e-precos">4.3 Custos e Preços</h3>
 <h3 id="44-licenciamento-e-instalacao">4.4 Licenciamento e Instalação</h3>
-<p>Não será necessaria a instalação do software pois o mesmo será uma aplicação Web.
-O licenciamento do produto será do tipo MIT(software livre), no caso é concedida permissão, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software e dos arquivos de documentação associados, para negociar o Software sem restrições, incluindo, sem limitação, os direitos de uso, cópia, modificação e fusão , publicar, distribuir, sublicenciar e / ou vender cópias do Software, e permitir que as pessoas a quem o Software é fornecido o façam.</p>
+<p>Será necessária a instalação do software pois o mesmo será uma aplicação Desktop.
+O licenciamento do produto será do tipo MIT(software livre). No caso é concedida permissão, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software e dos arquivos de documentação associados, para negociar o Software sem restrições, incluindo, sem limitação, os direitos de uso, cópia, modificação e fusão, publicar, distribuir, sublicenciar e/ou vender cópias do Software, além de permitir que as pessoas a quem o Software é fornecido o façam.</p>
 <hr />
 <h2 id="5-recursos-do-produto">5. Recursos do Produto</h2>
 <hr />
 <h3 id="legenda-de-prioridades-dos-requisitos">Legenda de Prioridades dos Requisitos:</h3>
 <table>
   <tr><th>Prioridade</th><th>Caracteristica</td></tr>
-  <tr><td>Alta</th><td>Requisito fundamental para o sistema </td></tr>
-  <tr><td>Intermediaria</th><td>Requisito importante, mas não é fundamental para o funcionamento do sistema</td></tr>
-  <tr><td>Baixa</th><td>Requisito não fundamental e pouco usado no sistema</td></tr>
+  <tr><td>Alta</th><td>Requisito fundamental para o sistema. </td></tr>
+  <tr><td>Intermediaria</th><td>Requisito importante, mas não é fundamental para o funcionamento do sistema.</td></tr>
+  <tr><td>Baixa</th><td>Requisito não fundamental e pouco usado no sistema.</td></tr>
 
 </table>
 
@@ -1773,19 +1781,19 @@ O licenciamento do produto será do tipo MIT(software livre), no caso é concedi
 <tr>
 <td align="center">RF2</td>
 <td align="center">Arquivação de notas fiscais</td>
-<td align="center">O sistema deve arquivar de maneira automática ou não as notas fiscais que forem inseridas no programa</td>
+<td align="center">O sistema deve arquivar de maneira automática, ou não, as notas fiscais que forem inseridas no programa.</td>
 <td align="left">Alta</td>
 </tr>
 <tr>
 <td align="center">RF3</td>
 <td align="center">Gerenciamento de funcionario</td>
-<td align="center">O sistema deve possuir uma maneira de gerencia de funcionarios</td>
+<td align="center">O sistema deve possuir uma maneira de gerência de funcionarios.</td>
 <td align="left">Media</td>
 </tr>
 <tr>
 <td align="center">RF4</td>
 <td align="center">Consulta no histórico de gastos</td>
-<td align="center">O sistema deve possuir uma maneira de gerar informações cronológicas de gastos com as notas fiscais</td>
+<td align="center">O sistema deve possuir uma maneira de gerar informações cronológicas de gastos com as notas fiscais.</td>
 <td align="left">Media</td>
 </tr>
 <tr>
@@ -1803,7 +1811,7 @@ O licenciamento do produto será do tipo MIT(software livre), no caso é concedi
 <tr>
 <td align="center">RF7</td>
 <td align="center">Deletar notas fiscais</td>
-<td align="center">O sistema deve possuir uma maneira que o usuário possa deletar as notas fiscais cadastradas no banco de dados</td>
+<td align="center">O sistema deve possuir uma maneira que o usuário possa deletar as notas fiscais cadastradas no banco de dados.</td>
 <td align="left">Media</td>
 </tr>
 </tbody>
@@ -1812,7 +1820,7 @@ O licenciamento do produto será do tipo MIT(software livre), no caso é concedi
 <h2 id="6-restricoes">6. Restrições</h2>
 <hr />
 <ul>
-<li>O PDF deverá ser nativo, sendo assim, um PDF “original” com texto (sem ser um PDF escaneado).</li>
+<li>O PDF deverá ser nativo, sendo assim, um PDF “original” com texto selecionável (sem ser um PDF escaneado).</li>
 <li>O sistema funcionará apenas para notas fiscais.</li>
 <li>Notas fiscais deverão seguir um determinado padrão, para ser reconhecido os valores pelo parser e lexer.</li>
 <li>Apenas o Administrador poderá gerenciar os outros usuários, como a criação das contas dos funcionários.</li>
@@ -1823,21 +1831,22 @@ O licenciamento do produto será do tipo MIT(software livre), no caso é concedi
 <hr />
 <h3 id="71-requisitos-de-sistema">7.1   Requisitos de Sistema</h3>
 <ul>
-<li>O sistema consiste em uma aplicação desktop na qual é necessário acesso a uma rede estável para a conexão com o servidor.</li>
-<li>Deve ser possível instalar a aplicação desktop nos seguintes sistemas operacionais: Windows, distribuições Linux e MacOS.</li>
+<li>O sistema consiste em uma aplicação desktop na qual o acesso a rede será necessário apenas para instalação e atualizacão do mesmo.</li>
+<li>Deve ser possível instalar a aplicação desktop em sistemas operacionais de distribuição Linux.</li>
 </ul>
 <h3 id="72-requisitos-de-desempenho">7.2   Requisitos de Desempenho</h3>
 <ul>
-<li>O sistema deve ter o tempo de execução e resposta de acordo com a qualidade da conexão de internet, sendo assim, a velocidade de rede irá impactar diretamente o sistema em todas as suas funcionalidades.</li>
-<li>O sistema deve suportar no mínimo 100 usuários possíveis.</li>
+<li>O PARSER deve ser capaz de ler e converter em dados as informações contidas nas notas fiscais em menos de um segundo.</li>
+<li>Os gráficos de dados das notas fiscais devem ser atualizados assim que a pagina onde os mesmos se encontram seja novamente carregada.</li>
+<li>O sistema deverá autenticar rapidamente todo usuário que deseje utilizar o software.</li>
 </ul>
 <h3 id="73-requisitos-de-design">7.3   Requisitos de Design</h3>
 <ul>
-<li>O sistema deve ter uma interface organizada e intuitiva suficiente para o uso adequado, tendo também cores indicadoras que possam diferenciar cada funcionalidade.</li>
+<li>O sistema deve ter uma interface organizada e intuitiva suficiente para o uso adequado, tendo ícones, simbolos e cores indicadores que possam diferenciar cada funcionalidade.</li>
 </ul>
 <h3 id="74-requisitos-de-confiabilidade">7.4   Requisitos de Confiabilidade</h3>
 <ul>
-<li>O sistema deve calcular com precisão o valores de cada item na nota fiscal.</li>
+<li>O sistema deve calcular com precisão os valores de cada item na nota fiscal.</li>
 <li>O sistema deve poder se recuperar de falhas que possam ocorrer durante a sua utilização.</li>
 </ul>
 <h3 id="75-requisitos-de-arquitetura">7.5   Requisitos de Arquitetura</h3>
@@ -1853,7 +1862,7 @@ O licenciamento do produto será do tipo MIT(software livre), no caso é concedi
 </ul>
 <h3 id="77-requisitos-de-suportabilidade">7.7   Requisitos de Suportabilidade</h3>
 <ul>
-<li>Nesse sistema deve ser possível fazer a instalação no sistema do usuário para a execução do mesmo.</li>
+<li>Deve ser possível fazer a instalação do sistema na máquina do usuário para a execução do mesmo.</li>
 <li>O sistema deve seguir o padrão de codificação criado pelo integrate devops da equipe.</li>
 </ul>
 <h3 id="78-requisitos-de-seguranca">7.8   Requisitos de Segurança</h3>

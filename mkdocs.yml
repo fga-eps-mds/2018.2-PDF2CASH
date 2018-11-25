@@ -1,10 +1,10 @@
 site_name: PDF2Ca$h
 nav:
-  - Home: home.md
+  - Home: index.md
   - DevOps: 
     - GitFlow: devops/gitflow.md
     - Politica de Issues: devops/issue-policy.md
-  - Metodologia:
+  - Metodologia: methodoloy/methodology.md
     - Backlog: methodology/backlog.md
     - Riscos: methodology/risks.md
     - Sprints:
@@ -25,15 +25,20 @@ nav:
     - Canvas: project-management/canvas.md
     - EAP: project-management/eap.md
     - TAP: project-management/tap.md
-  - Casos de uso: casos-de-uso.md
-  - Codigo de conduta: CODE_OF_CONDUCT.md
-  - Politica de contribuição: index.md
-  - Especificação suplementar: documento-de-especificacao-suplementar.md
   - Roadmaps:
     - Geral: GENERAL_ROADMAP.md
     - Por papel: ROLE_ROADMAP.md
-  - Licença: LICENSE.md
   - Documento de visão: vision-document.md
+  - Documento de arquitetura: documento-de-arquitetura.md
+  - Especificação suplementar: documento-de-especificacao-suplementar.md
+  - Casos de uso: casos-de-uso.md
+  - Codigo de conduta: CODE_OF_CONDUCT.md
+  - Politica de contribuição: politca_contribuicao.md
+  - Licença: LICENSE.md
+  - Templates: 
+    - Pull request: pull_request_template.md
+    - Bug report: ISSUE_TEMPLATE/bug_report.md
+    - Feature request: ISSUE_TEMPLATE/feature_request.md
 
 theme:
   name: 'material'

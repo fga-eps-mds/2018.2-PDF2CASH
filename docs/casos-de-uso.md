@@ -10,9 +10,10 @@
 | 16/09/2018 | Brian Lui | 0.5 | Criado UC07 - Manter funcionarios |
 | 16/09/2018 | Luis Cláudio | 0.6 | Criado UC03 - Adicionar PDF notas fiscais |
 | 16/09/2018 | Luis Cláudio | 0.7 | Criado UC08 - Editar Perfil |
-| 16/09/2018 | Julio Litwin| 0.8 | Criado UC06 - Visualizar nota fiscal |
-| 16/09/2018 | Julio Litwin| 0.8 | Criado UC10 - Remover nota fiscal |
+| 16/09/2018 | Julio Litwin | 0.8 | Criado UC06 - Visualizar nota fiscal |
+| 16/09/2018 | Julio Litwin | 0.8 | Criado UC10 - Remover nota fiscal |
 | 16/09/2018 | Rafael Teodosio | 0.9 | Criado UC02 - Efetuar Login |
+| 22/11/2018 | Brian Lui | 1.0 | Revisão de Documento |
 
 
 
@@ -25,5 +26,4 @@
 - [x] [UC05 - Listar notas fiscais](use-case/uc05.md)
 - [x] [UC06 - Visualizar nota fiscal](use-case/uc06.md)
 - [x] [UC07 - Manter funcionários](use-case/uc07.md)
-- [x] [UC08 - Editar perfil](use-case/uc08.md)
-- [x] [UC09 - Remover nota fiscal](use-case/uc09.md)
+- [x] [UC08 - Remover nota fiscal](use-case/uc08.md)

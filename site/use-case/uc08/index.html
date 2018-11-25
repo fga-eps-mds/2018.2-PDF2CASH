@@ -36,7 +36,7 @@
     
     
       
-        <title>Especificação do Caso de Uso - UC[08] Editar Perfil - PDF2Ca$h</title>
+        <title>Especificação do Caso de Uso - UC[08] Remover Nota Fiscal - PDF2Ca$h</title>
       
     
     
@@ -79,7 +79,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="../../#especificacao-do-caso-de-uso-uc08-editar-perfil" tabindex="1" class="md-skip">
+      <a href="../../#especificacao-do-caso-de-uso-uc08-remover-nota-fiscal" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -105,7 +105,7 @@
                 PDF2Ca$h
               </span>
               <span class="md-header-nav__topic">
-                Especificação do Caso de Uso - UC[08] Editar Perfil
+                Especificação do Caso de Uso - UC[08] Remover Nota Fiscal
               </span>
             
           
@@ -176,7 +176,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../.." title="Home" class="md-nav__link">
+    <a href="../../README.md" title="Home" class="md-nav__link">
       Home
     </a>
   </li>
@@ -666,8 +666,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#descricao" title="Descrição" class="md-nav__link">
-    Descrição
+  <a href="#descricao" title="Descrição:" class="md-nav__link">
+    Descrição:
   </a>
   
 </li>
@@ -709,15 +709,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#fa01-o-usuario-deseja-alterar-o-email" title="[FA01]  O usuário deseja alterar o email" class="md-nav__link">
-    [FA01]  O usuário deseja alterar o email
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fa02-o-usuario-deseja-alterar-a-data-de-nascimento" title="[FA02]  O usuário deseja alterar a data de nascimento" class="md-nav__link">
-    [FA02]  O usuário deseja alterar a data de nascimento
+  <a href="#fa01-usuario-nao-possui-permissao-para-realizar-a-acao" title="[FA01] Usuário não possui permissão para realizar a ação:**" class="md-nav__link">
+    [FA01] Usuário não possui permissão para realizar a ação:**
   </a>
   
 </li>
@@ -751,7 +744,7 @@
               
                 
                 
-                <h1 id="especificacao-do-caso-de-uso-uc08-editar-perfil">Especificação do Caso de Uso - UC[08] Editar Perfil</h1>
+                <h1 id="especificacao-do-caso-de-uso-uc08-remover-nota-fiscal">Especificação do Caso de Uso - UC[08] Remover Nota Fiscal</h1>
 <h2 id="historico-de-revisao">Histórico de Revisão</h2>
 <table>
 <thead>
@@ -766,75 +759,56 @@
 <tr>
 <td align="center">16/09/18</td>
 <td align="center">0.1</td>
-<td align="center">Abertura do documento de Especificação de Caso de Uso de Editar Perfil</td>
-<td align="center">Luís Cláudio T. Lima</td>
-</tr>
-<tr>
-<td align="center">16/09/18</td>
-<td align="center">0.2</td>
-<td align="center">Descrição</td>
-<td align="center">Luís Cláudio T. Lima</td>
-</tr>
-<tr>
-<td align="center">16/09/18</td>
-<td align="center">0.3</td>
-<td align="center">Atores</td>
-<td align="center">Luís Cláudio T. Lima</td>
-</tr>
-<tr>
-<td align="center">16/09/18</td>
-<td align="center">0.4</td>
-<td align="center">Pré-condição e Pós-condição</td>
-<td align="center">Luís Cláudio T. Lima</td>
-</tr>
-<tr>
-<td align="center">16/09/18</td>
-<td align="center">0.5</td>
-<td align="center">Fluxo Principal, Fluxo Alternativo e Mensagem</td>
-<td align="center">Luís Cláudio T. Lima</td>
+<td align="center">Abertura do documento de Especificação de Caso de Uso de Remover Notas Fiscais</td>
+<td align="center">Julio Litwin</td>
 </tr>
 <tr>
 <td align="center">16/09/18</td>
 <td align="center">1.0</td>
 <td align="center">Revisão</td>
-<td align="center">Luís Cláudio T. Lima</td>
+<td align="center">Julio Litwin</td>
+</tr>
+<tr>
+<td align="center">22/11/2018</td>
+<td align="center">1.1</td>
+<td align="center">Revisão de Documento</td>
+<td align="center">Brian Lui</td>
 </tr>
 </tbody>
 </table>
-<h2 id="descricao">Descrição</h2>
-<p>Permite ao usuário alterar informações do próprio perfil.</p>
+<h2 id="descricao">Descrição:</h2>
+<p>Permite o funcionário ou o administrador utilizar função de Remover Nota Fiscal, removendo nota fiscal selecionada a partir da empresa.</p>
 <h2 id="atores">Atores:</h2>
 <ul>
-<li>Adminstrador</li>
-<li>Funcionário Cadastrado</li>
+<li>Administrador</li>
+<li>Funcionário</li>
 </ul>
 <h2 id="pre-condicao">Pré-condição:</h2>
-<p>Para esta funcionalidade é preciso que o usuário esteja logado como administrador ou funcionário e que esteja cadastrado no banco de dados.</p>
+<p>Para realizar quaisquer das operações é necessário que o funcionário esteja logado em uma conta de funcionário ou administrador.
+Excluir: Selecionar uma nota fiscal já cadastrada na empresa pelo sistema.</p>
 <h2 id="pos-condicao">Pós-Condição:</h2>
-<p>O sistema irá registrar as mudanças no perfil feitas pelo usuário.</p>
+<p>Retorna para a lista de notas fiscais da empresa.</p>
 <h2 id="fluxo-principal">Fluxo Principal:</h2>
 <ol>
-<li>O usuário clica em editar perfil.</li>
-<li>O sistema disponibiliza uma lista de opções.</li>
-<li>O usuário muda algum ou vários campos de seu perfil. [FA01, FA02]</li>
-<li>O usuário clica no botão que salva as mudanças no sistema.</li>
+<li>O usuário efetua login no site.</li>
+<li>O usuário irá clicar em "Notas Fiscais".</li>
+<li>O usuário irá selecionar a nota fiscal que deseja remover.</li>
+<li>O usuário irá clicar no ícone de exclusão.</li>
+<li>Aparecerá na tela a mensagem [M2].</li>
+<li>O usuário irá clicar em "SIM".</li>
+<li>O sistema redireciona o usuário de volta para a página “Notas Fiscais”.</li>
+<li>O caso de uso é encerrado.</li>
 </ol>
 <h2 id="fluxo-alternativo">Fluxo Alternativo:</h2>
-<p>O sistema detecta que um formulário foi preenchido incorretamente.</p>
-<h3 id="fa01-o-usuario-deseja-alterar-o-email">[FA01]  O usuário deseja alterar o email</h3>
+<h3 id="fa01-usuario-nao-possui-permissao-para-realizar-a-acao">[FA01] Usuário não possui permissão para realizar a ação:**</h3>
 <ol>
-<li>O sistema irá detectar que os campo de email se encontra incorreto.</li>
-<li>O sistema retorna para o passo 3 do fluxo principal com [M1].</li>
-</ol>
-<h3 id="fa02-o-usuario-deseja-alterar-a-data-de-nascimento">[FA02]  O usuário deseja alterar a data de nascimento</h3>
-<ol>
-<li>O sistema irá detectar que a data não é válida.</li>
-<li>O sistema retorna para o passo 3 do fluxo principal com [M2].</li>
+<li>O sistema irá detectar que o usuário não possui permissão para realizar a ação.</li>
+<li>O sistema retorna para o passo 4 do fluxo principal com [M1].</li>
 </ol>
 <h2 id="mensagem">Mensagem:</h2>
 <ul>
-<li>[M1] Digite um email válido.</li>
-<li>[M2] Digite uma data válida.</li>
+<li>[M1] O usuário não possui permissão.</li>
+<li>[M2] Deseja realmente excluir a nota fiscal?</li>
 </ul>
                 
                   

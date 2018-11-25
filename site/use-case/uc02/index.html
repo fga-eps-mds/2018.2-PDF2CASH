@@ -176,7 +176,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../.." title="Home" class="md-nav__link">
+    <a href="../../README.md" title="Home" class="md-nav__link">
       Home
     </a>
   </li>
@@ -799,10 +799,16 @@
 <td align="center">Revisão</td>
 <td align="center">Rafael Teodosio</td>
 </tr>
+<tr>
+<td align="center">22/11/2018</td>
+<td align="center">1.1</td>
+<td align="center">Revisão de Documento</td>
+<td align="center">Brian Lui</td>
+</tr>
 </tbody>
 </table>
 <h2 id="descricao">Descrição</h2>
-<p>Permite o usuário ter acesso ao sistema e suas funcionalidades.</p>
+<p>Permite o usuário ou o administrador ter acesso ao sistema e suas funcionalidades.</p>
 <h2 id="atores">Atores</h2>
 <ul>
 <li>Administrador</li>
@@ -840,23 +846,20 @@
 <h2 id="fluxo-principal">Fluxo Principal:</h2>
 <h3 id="efetuar-login">Efetuar Login:</h3>
 <ol>
-<li>O usuário efetua o cadastro.</li>
+<li>O usuário entra na página de login.</li>
 <li>O usuário irá preencher o campo de login .</li>
 <li>O usuário irá preencher o campo de senha.</li>
-<li>O usuário irá clicar no botão Entrar. [FA02]</li>
+<li>O usuário irá clicar no botão "Login". [FA02]</li>
 <li>O sistema verifica os dados e eles são validados. [FA01]</li>
 <li>O caso de uso é encerrado.</li>
 </ol>
 <h2 id="fluxo-alternativo">Fluxo Alternativo:</h2>
 <p>[FA01] Usuário preenche algum campo incorretamente:
   1. O sistema irá detectar que os campos estão incorretos.
-  2. O sistema retorna uma mensagem de erro.  [M1]</p>
-<p>[FA02] Usuário não preenche todos campos:
-  1. O sistema irá detectar que um campo está em branco e exibe uma mensagem de erro. [M2]</p>
+  2. O sistema retorna uma mensagem de erro.[M1]</p>
 <h2 id="mensagem">Mensagem:</h2>
 <ul>
-<li>[M1] Login ou Senha incorretos.</li>
-<li>[M2] Preencha todos os campos.</li>
+<li>[M1] Não foi possível efetuar o login.</li>
 </ul>
                 
                   

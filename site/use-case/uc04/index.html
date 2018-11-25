@@ -176,7 +176,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../.." title="Home" class="md-nav__link">
+    <a href="../../README.md" title="Home" class="md-nav__link">
       Home
     </a>
   </li>
@@ -729,15 +729,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#fa02-usuario-nao-possui-notas-fiscais-cadastradas" title="[FA02] Usuário não possui notas fiscais cadastradas:" class="md-nav__link">
-    [FA02] Usuário não possui notas fiscais cadastradas:
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fa03-o-periodo-solicitado-pelo-usuario-nao-existe-ou-nao-esta-disponivel" title="[FA03] O período solicitado pelo usuário não existe ou não está disponível:" class="md-nav__link">
-    [FA03] O período solicitado pelo usuário não existe ou não está disponível:
+  <a href="#fa02-sistema-nao-possui-notas-fiscais-cadastradas" title="[FA02] Sistema não possui notas fiscais cadastradas:" class="md-nav__link">
+    [FA02] Sistema não possui notas fiscais cadastradas:
   </a>
   
 </li>
@@ -831,11 +824,17 @@
 <td align="center">Revisão</td>
 <td align="center">Wictor Girardi</td>
 </tr>
+<tr>
+<td align="center">22/11/2018</td>
+<td align="center">1.1</td>
+<td align="center">Revisão de Documento</td>
+<td align="center">Brian Lui</td>
+</tr>
 </tbody>
 </table>
 <h2 id="descricao">Descrição</h2>
-<p>Permite o usuário simples ou o administrador visualizar as análises baseadas nas notas fiscais do banco geradas automaticamente pelo sistema.
-* Visualizar: O usuário pode visualizar novas ou antigas análises geradas pelo programa;</p>
+<p>Permite ao funcionário cadastrado visualizar as análises baseadas nas notas fiscais do banco.
+* Visualizar: O usuário pode visualizar análises geradas pelo programa;</p>
 <h2 id="atores">Atores:</h2>
 <ul>
 <li>Usuário Administrador;</li>
@@ -851,9 +850,9 @@ Não possuir notas fiscais cadastradas no banco da empresa;</p>
 <h3 id="visualizar">Visualizar:</h3>
 <ol>
 <li>O usuário efetua login no site.</li>
-<li>O usuário irá clicar no botão "Visualizar análise".</li>
-<li>O usuário irá selecionar o período desejado de análise</li>
-<li>O usuário será encaminhado para a página de visualização de análises baseadas nas notas fiscais existentes.</li>
+<li>O usuário irá clicar no ícone de "Visualizar análise".</li>
+<li>O usuário será redirecionado para a página com os gráficos das análises baseadas nas notas fiscais existentes.</li>
+<li>O caso de uso é encerrado</li>
 </ol>
 <h2 id="fluxo-alternativo">Fluxo Alternativo:</h2>
 <h3 id="visualizar_1">Visualizar:</h3>
@@ -862,21 +861,15 @@ Não possuir notas fiscais cadastradas no banco da empresa;</p>
 <li>sistema irá detectar que os campos se encontram incorretos.</li>
 <li>sistema retorna para o passo 1 do fluxo principal com [M1].</li>
 </ol>
-<h3 id="fa02-usuario-nao-possui-notas-fiscais-cadastradas">[FA02] Usuário não possui notas fiscais cadastradas:</h3>
+<h3 id="fa02-sistema-nao-possui-notas-fiscais-cadastradas">[FA02] Sistema não possui notas fiscais cadastradas:</h3>
 <ol>
-<li>sistema irá detectar que a empresa não possui notas fiscais no sistema.</li>
+<li>sistema irá detectar que o sistema não possui notas fiscais no sistema.</li>
 <li>sistema retorna para o passo 2 do fluxo principal com [M2].</li>
-</ol>
-<h3 id="fa03-o-periodo-solicitado-pelo-usuario-nao-existe-ou-nao-esta-disponivel">[FA03] O período solicitado pelo usuário não existe ou não está disponível:</h3>
-<ol>
-<li>sistema irá detectar que dentro do período solicitado pelo usuário não existem notas fiscais cadastradas.</li>
-<li>sistema retorna para o passo 2 do fluxo principal com [M3].</li>
 </ol>
 <h2 id="mensagem">Mensagem:</h2>
 <ul>
-<li>[M1] Seus dados estão incorretos.</li>
-<li>[M2] Você não possui notas fiscais cadastradas.</li>
-<li>[M3] Não existem notas fiscais cadastradas dentro do período escolhido.</li>
+<li>[M1] Não foi possível efetuar o login.</li>
+<li>[M2] Não contém notas fiscais cadastradas.</li>
 </ul>
                 
                   

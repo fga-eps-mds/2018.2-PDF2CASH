@@ -26,6 +26,7 @@ nav:
     - Canvas: project-management/canvas.md
     - EAP: project-management/eap.md
     - TAP: project-management/tap.md
+    - EVM: project-management/evm.md
   - Roadmaps:
     - Geral: GENERAL_ROADMAP.md
     - Por papel: ROLE_ROADMAP.md

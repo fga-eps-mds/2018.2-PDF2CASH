@@ -7,6 +7,7 @@
 | 15/09/18 | 1.0 | Criação do backlog | Daniel Marques |
 | 26/09/18 | 1.1 | Adicionado tabela de TS, correção dos pontos de complexidade, adicionado total de pontos e remoção da Feature "Manuntenção de Empresa" | Daniel Marques |
 | 16/10/18 | 1.2 | Atualização das us e ts | Carlos Aragon |
+ | 24/11/18 | 2.0 | Atualização das us e ts | Carlos Aragon |
 
 ## Total de Pontos
 
@@ -33,7 +34,7 @@ Abaixo está descrito as histórias de usuário:
     <th>PONTUAÇÃO</th>
     <th>STATUS</th>
   </tr>
-  <tr>
+  <tr style="color:green">
     <td rowspan="11">EP01 - Usuário</td>
     <td rowspan="5">FE01 - Manuntenção do Funcionário</td>
     <th>US01</th>
@@ -42,40 +43,40 @@ Abaixo está descrito as histórias de usuário:
     <td>criar a conta de um funcionário</td>
     <td>o funcionário ter acesso aos dados financeiros da empresa dentro do sistema</td>
     <td>Should</td>
-    <td>5</td>
-    <td>Concluída</td>
+    <td >5</td>
+    <td >Concluída</td>
   </tr>
-  <tr>
-    <th>US02</th>
-    <td>Editar funcionário</td>
-    <td>administrador ou funcionário</td>
-    <td>editar os dados da minha conta</td>
-    <td>manter os meus dados atualizados</td>
-    <td>Should</td>
-    <td>1</td>
-    <td>Pendente</td>
+  <tr style="color:green">
+    <th >US02</th>
+    <td >Editar funcionário</td>
+    <td >administrador ou funcionário</td>
+    <td >editar os dados da minha conta</td>
+    <td >manter os meus dados atualizados</td>
+    <td >Should</td>
+    <td >1</td>
+    <td >Concluída</td>
   </tr>
-  <tr>
+  <tr style="color:green">
     <th>US03</th>
     <td>Deletar funcionário</td>
     <td>administrador</td>
     <td>deletar a conta de um funcionário</td>
     <td>apagar conta não utilizada mais</td>
     <td>Should</td>
-    <td>2</td>
-    <td>Concluída</td>
+    <td >2</td>
+    <td >Concluída</td>
   </tr>
-  <tr>
-    <th>US04</th>
-    <td>Visualizar funcionário</td>
-    <td>administrador</td>
-    <td>visualizar a conta de um funcionário</td>
-    <td>ter conhecimento dos dados do funcionário e a empresa relacionada a ele</td>
-    <td>Should</td>
-    <td>5</td>
-    <td>Concluída</td>
+  <tr style="color:green">
+    <th >US04</th>
+    <td >Visualizar funcionário</td>
+    <td >administrador</td>
+    <td >visualizar a conta de um funcionário</td>
+    <td >ter conhecimento dos dados do funcionário e a empresa relacionada a ele</td>
+    <td >Should</td>
+    <td >5</td>
+    <td >Concluída</td>
   </tr>
-  <tr>
+  <tr style="color:green">
     <th>US05</th>
     <td>Listar funcionários</td>
     <td>administrador</td>
@@ -85,18 +86,18 @@ Abaixo está descrito as histórias de usuário:
     <td>3</td>
     <td>Concluída</td>
   </tr>
-  <tr>
+  <tr style="color:green">
     <td rowspan="2">FE05 - Configuração da conta</td>
-    <th>US06</th>
-    <td>Editar Perfil</td>
-    <td>administrador ou funcionário</td>
-    <td>editar os dados do meu perfil</td>
-    <td>atualizar os dados como por exemplo nome e senha</td>
-    <td>Could</td>
-    <td>3</td>
-    <td>Pendente</td>
+    <th span style="color:red"> US06</th>
+    <td style="color:red">Editar Perfil</td>
+    <td style="color:red">administrador ou funcionário</td>
+    <td style="color:red">editar os dados do meu perfil</td>
+    <td style="color:red">atualizar os dados como por exemplo nome e senha</td>
+    <td style="color:red">Could</td>
+    <td style="color:red">3</td>
+    <td style="color:red">Removido</td>
   </tr>
-  <tr>
+  <tr style="color:green">
     <th>US16</th>
     <td>Cadastrar administrador</td>
     <td>administrador</td>
@@ -104,9 +105,9 @@ Abaixo está descrito as histórias de usuário:
     <td>ter acesso ao sistema como administrador</td>
     <td>Must</td>
     <td>13</td>
-    <td>Pendente</td>
-  </tr>
-    <tr>
+    <td>Concluída</td>
+  </tr >
+    <tr style="color:green">
     <td rowspan="2">FE04 - Sessão</td>
     <th>US13</th>
     <td>Fazer login</td>
@@ -115,40 +116,40 @@ Abaixo está descrito as histórias de usuário:
     <td>para ter acesso ao sistema</td>
     <td>Should</td>
     <td>8</td>
-    <td>Pendente</td>
+    <td >Concluída</td>
   </tr>
-  <tr>
-    <th>US14</th>
-    <td>Fazer logout</td>
-    <td>administrador ou funcionário</td>
-    <td>sair da minha conta</td>
-    <td>poder encerrar a minha sessão</td>
-    <td>Should</td>
-    <td>2</td>
-    <td>Pendente</td>
+  <tr style="color:green">
+    <th >US14</th>
+    <td >Fazer logout</td>
+    <td >administrador ou funcionário</td>
+    <td >sair da minha conta</td>
+    <td >poder encerrar a minha sessão</td>
+    <td >Should</td>
+    <td >2</td>
+    <td >Pendente</td>
   </tr>
-  <tr>
+  <tr style="color:green">
     <td rowspan="2">FE06 - Instalação</td>
-    <th>US15</th>
-    <td>Instalar o software</td>
-    <td>administrador</td>
-    <td>instalar o sistema em uma maquina</td>
-    <td>para ter acesso ao sistema</td>
-    <td>Must</td>
-    <td>2</td>
-    <td>Pendente</td>
+    <th >US15</th>
+    <td >Instalar o software</td>
+    <td >administrador</td>
+    <td >instalar o sistema em uma maquina</td>
+    <td >para ter acesso ao sistema</td>
+    <td >Must</td>
+    <td >2</td>
+    <td >Concluída</td>
   </tr>
-  <tr>
-    <th>US17</th>
-    <td>Atualizar a aplicação</td>
-    <td>administrador ou funcionário</td>
-    <td>atualizar aversão do sistema</td>
-    <td>utilizar a versão mais recente do software</td>
-    <td>Should</td>
-    <td>13</td>
-    <td>Concluído</td>
+  <tr style="color:green">
+    <th >US17</th>
+    <td >Atualizar a aplicação</td>
+    <td >administrador ou funcionário</td>
+    <td >atualizar aversão do sistema</td>
+    <td >utilizar a versão mais recente do software</td>
+    <td >Should</td>
+    <td >13</td>
+    <td>Concluída</td>
   </tr>
-  <tr>
+  <tr style="color:green">
     <td rowspan="9">EP02 - Financeiro</td>
     <td rowspan="4">FE02 - Manuntenção da nota fiscal</td>
     <th>US07</th>
@@ -160,7 +161,7 @@ Abaixo está descrito as histórias de usuário:
     <td>8</td>
     <td>Concluído</td>
   </tr>
-  <tr>
+  <tr style="color:green">
     <th>US08</th>
     <td>Deletar nota fiscal</td>
     <td>administrador</td>
@@ -170,7 +171,7 @@ Abaixo está descrito as histórias de usuário:
     <td>2</td>
     <td>Concluído</td>
   </tr>
-  <tr>
+  <tr style="color:green">
     <th>US09</th>
     <td>Visualizar nota fiscal</td>
     <td>administrador ou funcionário</td>
@@ -180,7 +181,7 @@ Abaixo está descrito as histórias de usuário:
     <td>5</td>
     <td>Concluído</td>
   </tr>
-  <tr>
+  <tr style="color:green">
     <th>US10</th>
     <td>Listar nota fiscal</td>
     <td>administrador ou funcionário</td>
@@ -190,28 +191,29 @@ Abaixo está descrito as histórias de usuário:
     <td>3</td>
     <td>Concluído</td>
   </tr>
-  <tr>
+  <tr style="color:green">
     <td rowspan="2">FE03 - Manuntenção das análises</td>
-    <th>US11</th>
-    <td>Selecionar análise</td>
-    <td>administrador ou funcionário</td>
-    <td>selecionar uma opção de análise financeira</td>
-    <td>ter uma visão de negócio mais ampliada a partir de vários tipos de análises</td>
-    <td>Must</td>
-    <td>13</td>
-    <td>Pendente</td>
+    <th style="color:red">US11</th>
+    <td style="color:red">Selecionar análise</td>
+    <td style="color:red">administrador ou funcionário</td>
+    <td style="color:red">selecionar uma opção de análise financeira</td>
+    <td style="color:red">ter uma visão de negócio mais ampliada a partir de vários tipos de análises</td>
+    <td style="color:red">Must</td>
+    <td style="color:red">13</td>
+    <td style="color:red">Removido</td>
   </tr>
-  <tr>
-    <th>US12</th>
-    <td>Visualizar análise</td>
-    <td>administrador ou funcionário</td>
-    <td>visualizar detalhadamente uma análise específica</td>
-    <td>para ter conhecimento da análise dos gastos de um determinado período de tempo</td>
-    <td>Must</td>
-    <td>8</td>
-    <td>Pendente</td>
+  <tr style="color:green">
+    <th style="color:red">US12</th>
+    <td style="color:red">Visualizar análise</td>
+    <td style="color:red">administrador ou funcionário</td>
+    <td style="color:red">visualizar detalhadamente uma análise específica</td>
+    <td style="color:red">para ter conhecimento da análise dos gastos de um determinado período de tempo</td>
+    <td style="color:red">Must</td>
+    <td style="color:red">8</td>
+    <td style="color:red">Removido</td>
   </tr>
-  <td rowspan="3">FE07 - Dashboard</td>
+  <td rowspan="3"  style="color:green">FE07 - Dashboard</td>
+  <tr style="color:green">
   <th>US18</th>
     <td>Gráfico por valor e tempo</td>
     <td>administrador ou funcionário</td>
@@ -221,6 +223,7 @@ Abaixo está descrito as histórias de usuário:
     <td>8</td>
     <td>Concluído</td>
   </tr>
+  <tr style="color:green">
   <th>US19</th>
     <td>Gráfico por categoria e valor</td>
     <td>administrador ou funcionário</td>
@@ -230,6 +233,7 @@ Abaixo está descrito as histórias de usuário:
     <td>1</td>
     <td>Concluído</td>
   </tr>
+  <tr style="color:green">
   <th>US20</th>
     <td>Gráfico por destinatario e valor</td>
     <td>administrador ou funcionário</td>
@@ -258,7 +262,7 @@ Abaixo está descrito as histórias técnicas:
     <th>PONTUAÇÃO</th>
     <th>STATUS</th>
   </tr>
-  <tr>
+  <tr style="color:green">
     <td rowspan="3">EP02 - Financeiro</td>
     <td rowspan="3">FE06 - Leitura da Nota Fiscal</td>
     <th>TS01</th>
@@ -270,7 +274,7 @@ Abaixo está descrito as histórias técnicas:
     <td>1</td>
     <td>Concluído</td>
   </tr>
-  <tr>
+  <tr style="color:green">
     <th>TS02</th>
     <td>Parser de nota fiscal</td>
     <td>Desenvolvedor</td>
@@ -280,6 +284,7 @@ Abaixo está descrito as histórias técnicas:
     <td>21</td>
     <td>Concluído</td>
   </tr>
+  <tr style="color:green">
     <th>TS07</th>
     <td>Refatorar parser (valor de imposto)</td>
     <td>Desenvolvedor</td>
@@ -289,7 +294,7 @@ Abaixo está descrito as histórias técnicas:
     <td>13</td>
     <td>Adicionada</td>
   </tr>
-  <tr>
+  <tr style="color:green">
     <td rowspan="4">EP03 - Acessiblidade</td>
     <td rowspan="4">FE07 - Layout</td>
     <th>TS03</th>
@@ -301,7 +306,7 @@ Abaixo está descrito as histórias técnicas:
     <td>3</td>
     <td>Concluído</td>
   </tr>
-  <tr>
+  <tr style="color:green">
     <th>TS04</th>
     <td>Refatorar formulários</td>
     <td>Desenvolvedor</td>
@@ -311,7 +316,7 @@ Abaixo está descrito as histórias técnicas:
     <td>3</td>
     <td>Adicionada</td>
   </tr>
-  <tr>
+  <tr style="color:green">
     <th>TS05</th>
     <td>Refatorar tabelas</td>
     <td>Desenvolvedor</td>
@@ -321,7 +326,7 @@ Abaixo está descrito as histórias técnicas:
     <td>3</td>
     <td>Adicionada</td>
   </tr>
-  <tr>
+  <tr style="color:green">
     <th>TS06</th>
     <td>Refatorar Menu Lateral</td>
     <td>Desenvolvedor</td>

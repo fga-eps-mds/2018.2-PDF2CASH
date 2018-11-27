@@ -12,10 +12,10 @@
 
 Abaixo pode-se visualizar o modelo de negócio do projeto:
 
-![Canvas Versão 2.0](/docs/assets/canvas-v2.png)
+![Canvas Versão 2.0](../../assets/canvas-v2.png)
 
-Para visualizar a imagem ampliada [clique aqui](/docs/assets/canvas-v2.png).
+Para visualizar a imagem ampliada [clique aqui](../../assets/canvas-v2.png).
 
 ## Versão anteriores
 
-[Canvas Versão 1.0](/docs/assets/canvas-v1.png)
+[Canvas Versão 1.0](../../assets/canvas-v1.png)

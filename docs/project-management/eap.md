@@ -10,10 +10,10 @@
 ### Diagrama para o projeto PDF2CASH
 
 
-![EAP Versão 2.0](/docs/assets/EAP-v2.jpg)
+![EAP Versão 2.0](../../assets/EAP-v2.jpg)
 
-Para visualizar a imagem ampliada [clique aqui](/docs/assets/EAP-v2.jpg)
+Para visualizar a imagem ampliada [clique aqui](../../assets/EAP-v2.jpg)
 
 
 ### Versões anteriores
-- [EAP Versão 1.0](/docs/assets/EAP.jpg)
+- [EAP Versão 1.0](../../assets/EAP.jpg)

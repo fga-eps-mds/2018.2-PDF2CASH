@@ -36,7 +36,7 @@
     
     
       
-        <title>Especificação suplementar - PDF2Ca$h</title>
+        <title>Teste de usabilidade - PDF2Ca$h</title>
       
     
     
@@ -79,7 +79,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="../#pdf2cash" tabindex="1" class="md-skip">
+      <a href="../#teste-de-usabilidade" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -105,7 +105,7 @@
                 PDF2Ca$h
               </span>
               <span class="md-header-nav__topic">
-                Especificação suplementar
+                Teste de usabilidade
               </span>
             
           
@@ -618,20 +618,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="Especificação suplementar" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../documento-de-especificacao-suplementar/" title="Especificação suplementar" class="md-nav__link">
       Especificação suplementar
     </a>
-    
   </li>
 
     
@@ -651,11 +642,20 @@
       
       
 
+  
 
-  <li class="md-nav__item">
-    <a href="../teste_usabilidade/" title="Teste de usabilidade" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="Teste de usabilidade" class="md-nav__link md-nav__link--active">
       Teste de usabilidade
     </a>
+    
   </li>
 
     
@@ -783,168 +783,206 @@
               
                 
                 
-                <h1 id="pdf2cash">PDF2Cash</h1>
-<hr />
-<h1 id="especificacao-suplementar">Especificação Suplementar</h1>
-<hr />
-<h1 id="historico-da-revisao">Histórico da Revisão</h1>
-<table>
-<thead>
-<tr>
-<th align="center">Data</th>
-<th align="center">Versão</th>
-<th align="center">Descrição</th>
-<th align="center">Autor</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">09/09/18</td>
-<td align="center">0.1</td>
-<td align="center">Abertura do documento de Especificação Suplementar</td>
-<td align="center">Lucas Gomes</td>
-</tr>
-<tr>
-<td align="center">10/08/18</td>
-<td align="center">0.2</td>
-<td align="center">Confiabilidade</td>
-<td align="center">Brian Lui</td>
-</tr>
-<tr>
-<td align="center">10/08/18</td>
-<td align="center">0.3</td>
-<td align="center">Portabilidade</td>
-<td align="center">Brian Lui</td>
-</tr>
-<tr>
-<td align="center">11/08/18</td>
-<td align="center">0.4</td>
-<td align="center">Desempenho</td>
-<td align="center">Lucas Gomes</td>
-</tr>
-<tr>
-<td align="center">13/09/18</td>
-<td align="center">0.5</td>
-<td align="center">Interoperabilidade</td>
-<td align="center">Julio Litwin</td>
-</tr>
-<tr>
-<td align="center">13/09/18</td>
-<td align="center">0.6</td>
-<td align="center">Segurança</td>
-<td align="center">Julio Litwin</td>
-</tr>
-<tr>
-<td align="center">13/09/18</td>
-<td align="center">0.7</td>
-<td align="center">Restrições de Design</td>
-<td align="center">Lucas Gomes</td>
-</tr>
-<tr>
-<td align="center">13/09/18</td>
-<td align="center">0.8</td>
-<td align="center">Introdução</td>
-<td align="center">Rafael Teodosio</td>
-</tr>
-<tr>
-<td align="center">14/09/18</td>
-<td align="center">0.9</td>
-<td align="center">Interface de usuário</td>
-<td align="center">Luís Cláudio T. Lima</td>
-</tr>
-<tr>
-<td align="center">16/09/18</td>
-<td align="center">1.0</td>
-<td align="center">Funcionalidades</td>
-<td align="center">Wictor Girardi</td>
-</tr>
-<tr>
-<td align="center">20/09/18</td>
-<td align="center">1.1</td>
-<td align="center">Revisão</td>
-<td align="center">Carlos Aragon</td>
-</tr>
-<tr>
-<td align="center">23/11/18</td>
-<td align="center">1.2</td>
-<td align="center">Revisão</td>
-<td align="center">Luís Cláudio T. Lima</td>
-</tr>
-</tbody>
-</table>
-<h2 id="1-introducao">1.                  Introdução</h2>
-<h3 id="11-finalidade">1.1               Finalidade</h3>
-<p>Este documento tem como objetivo abordar aspectos técnicos, legais e demais requisitos sobre a aplicação PDF2CA$H, que não foram abordados nos demais documentos: Documento de Visão e Documento de Arquitetura.</p>
-<h3 id="12-escopo">1.2               Escopo</h3>
-<p>Os requisitos aqui explicados fazem parte do processo de desenvolvimento da aplicação web PDF2CA$H, que auxiliará diretores e funcionários de empresas de pequeno porte à controlar os gastos gerados por seus funcionários por meio de notas fiscais eletrônicas geradas em PDF.</p>
-<h3 id="13-definicoes-acronimos-e-abreviacoes">1.3               Definições, Acrônimos e Abreviações</h3>
-<table>
-<th>Abreviação</td>
-<th>Definição</td>
-<tr><td>PDF</th>
-<td>Portable Document Format</td>
-</table>
-
-<h3 id="14-referencias">1.4               Referências</h3>
-<h2 id="2-funcionalidade">2.                  Funcionalidade</h2>
-<p>Um ponto essencial para a usabilidade do sistema é que o mesmo ofereça um design e uma interação acessível para diretores e funcionários de empresas. Considerando o mais leigo dos usuários, o sistema deverá prezar pela simplicidade e acesso intuitivo, tendo em vista sua importância para o controle de gastos e uma utilização adequada pelos usuários da aplicação. Para alcançar tal meta, a aplicação deve conter um design limpo, de fácil visualização e entendimento, com acesso rápido e intuitivo a informações e funcionalidades importantes, sempre utilizando-se uma linguagem de fácil entendimento e compreensão.</p>
-<h3 id="21-geracao-de-graficos">2.1               Geração de gráficos</h3>
-<p>O sistema deve, de maneira automática, gerar gráficos baseados nos gastos condizente nas notas fiscais.</p>
-<h3 id="22-arquivacao-de-notas-fiscais">2.2               Arquivação de notas fiscais</h3>
-<p>O sistema deve arquivar, de maneira automática ou não, as notas fiscais que forem inseridas no programa.</p>
-<h3 id="23-cadastro-de-funcionarios">2.3               Cadastro de funcionários</h3>
-<p>O sistema deve possuir uma maneira de cadastrar funcionários de empresas da qual a nota fiscal está sendo trabalhada.</p>
-<h3 id="24-consulta-no-historico-de-gastos">2.4               Consulta no histórico de gastos</h3>
-<p>O sistema deve possuir uma maneira de gerar informações cronológicas de gastos com as notas fiscais.</p>
-<h3 id="3-usabilidade">3. Usabilidade</h3>
-<p>Um ponto essencial para a usabilidade do sistema proposto é que o mesmo ofereça um design e uma interação intuitiva e fácil para a parte financeira de uma empresa, para isso usaremos um design simples e objetivo, com acessos rápidos e diretos para todas as funcionalidades da aplicação. Nosso objetivo é que o programa seja facilmente usado por pessoas que não  necessitem de um treinamento específico para o uso, conseguindo operar o software sem maiores problemas com todas as suas funcionalidades.    </p>
-<h3 id="31-metas-de-usabilidade">3.1 Metas de usabilidade</h3>
-<h4 id="eficaz">Eficaz:</h4>
-<p>O sistema deve fazer o que eu espero que faça, alcançar meu objetivo.</p>
-<h4 id="eficiente">Eficiente:</h4>
-<p>Velocidade de uso.</p>
-<h4 id="seguranca">Segurança:</h4>
-<p>Proteção ao usuário contra condições perigosas (monetárias e pessoais).</p>
-<h4 id="utilidade">Utilidade:</h4>
-<p>Oferece o tipo certo de funcionalidade.</p>
-<h4 id="aprendizado">Aprendizado:</h4>
-<p>Fácil de aprender.</p>
-<h4 id="memorizacao">Memorização:</h4>
-<p>Fácil de lembrar como se usa.</p>
-<h4 id="prevencao-de-erros">Prevenção de erros:</h4>
-<p>Evitar inserção de dados errôneos ou inadequados.</p>
-<h4 id="diagnostico-de-erro-facil-para-o-usuario">Diagnóstico de erro fácil para o usuário:</h4>
-<p>Mensagens de erro claras e de fácil entendimento para o usuário.</p>
-<h4 id="visibilidade-de-estado-do-sistema">Visibilidade de estado do sistema:</h4>
-<p>Deixar claro ao usuário o que está acontecendo em tempo real.</p>
-<h2 id="4-confiabilidade">4. Confiabilidade</h2>
-<p>Um dos requisitos para o bom funcionamento do sistema, será um alto nível de confiabilidade. De tal modo que a probabilidade da ocorrência de erros, falhas e bugs no sistema operacional seja mínima e que sejam sanadas o mais rápido possível.
-O PDF2CASH poderá ser operado 24H por dia para que a manutenção seja contínua, e assim os erros serem corrigidos rapidamente para que não gere transtornos a empresa.</p>
-<h2 id="5-desempenho">5. Desempenho</h2>
-<p>Deverá ser uma aplicação leve para que seja possível o uso do mesmo nas mais diferentes configurações de computadores e, também, terá que possuir um tempo de resposta rápido e preciso tanto com a elaboração de gráficos com os dados já adquiridos quanto com os dados presentes na nota fiscal.</p>
-<h2 id="6-portabilidade">6. Portabilidade</h2>
-<p>Para o uso do sistema será necessário que os dispositivos tenham o Sistem Operacional Linux. Poderá ser realizado o Download do programa em um dos seguintes navegadores com acesso a internet : Google Chrome, Mozilla Firefox.</p>
-<h2 id="7-interoperabilidade">7. Interoperabilidade</h2>
-<p>O PDF2CASH haverá conexão com banco de dados, utilizando-se o Sqlite3, onde serão armazenados dados de contas (administradores e usuários) e as notas fiscais processadas pelo PDF2CASH, com as informações exigidas. Sendo assim, tendo o banco de dados como um centro de informações e podendo chamar/atualizar/processar dados remotamente.</p>
-<h2 id="8-seguranca">8. Segurança</h2>
-<p>Os dados no PDF2CASH apenas serão processados a partir de um controle de usuário, sendo assim, será necessário logar-se e ter os devidos privilégios na conta de usuário (sendo distinguindo em administrador e funcionário).</p>
-<p><strong>Administrador</strong> terá o seu papel em adicionar, excluir, editar e acessar funcionários, além de remover notas fiscais. Já o <strong>Funcionário</strong> será o responsável por gerenciar as notas fiscais.</p>
-<p>Para mais informações, confira o <strong>Documento de Arquitetura</strong> - <em>Tópico: 4, Visão Geral</em>.</p>
-<p>Nosso sistema busca incluir boas práticas de segurança de informações como: segurança de operações e comunicações, controle de acesso, autentição, dentre outros.</p>
-<h2 id="9-restricoes-de-design">9. Restrições de Design</h2>
-<p>O PDF2CASH será uma aplicação minimalista e com cores que não tragam cansaço para a vista do usuário. As informações, links e botões serão organizados para que sejam de fácil acesso para melhor experiência do usuário desde o aprendizado até o uso diário do sistema.</p>
-<p>Sua arquitetura será baseada em microserviços e será desenvolvida com o uso dos frameworks React e Django das linguagens JavaScript e Python, respectivamente.</p>
-<p>Além dos frameworks e linguagens citados anteriormente, serão utilizados algumas ferramentas como forma de melhorar e organizar o processo de desenvolvimento do software, que são elas: Travis, Docker, GitHub e ZenHub.</p>
-<h2 id="10-interfaces-de-usuario">10. Interfaces de Usuário</h2>
-<p>As seguintes telas serão disponibilizadas no sistema:
-<em> Tela inicial
-</em> Login
-<em> Cadastrar funcionário
-</em> Listar funcionarios
-<em> Visualizar funcionário
-</em> Cadastrar nota fiscal
-<em> Listar notas fiscais
-</em> Visualizar nota fiscal</p>
+                <h1 id="teste-de-usabilidade">Teste de Usabilidade</h1>
+<h1 id="1-objetivos">1 Objetivos</h1>
+<p>O que queremos aprender?<br>Quais as preocupações, questões e objetivos do teste?<br> Por quê?<br>
+ - Detectar dificuldades na utilização do software;<br>
+ - Entender qual a percepção dos participantes sobre os gráficos apresentados;<br>
+ - Avaliar a satisfação dos usuários a respeito da solução proposta;</p>
+<h1 id="2-participantes">2 Participantes</h1>
+<p>Quem será recrutado e por quê? <br>Por quem serão recrutados?</p>
+<h2 id="21-lista-de-recrutamento">2.1 Lista de recrutamento</h2>
+<ul>
+<li>Pilotos (Internos):<ul>
+<li>Carlos Aragon (PO)</li>
+<li>Daniel Marques (Scrum Master)</li>
+<li>Bruno Matias (Software Architect)</li>
+</ul>
+</li>
+<li>Clientes<ul>
+<li>João Teodósio Filho (Micro Empresario)</li>
+</ul>
+</li>
+</ul>
+<h2 id="22-participantes-confirmados">2.2 Participantes confirmados</h2>
+<ul>
+<li>Pilotos<ul>
+<li>Carlos Aragon (PO)</li>
+<li>Daniel Marques (Scrum Master)</li>
+<li>Bruno Matias (Software Architect)</li>
+</ul>
+</li>
+<li>Clientes<ul>
+<li>João Teodósio Filho (Micro Empresario)</li>
+</ul>
+</li>
+</ul>
+<h1 id="3-processo">3 Processo</h1>
+<p>O que e como faremos?</p>
+<h2 id="31-processo">3.1 Processo</h2>
+<p>Para a execução dos testes será montado um ambiente com o protótipo de partes chave da aplicação.<br>
+O participante será convidado previamente via telefone ou pessoalmente, onde será explicada a atividade e marcado o teste. <br>Após, receberá um e-mail de confirmação da data/hora.<br>
+No dia/hora do teste o participante será contatado via Hangouts ou reunião presencial, de acordo com sua disponibilidade, e receberá o roteiro de atividades.<br> No caso do contato via Hangouts será requisitado que compartilhe sua tela e fale em voz alta o que está pensando quando executa as ações.</p>
+<h2 id="32-ligacao-de-recrutamento">3.2 Ligação de recrutamento</h2>
+<ul>
+<li>Oi [nome do participante]. Carlos Aragon da [empresa]. Tudo bom? Teria 5 minutos para conversar?<br></li>
+<li>Estamos testando o novo sistema de modelos de monitoração no [sistema] e gostaríamos de convidá-lo para participar do teste de uso deste novo sistema.<br></li>
+<li>O teste pode ser feito remoto, via Hangouts, ou presencial com data e horário combinados, conforme a sua possibilidade, e levará no máximo meia hora.<br> Já participou de algum teste de usabilidade?<br></li>
+<li>[participante responde sim]: Deve ser muito parecido com o que você participou.<br></li>
+<li>São somente algumas tarefas que vão ser passadas para que tu realize no ambiente com o protótipo, todas relacionadas à configuração e adição de elementos no [sistema].<br></li>
+<li>Os dados coletados servirão para aperfeiçoar a versão até a data de lançamento e para melhorias nas futuras versões.<br></li>
+<li>Posso contar com a sua participação?<br></li>
+<li>[participante responde sim]: Você teria disponibilidade para o teste presencial?<br></li>
+<li>[participante responde não]: Você teria uma estação com Hangouts, som e microfone? Não é necessário video.<br></li>
+<li>Que dia e horário é melhor pra você? Vou enviar um e-mail de confirmação. Qual seu e-mail?<br></li>
+<li>Se tiver qualquer dúvida, pode entrar em contato comigo pelo telefone [telefone] ou pelo e-mail [e-mail]<br></li>
+</ul>
+<h2 id="33-e-mail-de-confirmacao">3.3 E-mail de confirmação</h2>
+<ul>
+<li>Olá [nome do participante],
+Tudo bom?</li>
+<li>Conforme conversamos por telefone, nossa conferência via Hangouts para teste de uso do novo sistema de modelos de monitoração do [sistema] será no dia [99/99], às [99h].</li>
+<li>Algumas instruções prévias:</li>
+<li>Verifique se é possível você utilizar o Hangouts. </li>
+<li>É necessário que faça isso em um desktop ou notebook.</li>
+<li>Caso não seja possível utilizar o Hangouts na sua empresa, avise-me para ver que alternativas podemos utilizar;</li>
+<li>Por favor, leia com cuidado termo o termo de consentimento da pesquisa nesse link: [link]. </li>
+<li>Coloque seu nome completo, e-mail e RG nos campos disponíveis e submeta; se possuir qualquer dúvida ou questionamento, entre em contato comigo;</li>
+<li>Se for necessário trocar a data/hora de nossa webconferência, me avise que alteramos a agenda;</li>
+<li>Qualquer dúvida, estou à disposição.</li>
+<li>Desde já, obrigado por aceitar participar do nosso teste de uso.</li>
+<li>Att.
+Carlos Aragon.</li>
+</ul>
+<h2 id="34-termo-de-sigilo-e-consentimento-livre-e-esclarecido">3.4 Termo de Sigilo e Consentimento Livre e Esclarecido</h2>
+<p>Termo dos participantes disponivel no google drive.</p>
+<h2 id="35-e-mail-de-lembrete">3.5 E-mail de lembrete</h2>
+<ul>
+<li>Olá [nome do participante],
+Tudo bom?</li>
+<li>A nossa conferência via Hangouts para o teste de uso do novo sistema de modelos de monitoração do [sistema] começa em 15 minutos.</li>
+<li>Algumas instruções</li>
+<li>Verifique se você leu e preencheu o Termo de Sigilo e Consentimento Livre e Esclarecido da pesquisa. Se não o fez, segue o link: [link]</li>
+<li>Adicione o contato [nome do usuário] no seu Hangouts</li>
+<li>Se precisar de ajuda, contate-me: [telefone] ou carloseraragon@gmail.com</li>
+<li>Até lá.
+Att.
+Carlos Aragon</li>
+</ul>
+<h2 id="36-roteiro-do-teste">3.6 Roteiro do teste</h2>
+<h3 id="roteiro">Roteiro</h3>
+<p>Olá e muito obrigado por aceitar participar do Teste de Usabilidade novo sistema de gerenciamento de gastos PDF2CASH .<br> Suas contribuições serão muito importantes para o aperfeiçoamento do produto, para assim entendermos melhor o que funciona e o que não serve, aperfeiçoando a solução.<br>
+POR FAVOR, LEIA ESTE ROTEIRO COM CUIDADO E ATENÇÃO
+Após a leitura você pode sanar todas as suas dúvidas com o moderador. <br>Porém, após o início da atividade, nenhuma pergunta será respondida, pois as dificuldades com que você compreende as tarefas e as interfaces é parte do que estamos avaliando no produto e no procedimento de teste.<br>
+Importante frisar que o sistema que está em teste, NÃO você. Não hesite em executar as tarefas da maneira que entendeu no enunciado e na interface.<br>
+Caso ocorra algum problema técnico no funcionamento do software, não se preocupe. A equipe de apoio lidará com a situação, suspendendo a atividade até o restabelecimento da condição de teste. Se necessário, o teste será remarcado conforme a sua disponibilidade.<br>
+Sua tela é o centro da conferência. Por isso pedimos que compartilhe sua tela através do botão Compartilhar Tela do Skype. Se não souber como fazer isso, peça ajuda ao moderador.<br></p>
+<h4 id="muito-importante">Muito importante!</h4>
+<ul>
+<li>Durante a atividade:<ul>
+<li>Execute uma tarefa por vez, na ordem apresentada;</li>
+<li>Pedimos que fale em voz alta o que está pensando ou o motivo de estar executando cada ação. Caso o resultado não seja o esperado, fale o que esperava que acontecesse;</li>
+<li>Não espere respostas do moderador para suas indagações durante as tarefas;</li>
+<li>Quando finalizar uma tarefa, avise o moderador que considera a tarefa concluída;</li>
+<li>Se estiver com dificuldade na realização da tarefa pedida, você pode desistir a qualquer momento. Avise o moderador, informando o motivo, e prossiga para a próxima tarefa;</li>
+<li>Ao final de cada tarefa, finalizada ou não, o moderador e os observadores poderão fazer algumas perguntas sobre o processo, ações tomadas e escolhas que você fez durante a execução.</li>
+</ul>
+</li>
+</ul>
+<h3 id="acesso-ao-ambiente">Acesso ao ambiente</h3>
+<ul>
+<li>usuário: abc</li>
+<li>senha: 123</li>
+</ul>
+<h4 id="atividade-01-verificar-se-o-fluxo-principal-esta-funcionando">Atividade 01: Verificar se o fluxo principal está funcionando.</h4>
+<ul>
+<li>As autenticações são usuario: [usuario], senha: [senha]</li>
+<li>Crie uma nova nota fiscal</li>
+</ul>
+<h4 id="atividade-02-crie-um-funcionario-visualizar-e-deletar-o-mesmo">Atividade 02: Crie um funcionário,  visualizar e deletar o mesmo.</h4>
+<ul>
+<li>As autenticações são usuario: [usuario], senha: [senha]</li>
+<li>Crie um novo funcionário</li>
+</ul>
+<h6 id="faca-uma-atividade-por-vez-na-sequencia-indicada-expressando-o-que-esta-pensando-em-voz-alta-e-avise-o-moderador-cada-vez-que-finalizar-uma-tarefalembre-se-quem-esta-sendo-testado-e-a-aplicacao-nao-vocenovamente-agradecemos-pela-sua-participacao-equipe-da-empresa">Faça uma atividade por vez, na sequência indicada, expressando o que está pensando em voz alta e avise o moderador cada vez que finalizar uma tarefa.LEMBRE-SE: Quem está sendo testado é a aplicação, não você.Novamente agradecemos pela sua participação. Equipe da [empresa]</h6>
+<h2 id="38-email-de-envio-do-roteiro-do-teste">3.8 Email de envio do roteiro do teste</h2>
+<p>Oi [nome do participante], tudo bom?<br>
+Segue anexado ao e-mail o roteiro do teste.<br>
+Peço que leia com atenção e, antes de iniciar o teste, me contate no Hangouts.<br>
+Att.<br>
+Carlos Aragon<br>
+[anexar arquivo]</p>
+<h2 id="39-roteiro-do-moderador">3.9 Roteiro do Moderador</h2>
+<h4 id="enunciado">Enunciado:<br></h4>
+<p>Bom [dia / tarde] [nome do participante]. <br>Tudo bom?<br>
+Obrigado por comparecer ao Teste de Usabilidade. Serei o moderador do teste, portanto eu irei passar coordenar a sessão, [apresentar os observadores]. Vou te enviar por e-mail o roteiro e link do ambiente de teste. Peço que tu leia tudo e questione o que achar necessário. Para cada tarefa você que dará o início e fim. Após cada tarefa posso ter algumas dúvidas das tuas motivações, então não estranhe se perguntar os porquês de cada ação. Nossa sessão durará por volta de 30 minutos.<br></p>
+<h4 id="ao-final-de-algumas-tarefas">Ao final de algumas tarefas:<br></h4>
+<ul>
+<li>Perguntar como está sendo a atividade<br></li>
+<li>Modelos de perguntas para o final de tarefa:<ul>
+<li>Você poderia falar mais sobre [ação]?<br></li>
+<li>O que você esperava como resultado quando executou [ação]?<br></li>
+<li>O que você estava pensando quando executou [ação]?<br></li>
+<li>O que isso significa para você?</li>
+<li>O que você faria em seguida?</li>
+<li>O que você vê neste [parte da interface]?</li>
+<li>O que deveria acontecer em seguida?</li>
+<li>Você localiza algo na tela que poderia ajudá-lo(a)?</li>
+<li>O que você imagina que esse link faz? E esse outro?</li>
+<li>Perguntar se os observadores gostariam de questionar algo.</li>
+</ul>
+</li>
+</ul>
+<h4 id="ao-final-do-teste">Ao final do teste:</h4>
+<p>Novamente, muito obrigado pela participação [nome do participante]. Estou lhe enviando o link para o questionário final de avaliação da atividade: [link]</p>
+<h1 id="4-planejamento-de-atividades">4 Planejamento de atividades</h1>
+<p>## Atividade 01</p>
+<h3 id="objetivo">Objetivo:</h3>
+<p>Verificar se o fluxo principal está funcionando.</p>
+<h4 id="enunciado_1">Enunciado:</h4>
+<p>Crie uma nota fiscal, visualizar e deletar a mesma.</p>
+<h4 id="detalhes">Detalhes:</h4>
+<ul>
+<li>As autenticações são usuario: [usuario], senha: [senha]</li>
+<li>Crie um novo funcionário</li>
+<li>Monitore todos os serviços recomendados</li>
+</ul>
+<h2 id="atividade-02">Atividade 02</h2>
+<h4 id="objetivo_1">Objetivo:</h4>
+<p>Verificar se o usuário consegue entender que há informações na descrição do modelo</p>
+<h4 id="enunciado_2">Enunciado:</h4>
+<p>Crie um funcionário,  visualizar e deletar o mesmo.</p>
+<h5 id="detalhes_1">Detalhes:</h5>
+<ul>
+<li>As autenticações são usuario: [usuario], senha: [senha]</li>
+<li>Crie um novo funcionário.</li>
+<li>Monitore todos os serviços recomendados</li>
+</ul>
+<h1 id="5-resultados">5 Resultados</h1>
+<h2 id="atividade-01">Atividade 01</h2>
+<h3 id="relato-do-usuario">Relato do usuário:</h3>
+<ul>
+<li>O usuário se sentiu confuso devido a grande quantidade de botões sem significado aparente.</li>
+<li>Fluxo da atividade não acontece de forma natural, devido a falta de um guia para o usuário.</li>
+<li>Falta de mensagens de confirmação das ações.</li>
+<li>Cores não intuitivas.</li>
+<li>Demora na execução da função por parte do sistema.</li>
+<li>Mensagens de erro não significativas.</li>
+<li>Instabilidade de conexão do sistema.</li>
+<li>Falta de mensagens de notificação de acontecimentos do sistema.</li>
+<li>Falta de responsividade do menu.</li>
+<li>Falta de caminho para retornar a página principal.</li>
+</ul>
+<h2 id="atividade-02_1">Atividade 02</h2>
+<p>### Relato do usuário: 
+ - O usuário se sentiu confuso devido a grande quantidade de botões sem significado aparente .
+ - Má distribuição dos elementos da página.
+ - Falta de redirecionamento para página de listagem de funcionários.
+ - Falta de mensagens de notificação da recuperação de senha.
+ - Falta de caixas de confirmação.
+ - Ausência do campo de confirmação da senha.
+ - Falta de responsividade do menu.
+ - Falta de caminho para retornar a página principal.</p>
                 
                   
                 
@@ -965,7 +1003,7 @@ O PDF2CASH poderá ser operado 24H por dia para que a manutenção seja contínu
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../documento-de-arquitetura/" title="Documento de arquitetura" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../casos-de-uso/" title="Casos de uso" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -974,19 +1012,19 @@ O PDF2CASH poderá ser operado 24H por dia para que a manutenção seja contínu
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Documento de arquitetura
+                Casos de uso
               </span>
             </div>
           </a>
         
         
-          <a href="../casos-de-uso/" title="Casos de uso" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../CODE_OF_CONDUCT/" title="Codigo de conduta" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Casos de uso
+                Codigo de conduta
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
